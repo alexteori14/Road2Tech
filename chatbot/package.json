@@ -1,0 +1,13 @@
+{
+  "name": "coucou",
+  "private": true,
+  "description": "Coucou - Mochi assistant for Linux and Windows",
+  "scripts": {
+    "start": "./run.sh",
+    "dev": "./run.sh",
+    "coucou": "npm --prefix windows run tauri dev",
+    "build": "npm --prefix windows run build",
+    "tauri": "npm --prefix windows run tauri",
+    "setup": "npm --prefix windows install && cargo build --manifest-path windows/Cargo.toml"
+  }
+}
