@@ -1,0 +1,41 @@
+{
+  "red": {
+    "tiendas_total": 38,
+    "tiendas_con_incidencias": 31,
+    "skus_afectados": 142,
+    "exposicion_7_dias": 16254.00,
+    "exposicion_14_dias": 32508.00,
+    "exposicion_30_dias": 69660.00,
+    "venta_perdida_anual": 847500.00,
+    "conflictos_maestro_precios": 28,
+    "supuestos_calculo": "Proyecciones basadas en un promedio ponderado de US$61.10 diarios por anaquel auditado en 38 tiendas operativas. La exposición considera discrepancias no corregidas proyectadas de forma lineal en ventanas de 7, 14 y 30 días, descontando cierres operativos temporales. La venta perdida anual modela roturas de stock en SKUs de alto volumen con tasa de sustitución del 25 %.",
+    "dataset_label": "Dataset sintético · Glazed Co. (38 tiendas)",
+    "fecha_corte": "2026-10-10"
+  },
+  "proyeccion_temporal": [
+    { "dia": "Día 1", "exposicion_acumulada": 2322, "limite_inferior": 1900, "limite_superior": 2700 },
+    { "dia": "Día 3", "exposicion_acumulada": 6966, "limite_inferior": 5800, "limite_superior": 8100 },
+    { "dia": "Día 7", "exposicion_acumulada": 16254, "limite_inferior": 13800, "limite_superior": 18900 },
+    { "dia": "Día 14", "exposicion_acumulada": 32508, "limite_inferior": 27500, "limite_superior": 37800 },
+    { "dia": "Día 21", "exposicion_acumulada": 48762, "limite_inferior": 41200, "limite_superior": 56700 },
+    { "dia": "Día 30", "exposicion_acumulada": 69660, "limite_inferior": 59000, "limite_superior": 81000 }
+  ],
+  "top_tiendas_impacto": [
+    { "tienda": "T04 - Aeropuerto AICM T2", "exposicion_mensual": 4820.00, "incidencias": 14, "ciudad": "CDMX" },
+    { "tienda": "T12 - Estación Buenavista", "exposicion_mensual": 3950.00, "incidencias": 11, "ciudad": "CDMX" },
+    { "tienda": "T01 - Terminal Central Norte", "exposicion_mensual": 3410.00, "incidencias": 9, "ciudad": "CDMX" },
+    { "tienda": "T09 - Aeropuerto Cancún T3", "exposicion_mensual": 3180.00, "incidencias": 10, "ciudad": "Cancún" },
+    { "tienda": "T17 - Aeropuerto GDL T1", "exposicion_mensual": 2890.00, "incidencias": 8, "ciudad": "Guadalajara" },
+    { "tienda": "T23 - Aeropuerto MTY Terminal B", "exposicion_mensual": 2640.00, "incidencias": 7, "ciudad": "Monterrey" },
+    { "tienda": "T31 - Central Puebla CAPU", "exposicion_mensual": 2150.00, "incidencias": 6, "ciudad": "Puebla" },
+    { "tienda": "T15 - Resort Cancún Mayan", "exposicion_mensual": 1980.00, "incidencias": 5, "ciudad": "Cancún" }
+  ],
+  "distribucion_tipos_error": [
+    { "tipo": "Precio viejo (anterior)", "cantidad": 54, "porcentaje": 38.0 },
+    { "tipo": "Hueco con inventario en sistema", "cantidad": 36, "porcentaje": 25.4 },
+    { "tipo": "Precio distinto a catálogo", "cantidad": 22, "porcentaje": 15.5 },
+    { "tipo": "Falta de etiqueta física", "cantidad": 16, "porcentaje": 11.3 },
+    { "tipo": "Etiqueta de otro SKU", "cantidad": 8, "porcentaje": 5.6 },
+    { "tipo": "Pocos frentes / Inconsistencias", "cantidad": 6, "porcentaje": 4.2 }
+  ]
+}

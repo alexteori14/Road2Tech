@@ -1,0 +1,26 @@
+{
+  "origen": "ensayo",
+  "tarjeta": "etiqueta_faltante",
+  "timestamp": "2026-10-10T10:15:30Z",
+  "pasos_completados": [
+    "Eligiendo cuadros",
+    "Leyendo etiquetas",
+    "Comparando con el sistema"
+  ],
+  "hallazgo_nuevo": {
+    "id": "ensayo-ef-02",
+    "tipo": "etiqueta_faltante",
+    "producto": "Wrap Vegetariano Pesto & Mozzarella",
+    "sku": "GLZ-312",
+    "repisa": 3,
+    "posicion": 1,
+    "precio_etiqueta": null,
+    "precio_sistema": 5.99,
+    "impacto_diario": 8.40,
+    "cuadro": 360,
+    "segundo": 12.0,
+    "descripcion": "Falta la etiqueta física en riel inferior frente a 4 unidades exhibidas.",
+    "accion_sugerida": "Imprimir e instalar etiqueta con precio oficial de US$5.99.",
+    "evidencia_crop": "/evidencias/r3_p1.svg"
+  }
+}

@@ -1,0 +1,6 @@
+dataset/
+node_modules/
+Frontend/node_modules/
+dist/
+.next/
+.env

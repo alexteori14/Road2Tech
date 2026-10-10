@@ -1,0 +1,26 @@
+{
+  "origen": "ensayo",
+  "tarjeta": "hueco_con_inventario",
+  "timestamp": "2026-10-10T10:16:00Z",
+  "pasos_completados": [
+    "Eligiendo cuadros",
+    "Leyendo etiquetas",
+    "Comparando con el sistema"
+  ],
+  "hallazgo_nuevo": {
+    "id": "ensayo-hi-03",
+    "tipo": "hueco_con_inventario",
+    "producto": "Cold Brew Clásico 20oz Premium",
+    "sku": "GLZ-215",
+    "repisa": 2,
+    "posicion": 2,
+    "precio_etiqueta": null,
+    "precio_sistema": 4.49,
+    "impacto_diario": 21.50,
+    "cuadro": 110,
+    "segundo": 3.6,
+    "descripcion": "Hueco, pero el sistema dice que hay 19 unidades en cámara fría sin exhibir.",
+    "accion_sugerida": "Surtido prioritario: producto estrella en riesgo de venta perdida durante turno matutino.",
+    "evidencia_crop": "/evidencias/r2_p2.svg"
+  }
+}

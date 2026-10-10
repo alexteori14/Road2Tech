@@ -1,0 +1,26 @@
+{
+  "origen": "ensayo",
+  "tarjeta": "precio_viejo",
+  "timestamp": "2026-10-10T10:15:00Z",
+  "pasos_completados": [
+    "Eligiendo cuadros",
+    "Leyendo etiquetas",
+    "Comparando con el sistema"
+  ],
+  "hallazgo_nuevo": {
+    "id": "ensayo-pv-01",
+    "tipo": "precio_anterior",
+    "producto": "Dona Red Velvet Glaseada Gourmet",
+    "sku": "GLZ-109",
+    "repisa": 1,
+    "posicion": 2,
+    "precio_etiqueta": 2.19,
+    "precio_sistema": 2.69,
+    "impacto_diario": 12.80,
+    "cuadro": 145,
+    "segundo": 4.8,
+    "descripcion": "Etiqueta con precio viejo detectada en cuadro 145: marca $2.19 cuando el precio vigente es $2.69.",
+    "accion_sugerida": "Reemplazar etiqueta por valor de lista vigente de US$2.69 inmediatamente.",
+    "evidencia_crop": "/evidencias/r1_p2.svg"
+  }
+}

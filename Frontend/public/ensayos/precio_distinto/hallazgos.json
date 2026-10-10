@@ -1,0 +1,26 @@
+{
+  "origen": "ensayo",
+  "tarjeta": "precio_distinto",
+  "timestamp": "2026-10-10T10:16:30Z",
+  "pasos_completados": [
+    "Eligiendo cuadros",
+    "Leyendo etiquetas",
+    "Comparando con el sistema"
+  ],
+  "hallazgo_nuevo": {
+    "id": "ensayo-pd-04",
+    "tipo": "precio_distinto",
+    "producto": "Muffin Chispas de Chocolate Doble",
+    "sku": "GLZ-319",
+    "repisa": 3,
+    "posicion": 4,
+    "precio_etiqueta": 2.99,
+    "precio_sistema": 3.79,
+    "impacto_diario": 11.20,
+    "cuadro": 290,
+    "segundo": 9.6,
+    "descripcion": "Precio distinto al sistema: la etiqueta exhibe $2.99 frente a precio de lista de $3.79.",
+    "accion_sugerida": "Corregir precio en cenefa para evitar merma en margen bruto.",
+    "evidencia_crop": "/evidencias/r3_p4.svg"
+  }
+}
