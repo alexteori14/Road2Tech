@@ -1,26 +1,26 @@
 {
   "origen": "ensayo",
   "tarjeta": "precio_distinto",
-  "timestamp": "2026-10-10T10:16:30Z",
+  "timestamp": "2026-03-03T10:15:00Z",
   "pasos_completados": [
     "Eligiendo cuadros",
     "Leyendo etiquetas",
     "Comparando con el sistema"
   ],
   "hallazgo_nuevo": {
-    "id": "ensayo-pd-04",
-    "tipo": "precio_distinto",
-    "producto": "Muffin Chispas de Chocolate Doble",
-    "sku": "GLZ-319",
-    "repisa": 3,
-    "posicion": 4,
-    "precio_etiqueta": 2.99,
-    "precio_sistema": 3.79,
-    "impacto_diario": 11.20,
-    "cuadro": 290,
-    "segundo": 9.6,
-    "descripcion": "Precio distinto al sistema: la etiqueta exhibe $2.99 frente a precio de lista de $3.79.",
-    "accion_sugerida": "Corregir precio en cenefa para evitar merma en margen bruto.",
-    "evidencia_crop": "/evidencias/r3_p4.svg"
+    "id": "ensayo-ec-01",
+    "tipo": "etiqueta_otro_sku",
+    "producto": "Bagel W Butter",
+    "sku": "SKU-100131",
+    "repisa": 2,
+    "posicion": 3,
+    "precio_etiqueta": 24.32,
+    "precio_sistema": 73.33,
+    "impacto_diario": 0.0,
+    "cuadro": 420,
+    "segundo": 14.0,
+    "descripcion": "Tarjeta de evaluación: etiqueta de French Toast Bagel ($24.32) colocada en la posición de Bagel W Butter ($73.33).",
+    "accion_sugerida": "Cambiar la etiqueta por la del producto correcto ($73.33).",
+    "evidencia_crop": "/evidencias/tarjetas/etiqueta_cambiada_R2-P3.png"
   }
 }

@@ -1,41 +1,441 @@
 {
   "red": {
-    "tiendas_total": 38,
-    "tiendas_con_incidencias": 31,
-    "skus_afectados": 142,
-    "exposicion_7_dias": 16254.00,
-    "exposicion_14_dias": 32508.00,
-    "exposicion_30_dias": 69660.00,
-    "venta_perdida_anual": 847500.00,
-    "conflictos_maestro_precios": 28,
-    "supuestos_calculo": "Proyecciones basadas en un promedio ponderado de US$61.10 diarios por anaquel auditado en 38 tiendas operativas. La exposición considera discrepancias no corregidas proyectadas de forma lineal en ventanas de 7, 14 y 30 días, descontando cierres operativos temporales. La venta perdida anual modela roturas de stock en SKUs de alto volumen con tasa de sustitución del 25 %.",
-    "dataset_label": "Dataset sintético · Glazed Co. (38 tiendas)",
-    "fecha_corte": "2026-10-10"
+    "tiendas_total": 35,
+    "tiendas_con_incidencias": 34,
+    "skus_afectados": 90,
+    "exposicion_7_dias": 68460.49,
+    "exposicion_14_dias": 136920.98,
+    "exposicion_30_dias": 293402.1,
+    "venta_perdida_anual": 3569725.55,
+    "conflictos_maestro_precios": 14,
+    "supuestos_calculo": "Proyección calculada sobre datos de inventario y ventas de dataset_2. Quiebres de stock calculados mediante horas_agotado / 24 por demanda promedio de 28 días y precio de catálogo.",
+    "dataset_label": "Dataset 2 · Cadena de Tiendas",
+    "fecha_corte": "2026-03-03"
   },
   "proyeccion_temporal": [
-    { "dia": "Día 1", "exposicion_acumulada": 2322, "limite_inferior": 1900, "limite_superior": 2700 },
-    { "dia": "Día 3", "exposicion_acumulada": 6966, "limite_inferior": 5800, "limite_superior": 8100 },
-    { "dia": "Día 7", "exposicion_acumulada": 16254, "limite_inferior": 13800, "limite_superior": 18900 },
-    { "dia": "Día 14", "exposicion_acumulada": 32508, "limite_inferior": 27500, "limite_superior": 37800 },
-    { "dia": "Día 21", "exposicion_acumulada": 48762, "limite_inferior": 41200, "limite_superior": 56700 },
-    { "dia": "Día 30", "exposicion_acumulada": 69660, "limite_inferior": 59000, "limite_superior": 81000 }
+    {
+      "dia": "Día 1",
+      "exposicion_acumulada": 9780.07,
+      "limite_inferior": 8606.46,
+      "limite_superior": 11149.28
+    },
+    {
+      "dia": "Día 2",
+      "exposicion_acumulada": 19560.14,
+      "limite_inferior": 17212.92,
+      "limite_superior": 22298.56
+    },
+    {
+      "dia": "Día 3",
+      "exposicion_acumulada": 29340.21,
+      "limite_inferior": 25819.38,
+      "limite_superior": 33447.84
+    },
+    {
+      "dia": "Día 4",
+      "exposicion_acumulada": 39120.28,
+      "limite_inferior": 34425.85,
+      "limite_superior": 44597.12
+    },
+    {
+      "dia": "Día 5",
+      "exposicion_acumulada": 48900.35,
+      "limite_inferior": 43032.31,
+      "limite_superior": 55746.4
+    },
+    {
+      "dia": "Día 6",
+      "exposicion_acumulada": 58680.42,
+      "limite_inferior": 51638.77,
+      "limite_superior": 66895.68
+    },
+    {
+      "dia": "Día 7",
+      "exposicion_acumulada": 68460.49,
+      "limite_inferior": 60245.23,
+      "limite_superior": 78044.96
+    },
+    {
+      "dia": "Día 8",
+      "exposicion_acumulada": 78240.56,
+      "limite_inferior": 68851.69,
+      "limite_superior": 89194.24
+    },
+    {
+      "dia": "Día 9",
+      "exposicion_acumulada": 88020.63,
+      "limite_inferior": 77458.15,
+      "limite_superior": 100343.52
+    },
+    {
+      "dia": "Día 10",
+      "exposicion_acumulada": 97800.7,
+      "limite_inferior": 86064.62,
+      "limite_superior": 111492.8
+    },
+    {
+      "dia": "Día 11",
+      "exposicion_acumulada": 107580.77,
+      "limite_inferior": 94671.08,
+      "limite_superior": 122642.08
+    },
+    {
+      "dia": "Día 12",
+      "exposicion_acumulada": 117360.84,
+      "limite_inferior": 103277.54,
+      "limite_superior": 133791.36
+    },
+    {
+      "dia": "Día 13",
+      "exposicion_acumulada": 127140.91,
+      "limite_inferior": 111884.0,
+      "limite_superior": 144940.64
+    },
+    {
+      "dia": "Día 14",
+      "exposicion_acumulada": 136920.98,
+      "limite_inferior": 120490.46,
+      "limite_superior": 156089.92
+    },
+    {
+      "dia": "Día 15",
+      "exposicion_acumulada": 146701.05,
+      "limite_inferior": 129096.92,
+      "limite_superior": 167239.2
+    },
+    {
+      "dia": "Día 16",
+      "exposicion_acumulada": 156481.12,
+      "limite_inferior": 137703.39,
+      "limite_superior": 178388.48
+    },
+    {
+      "dia": "Día 17",
+      "exposicion_acumulada": 166261.19,
+      "limite_inferior": 146309.85,
+      "limite_superior": 189537.76
+    },
+    {
+      "dia": "Día 18",
+      "exposicion_acumulada": 176041.26,
+      "limite_inferior": 154916.31,
+      "limite_superior": 200687.04
+    },
+    {
+      "dia": "Día 19",
+      "exposicion_acumulada": 185821.33,
+      "limite_inferior": 163522.77,
+      "limite_superior": 211836.32
+    },
+    {
+      "dia": "Día 20",
+      "exposicion_acumulada": 195601.4,
+      "limite_inferior": 172129.23,
+      "limite_superior": 222985.6
+    },
+    {
+      "dia": "Día 21",
+      "exposicion_acumulada": 205381.47,
+      "limite_inferior": 180735.69,
+      "limite_superior": 234134.88
+    },
+    {
+      "dia": "Día 22",
+      "exposicion_acumulada": 215161.54,
+      "limite_inferior": 189342.16,
+      "limite_superior": 245284.16
+    },
+    {
+      "dia": "Día 23",
+      "exposicion_acumulada": 224941.61,
+      "limite_inferior": 197948.62,
+      "limite_superior": 256433.44
+    },
+    {
+      "dia": "Día 24",
+      "exposicion_acumulada": 234721.68,
+      "limite_inferior": 206555.08,
+      "limite_superior": 267582.72
+    },
+    {
+      "dia": "Día 25",
+      "exposicion_acumulada": 244501.75,
+      "limite_inferior": 215161.54,
+      "limite_superior": 278731.99
+    },
+    {
+      "dia": "Día 26",
+      "exposicion_acumulada": 254281.82,
+      "limite_inferior": 223768.0,
+      "limite_superior": 289881.27
+    },
+    {
+      "dia": "Día 27",
+      "exposicion_acumulada": 264061.89,
+      "limite_inferior": 232374.46,
+      "limite_superior": 301030.55
+    },
+    {
+      "dia": "Día 28",
+      "exposicion_acumulada": 273841.96,
+      "limite_inferior": 240980.92,
+      "limite_superior": 312179.83
+    },
+    {
+      "dia": "Día 29",
+      "exposicion_acumulada": 283622.03,
+      "limite_inferior": 249587.39,
+      "limite_superior": 323329.11
+    },
+    {
+      "dia": "Día 30",
+      "exposicion_acumulada": 293402.1,
+      "limite_inferior": 258193.85,
+      "limite_superior": 334478.39
+    }
   ],
   "top_tiendas_impacto": [
-    { "tienda": "T04 - Aeropuerto AICM T2", "exposicion_mensual": 4820.00, "incidencias": 14, "ciudad": "CDMX" },
-    { "tienda": "T12 - Estación Buenavista", "exposicion_mensual": 3950.00, "incidencias": 11, "ciudad": "CDMX" },
-    { "tienda": "T01 - Terminal Central Norte", "exposicion_mensual": 3410.00, "incidencias": 9, "ciudad": "CDMX" },
-    { "tienda": "T09 - Aeropuerto Cancún T3", "exposicion_mensual": 3180.00, "incidencias": 10, "ciudad": "Cancún" },
-    { "tienda": "T17 - Aeropuerto GDL T1", "exposicion_mensual": 2890.00, "incidencias": 8, "ciudad": "Guadalajara" },
-    { "tienda": "T23 - Aeropuerto MTY Terminal B", "exposicion_mensual": 2640.00, "incidencias": 7, "ciudad": "Monterrey" },
-    { "tienda": "T31 - Central Puebla CAPU", "exposicion_mensual": 2150.00, "incidencias": 6, "ciudad": "Puebla" },
-    { "tienda": "T15 - Resort Cancún Mayan", "exposicion_mensual": 1980.00, "incidencias": 5, "ciudad": "Cancún" }
+    {
+      "tienda": "Sucursal S014",
+      "ciudad": "CDMX",
+      "exposicion_mensual": 26369.1,
+      "incidencias": 12
+    },
+    {
+      "tienda": "Sucursal S007",
+      "ciudad": "Guadalajara",
+      "exposicion_mensual": 24232.2,
+      "incidencias": 14
+    },
+    {
+      "tienda": "Sucursal S013",
+      "ciudad": "Monterrey",
+      "exposicion_mensual": 23323.5,
+      "incidencias": 10
+    },
+    {
+      "tienda": "Sucursal S008",
+      "ciudad": "Puebla",
+      "exposicion_mensual": 21437.4,
+      "incidencias": 8
+    },
+    {
+      "tienda": "Sucursal S010",
+      "ciudad": "Querétaro",
+      "exposicion_mensual": 17604.9,
+      "incidencias": 7
+    },
+    {
+      "tienda": "Sucursal S038",
+      "ciudad": "Toluca",
+      "exposicion_mensual": 16289.4,
+      "incidencias": 15
+    },
+    {
+      "tienda": "Sucursal S026",
+      "ciudad": "Mérida",
+      "exposicion_mensual": 14735.1,
+      "incidencias": 5
+    },
+    {
+      "tienda": "Sucursal S017",
+      "ciudad": "Cancún",
+      "exposicion_mensual": 13813.5,
+      "incidencias": 14
+    },
+    {
+      "tienda": "Sucursal S029",
+      "ciudad": "León",
+      "exposicion_mensual": 13479.3,
+      "incidencias": 16
+    },
+    {
+      "tienda": "Sucursal S001",
+      "ciudad": "Tijuana",
+      "exposicion_mensual": 13188.6,
+      "incidencias": 9
+    },
+    {
+      "tienda": "Sucursal S009",
+      "ciudad": "CDMX",
+      "exposicion_mensual": 12806.4,
+      "incidencias": 5
+    },
+    {
+      "tienda": "Sucursal S012",
+      "ciudad": "Guadalajara",
+      "exposicion_mensual": 11031.3,
+      "incidencias": 8
+    },
+    {
+      "tienda": "Sucursal S020",
+      "ciudad": "Monterrey",
+      "exposicion_mensual": 9834.3,
+      "incidencias": 8
+    },
+    {
+      "tienda": "Sucursal S023",
+      "ciudad": "Puebla",
+      "exposicion_mensual": 8308.5,
+      "incidencias": 10
+    },
+    {
+      "tienda": "Sucursal S003",
+      "ciudad": "Querétaro",
+      "exposicion_mensual": 7527.6,
+      "incidencias": 10
+    },
+    {
+      "tienda": "Sucursal S034",
+      "ciudad": "Toluca",
+      "exposicion_mensual": 6786.3,
+      "incidencias": 12
+    },
+    {
+      "tienda": "Sucursal S028",
+      "ciudad": "Mérida",
+      "exposicion_mensual": 6735.0,
+      "incidencias": 8
+    },
+    {
+      "tienda": "Sucursal S025",
+      "ciudad": "Cancún",
+      "exposicion_mensual": 5262.9,
+      "incidencias": 5
+    },
+    {
+      "tienda": "Sucursal S035",
+      "ciudad": "León",
+      "exposicion_mensual": 5254.2,
+      "incidencias": 5
+    },
+    {
+      "tienda": "Sucursal S019",
+      "ciudad": "Tijuana",
+      "exposicion_mensual": 4319.4,
+      "incidencias": 10
+    },
+    {
+      "tienda": "Sucursal S011",
+      "ciudad": "CDMX",
+      "exposicion_mensual": 3998.4,
+      "incidencias": 6
+    },
+    {
+      "tienda": "Sucursal S030",
+      "ciudad": "Guadalajara",
+      "exposicion_mensual": 3739.8,
+      "incidencias": 8
+    },
+    {
+      "tienda": "Sucursal S002",
+      "ciudad": "Monterrey",
+      "exposicion_mensual": 3498.3,
+      "incidencias": 3
+    },
+    {
+      "tienda": "Sucursal S016",
+      "ciudad": "Puebla",
+      "exposicion_mensual": 3188.1,
+      "incidencias": 4
+    },
+    {
+      "tienda": "Sucursal S021",
+      "ciudad": "Querétaro",
+      "exposicion_mensual": 3065.7,
+      "incidencias": 7
+    },
+    {
+      "tienda": "Sucursal S032",
+      "ciudad": "Toluca",
+      "exposicion_mensual": 2699.4,
+      "incidencias": 7
+    },
+    {
+      "tienda": "Sucursal S022",
+      "ciudad": "Mérida",
+      "exposicion_mensual": 2407.5,
+      "incidencias": 3
+    },
+    {
+      "tienda": "Sucursal S036",
+      "ciudad": "Cancún",
+      "exposicion_mensual": 2142.0,
+      "incidencias": 4
+    },
+    {
+      "tienda": "Sucursal S033",
+      "ciudad": "León",
+      "exposicion_mensual": 2049.3,
+      "incidencias": 7
+    },
+    {
+      "tienda": "Sucursal S006",
+      "ciudad": "Tijuana",
+      "exposicion_mensual": 1480.2,
+      "incidencias": 6
+    },
+    {
+      "tienda": "Sucursal S018",
+      "ciudad": "CDMX",
+      "exposicion_mensual": 1172.4,
+      "incidencias": 6
+    },
+    {
+      "tienda": "Sucursal S027",
+      "ciudad": "Guadalajara",
+      "exposicion_mensual": 1048.5,
+      "incidencias": 5
+    },
+    {
+      "tienda": "Sucursal S004",
+      "ciudad": "Monterrey",
+      "exposicion_mensual": 300.3,
+      "incidencias": 1
+    },
+    {
+      "tienda": "Sucursal S031",
+      "ciudad": "Puebla",
+      "exposicion_mensual": 273.3,
+      "incidencias": 11
+    },
+    {
+      "tienda": "Sucursal S037",
+      "ciudad": "Querétaro",
+      "exposicion_mensual": 0.0,
+      "incidencias": 0
+    }
   ],
   "distribucion_tipos_error": [
-    { "tipo": "Precio viejo (anterior)", "cantidad": 54, "porcentaje": 38.0 },
-    { "tipo": "Hueco con inventario en sistema", "cantidad": 36, "porcentaje": 25.4 },
-    { "tipo": "Precio distinto a catálogo", "cantidad": 22, "porcentaje": 15.5 },
-    { "tipo": "Falta de etiqueta física", "cantidad": 16, "porcentaje": 11.3 },
-    { "tipo": "Etiqueta de otro SKU", "cantidad": 8, "porcentaje": 5.6 },
-    { "tipo": "Pocos frentes / Inconsistencias", "cantidad": 6, "porcentaje": 4.2 }
+    {
+      "tipo": "Agotado: pedir resurtido",
+      "cantidad": 52,
+      "porcentaje": 42
+    },
+    {
+      "tipo": "Hueco, pero el sistema dice que hay",
+      "cantidad": 36,
+      "porcentaje": 29
+    },
+    {
+      "tipo": "Etiqueta con precio viejo",
+      "cantidad": 22,
+      "porcentaje": 18
+    },
+    {
+      "tipo": "Precio distinto al sistema",
+      "cantidad": 8,
+      "porcentaje": 6
+    },
+    {
+      "tipo": "Falta la etiqueta",
+      "cantidad": 4,
+      "porcentaje": 3
+    },
+    {
+      "tipo": "Pocos frentes",
+      "cantidad": 2,
+      "porcentaje": 2
+    }
   ]
 }

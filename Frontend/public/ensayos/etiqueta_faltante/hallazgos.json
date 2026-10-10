@@ -1,26 +1,26 @@
 {
   "origen": "ensayo",
   "tarjeta": "etiqueta_faltante",
-  "timestamp": "2026-10-10T10:15:30Z",
+  "timestamp": "2026-03-03T10:15:00Z",
   "pasos_completados": [
     "Eligiendo cuadros",
     "Leyendo etiquetas",
     "Comparando con el sistema"
   ],
   "hallazgo_nuevo": {
-    "id": "ensayo-ef-02",
+    "id": "ensayo-ef-01",
     "tipo": "etiqueta_faltante",
-    "producto": "Wrap Vegetariano Pesto & Mozzarella",
-    "sku": "GLZ-312",
-    "repisa": 3,
-    "posicion": 1,
+    "producto": "2 Lbs. Coffee",
+    "sku": "SKU-100104",
+    "repisa": 1,
+    "posicion": 2,
     "precio_etiqueta": null,
-    "precio_sistema": 5.99,
-    "impacto_diario": 8.40,
-    "cuadro": 360,
-    "segundo": 12.0,
-    "descripcion": "Falta la etiqueta física en riel inferior frente a 4 unidades exhibidas.",
-    "accion_sugerida": "Imprimir e instalar etiqueta con precio oficial de US$5.99.",
-    "evidencia_crop": "/evidencias/r3_p1.svg"
+    "precio_sistema": 271.07,
+    "impacto_diario": 0.0,
+    "cuadro": 150,
+    "segundo": 5.0,
+    "descripcion": "Tarjeta de evaluación: etiqueta retirada manualmente en R1-P2. Producto 2 Lbs. Coffee exhibido sin cenefa de precio.",
+    "accion_sugerida": "Imprimir y colocar la etiqueta con el precio vigente de $271.07.",
+    "evidencia_crop": "/evidencias/tarjetas/quitar_etiqueta_R1-P2.png"
   }
 }

@@ -1,0 +1,2017 @@
+tienda,sku,nombre,precio_vigente,precio_anterior,conflicto
+S001,SKU-100011,Hm And Ew Western,4.49,,False
+S001,SKU-100023,Spicy Omlet Flatbread,5.59,,False
+S001,SKU-100032,1 Lb Coffee Whole Bean Dec,9.99,,False
+S001,SKU-100040,,5.49,,False
+S001,SKU-100045,Americana Tumbler 24Oz,20.00,1.90,False
+S001,SKU-100055,K Cup Decaf,13.39,,False
+S001,SKU-100065,Md Frozen Matcha Latte,7.49,,False
+S001,SKU-100070,Mug Ceramic Pink/White 12 Count,15.59,,False
+S001,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.29,,False
+S001,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.49,,False
+S001,SKU-100104,2 Lbs. Coffee,14.49,,False
+S001,SKU-100128,Frozen Blend Md Cookie Dough,4.69,4.49,False
+S001,SKU-100131,Bagel W Butter,4.09,3.99,False
+S001,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.89,,False
+S001,SKU-100140,Cold Brew Med 24 Oz,6.59,,False
+S001,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.79,3.69,False
+S001,SKU-100161,Angus SteakSandwich,2.99|3.18,2.79,True
+S001,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",4.39,4.09,False
+S001,SKU-100194,Sm Cold Brew Latte,4.09,3.89,False
+S001,SKU-100198,Hot Apple Cider Sm 10 Oz,2.99,,False
+S001,SKU-100203,Tumbler Iconic Sipper,14.49,,False
+S001,SKU-100205,8 Count Mini Chocolate Chip Cookie,2.09,,False
+S001,SKU-100215,Md Melted Ice Cream Frozen,7.29,,False
+S001,SKU-100222,House Dblcssg Sand,7.49,,False
+S001,SKU-100225,Iced Latte Lg Original 32 Oz,7.79,7.49,False
+S001,SKU-100250,Chicken Snack N Go Wrap,4.49,,False
+S001,SKU-100257,4 Donut Holes,1.69,,False
+S001,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.39,,False
+S001,SKU-100304,6 Donuts,14.19,13.59,False
+S001,SKU-100323,Cappuccino Large Decaf 20 Oz,3.79,3.59,False
+S001,SKU-100329,Blueberry Coffee Cake Muffin,6.69,,False
+S001,SKU-100371,Iced Tea Sm 16 Oz,5.19,,False
+S001,SKU-100386,Premium S/Steel Tumbler,14.49,,False
+S001,SKU-100392,Vanilla Chai Large 20 Oz,6.39,,False
+S001,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S001,SKU-100403,2 Mffin 6Pc Hb,4.09,3.79,False
+S001,SKU-100444,14 Oz House Destination Mug,15.49,14.49,False
+S001,SKU-100473,6 Bacon Donuts,14.79,14.09,False
+S001,SKU-100484,24Oz Halloween Tumbler,15.09,14.49,False
+S001,SKU-100502,12 Croiss-Ant Donuts,22.00,,False
+S001,SKU-100514,Donut Holes Donut Holes 5 Count,3.09,2.99,False
+S001,SKU-100524,3 Donut Holes,0.90,0.84,False
+S001,SKU-100536,Brownie,2.19,,False
+S001,SKU-100599,8 Donut Holes,4.99,4.69,False
+S001,SKU-100612,11Oz Can House Coffee Cake,7.89,7.39,False
+S001,SKU-100661,Loaf Pumpkin Slice Wrapped 20 Per Cs,4.49,,False
+S001,SKU-100694,50 Donut Holes,23.00,22.00,False
+S001,SKU-100827,Cheesecake Square Cookie Crumb,2.79,,False
+S001,SKU-100900,Bagel Twist,3.99,3.79,False
+S001,SKU-100936,French Toast Bagl,1.29,,False
+S001,SKU-101017,Hummus (Mod),1.39,,False
+S001,SKU-101809,House Carael Iced Coffee,4.29,,False
+S001,SKU-102185,House Original Iced Coffee13.7Oz,5.59,,False
+S001,SKU-102358,11Oz Can House Cake Batter,7.39,,False
+S001,SKU-102560,Bacon Roll Up,2.19,,False
+S001,SKU-102913,Fall Lip Balm Pumpkin,6.69,,False
+S001,SKU-818670,,7.49,,False
+S002,SKU-100003,2 Donut Holes,0.57,,False
+S002,SKU-100011,Hm And Ew Western,4.49,,False
+S002,SKU-100023,Spicy Omlet Flatbread,5.89,5.69,False
+S002,SKU-100030,Southwestern Veggie Burrito,2.79,,False
+S002,SKU-100037,Lg Iced Matcha Latte,7.99,,False
+S002,SKU-100045,Americana Tumbler 24Oz,20.00,19.29,False
+S002,SKU-100047,6 Cookie 3 Oz,8.09,7.79,False
+S002,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.59,,False
+S002,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.39,,False
+S002,SKU-100080,Pretzel Roll Chicken Sandwich,6.79,,False
+S002,SKU-100096,Frozen Blend Med Citrus Soda 24,4.29,,False
+S002,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.59,,False
+S002,SKU-100118,Any Time Combos W Med Iced Coffee,0.57,,False
+S002,SKU-100123,Chorizo Bowl,5.89,5.69,False
+S002,SKU-100131,Bagel W Butter,3.99,,False
+S002,SKU-100142,With Med Coffee Go Lg,0.33,,False
+S002,SKU-100147,House 20Oz Stnless/Acryl Tumbler Mx Med,12.09,11.39,False
+S002,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.89,,False
+S002,SKU-100155,Frozen Blend Lg Cookie Crumb,7.79,,False
+S002,SKU-100159,Kolsche,3.69,,False
+S002,SKU-100161,Angus SteakSandwich,2.99,,False
+S002,SKU-100170,Croiss-Ant Donuts,2.89,2.79,False
+S002,SKU-100178,Frozen Blend Med Frozen Lemonade,6.89,,False
+S002,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",4.39,4.19,False
+S002,SKU-100198,Hot Apple Cider Sm 10 Oz,3.29,3.09,False
+S002,SKU-100211,Bowl Ssg Egg,6.19,5.69,False
+S002,SKU-100215,Md Melted Ice Cream Frozen,7.39,,False
+S002,SKU-100217,Chipotle Hash Brown Wake-Up Wrap,4.39,,False
+S002,SKU-100225,Iced Latte Lg Original 32 Oz,7.59,,False
+S002,SKU-100228,Iced Cappuccino Md 24 Oz,7.69,7.49,False
+S002,SKU-100232,Angus Steak & Cheese Wrap,3.39,,False
+S002,SKU-100237,Frozen Blend Lg Mixology,7.79,,False
+S002,SKU-100250,Chicken Snack N Go Wrap,4.49|5.20,,True
+S002,SKU-100304,6 Donuts,13.79,,False
+S002,SKU-100323,Cappuccino Large Decaf 20 Oz,3.59,,False
+S002,SKU-100392,Vanilla Chai Large 20 Oz,6.79,6.49,False
+S002,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09|1.24,,True
+S002,SKU-100403,2 Mffin 6Pc Hb,4.09,3.89,False
+S002,SKU-100514,Donut Holes Donut Holes 5 Count,2.99,,False
+S002,SKU-100524,3 Donut Holes,0.85,,False
+S002,SKU-100601,Pretzel Bites,2.49,2.29,False
+S002,SKU-100612,11Oz Can House Coffee Cake,7.89,7.49,False
+S002,SKU-100694,50 Donut Holes,25.00,23.00,False
+S002,SKU-100900,Bagel Twist,3.89,,False
+S002,SKU-100936,French Toast Bagl,1.49,1.39,False
+S002,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.89,5.69,False
+S002,SKU-101809,House Carael Iced Coffee,4.39,,False
+S002,SKU-102199,Chicken roissant,6.59,6.19,False
+S002,SKU-102358,11Oz Can House Cake Batter,7.99,7.49,False
+S002,SKU-102560,Bacon Roll Up,2.29,,False
+S002,SKU-814419,,10.82,,False
+S003,SKU-100023,Spicy Omlet Flatbread,5.59,,False
+S003,SKU-100037,Lg Iced Matcha Latte,8.59,7.99,False
+S003,SKU-100040,,5.49,,False
+S003,SKU-100045,Americana Tumbler 24Oz,21.00,19.19,False
+S003,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.49,,False
+S003,SKU-100061,Any Time Combos W Lg Iced Coff,0.90,,False
+S003,SKU-100096,Frozen Blend Med Citrus Soda 24,4.29,,False
+S003,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.59,,False
+S003,SKU-100118,Any Time Combos W Med Iced Coffee,0.62,0.57,False
+S003,SKU-100125,Spinach Artichoke Supreme Bagel,1.99,,False
+S003,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.99,,False
+S003,SKU-100140,Cold Brew Med 24 Oz,6.69,,False
+S003,SKU-100155,Frozen Blend Lg Cookie Crumb,7.69,,False
+S003,SKU-100159,Kolsche,3.69,,False
+S003,SKU-100161,Angus SteakSandwich,2.79,,False
+S003,SKU-100170,Croiss-Ant Donuts,2.79,,False
+S003,SKU-100177,Md Hot Chai Latte,6.29,,False
+S003,SKU-100178,Frozen Blend Med Frozen Lemonade,6.89,,False
+S003,SKU-100198,Hot Apple Cider Sm 10 Oz,3.09,2.99,False
+S003,SKU-100211,Bowl Ssg Egg,5.59,,False
+S003,SKU-100222,House Dblcssg Sand,7.79,7.59,False
+S003,SKU-100228,Iced Cappuccino Md 24 Oz,7.79,,False
+S003,SKU-100237,Frozen Blend Lg Mixology,8.19,76.90,False
+S003,SKU-100250,Chicken Snack N Go Wrap,4.49,,False
+S003,SKU-100257,4 Donut Holes,1.69,,False
+S003,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.19,,False
+S003,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.49,,False
+S003,SKU-100363,Energy Cold Brew Lg 32 Oz,8.49,7.89,False
+S003,SKU-100371,Iced Tea Sm 16 Oz,5.29,,False
+S003,SKU-100386,Premium S/Steel Tumbler,14.69,,False
+S003,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S003,SKU-100473,6 Bacon Donuts,14.19,,False
+S003,SKU-100506,12 Bagels,12.89,,False
+S003,SKU-100524,3 Donut Holes,0.85,,False
+S003,SKU-100601,Pretzel Bites,2.39,2.29,False
+S003,SKU-100661,Loaf Pumpkin Slice Wrapped 20 Per Cs,4.49,,False
+S003,SKU-100694,50 Donut Holes,23.00,,False
+S003,SKU-100768,Pepper Jack Supreme Bagel,1.99,,False
+S003,SKU-100808,Apple Fritter Fancy,1.69,,False
+S003,SKU-100827,Cheesecake Square Cookie Crumb,2.79,,False
+S003,SKU-100900,Bagel Twist,3.79,,False
+S003,SKU-101017,Hummus (Mod),1.39,,False
+S003,SKU-101075,Apple,1.19,,False
+S003,SKU-101467,Banana,1.29,,False
+S003,SKU-101523,Cookie Decorated Donut 1.82Oz,3.69,3.39,False
+S003,SKU-102185,House Original Iced Coffee13.7Oz,5.99,5.59,False
+S003,SKU-102199,Chicken roissant,6.59,6.19,False
+S003,SKU-102560,Bacon Roll Up,2.39,2.29,False
+S003,SKU-102831,14 Tuna Salad Or Chicken Salad Sandwich,5.64,,False
+S003,SKU-863544,,11.07,,False
+S004,SKU-100003,2 Donut Holes,0.58,,False
+S004,SKU-100004,Sm Hot Colombian Coffee,2.59,2.49,False
+S004,SKU-100008,Latte Lite Sm Original 10 Oz,2.89,,False
+S004,SKU-100014,Bagel Twist Sour C And Onion,1.59,,False
+S004,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.99,,False
+S004,SKU-100034,Tomato Pesto Grilled Cheese,6.39,,False
+S004,SKU-100037,Lg Iced Matcha Latte,8.19,,False
+S004,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,6.09,5.69,False
+S004,SKU-100061,Any Time Combos W Lg Iced Coff,0.99,0.93,False
+S004,SKU-100065,Md Frozen Matcha Latte,8.39,7.79,False
+S004,SKU-100068,Lip Balm Keychain Fall,6.09,5.79,False
+S004,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.49,,False
+S004,SKU-100090,Mocha Blend X Lg 24 Oz,5.09,4.69,False
+S004,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,6.19,5.69,False
+S004,SKU-100108,Chorizo & Egg Flatbread,7.69,,False
+S004,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.59,,False
+S004,SKU-100115,1 Muffin,3.89,,False
+S004,SKU-100131,Bagel W Butter,4.09,,False
+S004,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,5.09,,False
+S004,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.99,,False
+S004,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.99,3.79,False
+S004,SKU-100159,Kolsche,3.79,,False
+S004,SKU-100161,Angus SteakSandwich,2.89,,False
+S004,SKU-100177,Md Hot Chai Latte,6.49,,False
+S004,SKU-100191,Cookie Crumb Matcha,1.00,0.93,False
+S004,SKU-100222,House Dblcssg Sand,7.79,,False
+S004,SKU-100232,Angus Steak & Cheese Wrap,3.79,3.49,False
+S004,SKU-100241,Green Goddess,6.59,,False
+S004,SKU-100257,4 Donut Holes,1.79,1.69,False
+S004,SKU-100270,Any Time Combos W Med Iced Tea,0.63,0.58,False
+S004,SKU-100281,Md Iced Chai Latte,7.49,,False
+S004,SKU-100329,Blueberry Coffee Cake Muffin,6.89,,False
+S004,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.89,3.69,False
+S004,SKU-100392,Vanilla Chai Large 20 Oz,6.69,,False
+S004,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S004,SKU-100403,2 Mffin 6Pc Hb,3.89,,False
+S004,SKU-100473,6 Bacon Donuts,14.59,,False
+S004,SKU-100524,3 Donut Holes,0.87,,False
+S004,SKU-100599,8 Donut Holes,4.89,,False
+S004,SKU-100694,50 Donut Holes,23.00,,False
+S004,SKU-100808,Apple Fritter Fancy,1.79,1.69,False
+S004,SKU-100900,Bagel Twist,3.89,,False
+S004,SKU-100936,French Toast Bagl,1.39,,False
+S004,SKU-102358,11Oz Can House Cake Batter,7.99,7.69,False
+S004,SKU-801866,,6.13,,False
+S004,SKU-859264,,11.57,,False
+S004,sku-100502,,23.00,,False
+S005,SKU-102001,Sm Hot Chai Latte,5.15,,False
+S006,SKU-100003,2 Donut Holes,0.56,0.53,False
+S006,SKU-100004,Sm Hot Colombian Coffee,2.39,2.29,False
+S006,SKU-100008,Latte Lite Sm Original 10 Oz,2.69,2.59,False
+S006,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.69|3.17,,True
+S006,SKU-100037,Lg Iced Matcha Latte,7.99,7.49,False
+S006,SKU-100040,,5.19,,False
+S006,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.39|6.80,5.19,True
+S006,SKU-100055,K Cup Decaf,12.69,,False
+S006,SKU-100061,Any Time Combos W Lg Iced Coff,0.90,0.85,False
+S006,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.09,,False
+S006,SKU-100092,Hol Bac Sand,0.01,,False
+S006,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.19,,False
+S006,SKU-100118,Any Time Combos W Med Iced Coffee,0.55,0.53,False
+S006,SKU-100123,Chorizo Bowl,5.29|6.69,,True
+S006,SKU-100131,Bagel W Butter,3.79,,False
+S006,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.69,,False
+S006,SKU-100140,Cold Brew Med 24 Oz,6.79,6.29,False
+S006,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.49,,False
+S006,SKU-100159,Kolsche,3.59,3.49,False
+S006,SKU-100161,Angus SteakSandwich,2.59,,False
+S006,SKU-100170,Croiss-Ant Donuts,2.59,,False
+S006,SKU-100177,Md Hot Chai Latte,5.89,,False
+S006,SKU-100198,Hot Apple Cider Sm 10 Oz,2.89,,False
+S006,SKU-100211,Bowl Ssg Egg,5.29,,False
+S006,SKU-100215,Md Melted Ice Cream Frozen,7.19,6.89,False
+S006,SKU-100217,Chipotle Hash Brown Wake-Up Wrap,4.09,,False
+S006,SKU-100222,House Dblcssg Sand,7.19,,False
+S006,SKU-100225,Iced Latte Lg Original 32 Oz,7.09,,False
+S006,SKU-100232,Angus Steak & Cheese Wrap,3.19,,False
+S006,SKU-100237,Frozen Blend Lg Mixology,7.29,,False
+S006,SKU-100250,Chicken Snack N Go Wrap,4.19,,False
+S006,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.19,4.89,False
+S006,SKU-100270,Any Time Combos W Med Iced Tea,0.53,,False
+S006,SKU-100281,Md Iced Chai Latte,6.89,,False
+S006,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.39,2.29,False
+S006,SKU-100323,Cappuccino Large Decaf 20 Oz,3.59,3.39,False
+S006,SKU-100371,Iced Tea Sm 16 Oz,5.09,4.89,False
+S006,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.39,,False
+S006,SKU-100392,Vanilla Chai Large 20 Oz,6.09,,False
+S006,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,0.99,,False
+S006,SKU-100403,2 Mffin 6Pc Hb,3.59,,False
+S006,SKU-100502,12 Croiss-Ant Donuts,21.00,,False
+S006,SKU-100506,12 Bagels,12.69,12.09,False
+S006,SKU-100601,Pretzel Bites,2.09,,False
+S006,SKU-100694,50 Donut Holes,23.00,21.00,False
+S006,SKU-100768,Pepper Jack Supreme Bagel,1.99,1.89,False
+S006,SKU-100900,Bagel Twist,3.59,,False
+S006,SKU-100936,French Toast Bagl,1.29,,False
+S006,SKU-101017,Hummus (Mod),1.39,1.29,False
+S006,SKU-101809,House Carael Iced Coffee,4.09,,False
+S006,SKU-102199,Chicken roissant,6.19,5.79,False
+S006,SKU-102913,Fall Lip Balm Pumpkin,6.59,6.29,False
+S006,SKU-826041,,11.38,,False
+S006,SKU-857167,,3.46,,False
+S007,SKU-100003,2 Donut Holes,0.57,0.53,False
+S007,SKU-100014,Bagel Twist Sour C And Onion,1.59,1.49,False
+S007,SKU-100030,Southwestern Veggie Burrito,2.69,2.59,False
+S007,SKU-100034,Tomato Pesto Grilled Cheese,6.29,5.79,False
+S007,SKU-100037,Lg Iced Matcha Latte,7.99,7.39,False
+S007,SKU-100054,Byd Ssg Egg Nchs Sand,5.99,,False
+S007,SKU-100061,Any Time Combos W Lg Iced Coff,0.84,,False
+S007,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.09,,False
+S007,SKU-100080,Pretzel Roll Chicken Sandwich,6.29,,False
+S007,SKU-100096,Frozen Blend Med Citrus Soda 24,4.29,3.99|4.35,False
+S007,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.49|6.90,5.99,True
+S007,SKU-100128,Frozen Blend Md Cookie Dough,4.19,,False
+S007,SKU-100131,Bagel W Butter,3.69,,False
+S007,SKU-100140,Cold Brew Med 24 Oz,6.19,,False
+S007,SKU-100142,With Med Coffee Go Lg,0.31,,False
+S007,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.49,,False
+S007,SKU-100159,Kolsche,3.49,,False
+S007,SKU-100161,Angus SteakSandwich,2.59,,False
+S007,SKU-100170,Croiss-Ant Donuts,2.59,,False
+S007,SKU-100211,Bowl Ssg Egg,5.29,,False
+S007,SKU-100215,Md Melted Ice Cream Frozen,6.89,,False
+S007,SKU-100237,Frozen Blend Lg Mixology,7.19,,False
+S007,SKU-100257,4 Donut Holes,1.59,,False
+S007,SKU-100279,1 Lb Dark Roast Ground,10.49,,False
+S007,SKU-100281,Md Iced Chai Latte,6.89,,False
+S007,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.29,,False
+S007,SKU-100304,6 Donuts,12.79,,False
+S007,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.39,,False
+S007,SKU-100403,2 Mffin 6Pc Hb,35.90,,False
+S007,SKU-100502,12 Croiss-Ant Donuts,21.00,,False
+S007,SKU-100514,Donut Holes Donut Holes 5 Count,2.79,,False
+S007,SKU-100599,8 Donut Holes,4.59,,False
+S007,SKU-100664,Original Coffee Cake Muffin,6.29,,False
+S007,SKU-100694,50 Donut Holes,22.00,21.00,False
+S007,SKU-100768,Pepper Jack Supreme Bagel,1.89,,False
+S007,SKU-100808,Apple Fritter Fancy,15.90,,False
+S007,SKU-100900,Bagel Twist,3.59,,False
+S007,SKU-100936,French Toast Bagl,1.29,,False
+S007,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.29,,False
+S007,SKU-101017,Hummus (Mod),1.29,,False
+S007,SKU-102358,11Oz Can House Cake Batter,7.49,6.99,False
+S007,SKU-102560,Bacon Roll Up,2.09,,False
+S007,SKU-102913,Fall Lip Balm Pumpkin,6.29,,False
+S007,SKU-827438,,10.09,,False
+S008,SKU-100003,2 Donut Holes,0.53,,False
+S008,SKU-100008,Latte Lite Sm Original 10 Oz,2.59,,False
+S008,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.89,2.69,False
+S008,SKU-100034,Tomato Pesto Grilled Cheese,5.99,5.79,False
+S008,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.59,5.19,False
+S008,SKU-100054,Byd Ssg Egg Nchs Sand,5.99,,False
+S008,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.09,,False
+S008,SKU-100096,Frozen Blend Med Citrus Soda 24,3.99,,False
+S008,SKU-100098,Double Wall Acrylic 24Oz,10.59,,False
+S008,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.59,5.19,False
+S008,SKU-100104,2 Lbs. Coffee,14.59,13.79,False
+S008,SKU-100123,Chorizo Bowl,5.29,,False
+S008,SKU-100125,Spinach Artichoke Supreme Bagel,1.99,1.89,False
+S008,SKU-100133,Trky Ssg Egg Nchs Sand,8.29,,False
+S008,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.69,,False
+S008,SKU-100140,Cold Brew Med 24 Oz,6.69,6.29,False
+S008,SKU-100142,With Med Coffee Go Lg,0.32,0.31,False
+S008,SKU-100147,House 20Oz Stnless/Acryl Tumbler Mx Med,10.59,,False
+S008,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.49,,False
+S008,SKU-100159,Kolsche,3.59,3.49,False
+S008,SKU-100161,Angus SteakSandwich,2.69,2.59,False
+S008,SKU-100205,8 Count Mini Chocolate Chip Cookie,1.99,,False
+S008,SKU-100215,Md Melted Ice Cream Frozen,6.89,,False
+S008,SKU-100225,Iced Latte Lg Original 32 Oz,7.49,7.09,False
+S008,SKU-100228,Iced Cappuccino Md 24 Oz,7.19,6.99,False
+S008,SKU-100237,Frozen Blend Lg Mixology,7.29,,False
+S008,SKU-100250,Chicken Snack N Go Wrap,4.49,4.19,False
+S008,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,4.89,,False
+S008,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.29,,False
+S008,SKU-100304,6 Donuts,12.89,,False
+S008,SKU-100323,Cappuccino Large Decaf 20 Oz,3.39,,False
+S008,SKU-100329,Blueberry Coffee Cake Muffin,6.29,,False
+S008,SKU-100363,Energy Cold Brew Lg 32 Oz,7.39,,False
+S008,SKU-100392,Vanilla Chai Large 20 Oz,6.09,,False
+S008,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,0.99,,False
+S008,SKU-100403,2 Mffin 6Pc Hb,3.59,,False
+S008,SKU-100466,11 Texas Toast Grilled Cheese,4.49,,False
+S008,SKU-100484,24Oz Halloween Tumbler,13.79,,False
+S008,SKU-100524,3 Donut Holes,0.79,,False
+S008,SKU-100536,Brownie,2.29,2.09,False
+S008,SKU-100599,8 Donut Holes,4.49,,False
+S008,SKU-100601,Pretzel Bites,2.09,,False
+S008,SKU-100612,11Oz Can House Coffee Cake,6.99,,False
+S008,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S008,SKU-100664,Original Coffee Cake Muffin,6.29,,False
+S008,SKU-100768,Pepper Jack Supreme Bagel,1.89,,False
+S008,SKU-100827,Cheesecake Square Cookie Crumb,2.79,2.59,False
+S008,SKU-100936,French Toast Bagl,1.29,,False
+S008,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.29,,False
+S008,SKU-101109,Iced Tea Sm Sweetened Lemonade 16 Oz,0.99,,False
+S008,SKU-101523,Cookie Decorated Donut 1.82Oz,3.19,,False
+S008,SKU-102199,Chicken roissant,5.79,,False
+S008,SKU-854204,,6.49,,False
+S009,SKU-100004,Sm Hot Colombian Coffee,2.29,,False
+S009,SKU-100008,Latte Lite Sm Original 10 Oz,2.89,2.69,False
+S009,SKU-100011,Hm And Ew Western,4.49,4.19,False
+S009,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.99,2.79,False
+S009,SKU-100030,Southwestern Veggie Burrito,2.69,,False
+S009,SKU-100032,1 Lb Coffee Whole Bean Dec,9.59,,False
+S009,SKU-100034,Tomato Pesto Grilled Cheese,5.89,,False
+S009,SKU-100037,Lg Iced Matcha Latte,7.49,,False
+S009,SKU-100040,,5.59,5.19,False
+S009,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.49,5.19,False
+S009,SKU-100061,Any Time Combos W Lg Iced Coff,8.50,,False
+S009,SKU-100080,Pretzel Roll Chicken Sandwich,6.39,,False
+S009,SKU-100096,Frozen Blend Med Citrus Soda 24,3.99|4.63,,True
+S009,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.49|7.05,5.29,True
+S009,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.59,6.09,False
+S009,SKU-100128,Frozen Blend Md Cookie Dough,4.19,,False
+S009,SKU-100131,Bagel W Butter,3.79,,False
+S009,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.69,,False
+S009,SKU-100140,Cold Brew Med 24 Oz,6.29,,False
+S009,SKU-100142,With Med Coffee Go Lg,0.31,,False
+S009,SKU-100147,House 20Oz Stnless/Acryl Tumbler Mx Med,11.09,10.59,False
+S009,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.69,6.39,False
+S009,SKU-100161,Angus SteakSandwich,2.79,2.69,False
+S009,SKU-100170,Croiss-Ant Donuts,2.69,,False
+S009,SKU-100178,Frozen Blend Med Frozen Lemonade,6.49,,False
+S009,SKU-100191,Cookie Crumb Matcha,0.85,,False
+S009,SKU-100194,Sm Cold Brew Latte,3.89,3.69,False
+S009,SKU-100198,Hot Apple Cider Sm 10 Oz,3.09,2.89,False
+S009,SKU-100222,House Dblcssg Sand,7.19,,False
+S009,SKU-100228,Iced Cappuccino Md 24 Oz,6.99,,False
+S009,SKU-100250,Chicken Snack N Go Wrap,4.39,4.19,False
+S009,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,4.89,,False
+S009,SKU-100371,Iced Tea Sm 16 Oz,4.99,,False
+S009,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.39,,False
+S009,SKU-100392,Vanilla Chai Large 20 Oz,6.39,6.09,False
+S009,SKU-100403,2 Mffin 6Pc Hb,3.59,,False
+S009,SKU-100502,12 Croiss-Ant Donuts,21.00,,False
+S009,SKU-100506,12 Bagels,12.19,,False
+S009,SKU-100599,8 Donut Holes,4.49,,False
+S009,SKU-100661,Loaf Pumpkin Slice Wrapped 20 Per Cs,4.19,,False
+S009,SKU-100694,50 Donut Holes,22.00,21.00,False
+S009,SKU-100741,12 Donuts,21.00,,False
+S009,SKU-100768,Pepper Jack Supreme Bagel,1.89,,False
+S009,SKU-100900,Bagel Twist,3.59,,False
+S009,SKU-100936,French Toast Bagl,1.39,1.29,False
+S009,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.49,5.29,False
+S009,SKU-101017,Hummus (Mod),1.39,1.29,False
+S009,SKU-101467,Banana,1.39,0.13,False
+S009,SKU-102358,11Oz Can House Cake Batter,7.09,,False
+S009,SKU-102560,Bacon Roll Up,2.09,,False
+S009,SKU-823535,,3.00,,False
+S010,SKU-100003,2 Donut Holes,0.54,,False
+S010,SKU-100004,Sm Hot Colombian Coffee,2.49,2.39,False
+S010,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.99,2.79,False
+S010,SKU-100023,Spicy Omlet Flatbread,5.39,,False
+S010,SKU-100034,Tomato Pesto Grilled Cheese,5.99,,False
+S010,SKU-100037,Lg Iced Matcha Latte,7.69,,False
+S010,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.69,5.29,False
+S010,SKU-100077,Hot Macchiato Med Original16 Oz,6.89,6.49,False
+S010,SKU-100080,Pretzel Roll Chicken Sandwich,6.49,,False
+S010,SKU-100092,Hol Bac Sand,0.01,,False
+S010,SKU-100096,Frozen Blend Med Citrus Soda 24,4.39,4.09,False
+S010,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.39,,False
+S010,SKU-100104,2 Lbs. Coffee,14.09,,False
+S010,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.39,6.19,False
+S010,SKU-100131,Bagel W Butter,3.89,,False
+S010,SKU-100142,With Med Coffee Go Lg,0.33,0.31,False
+S010,SKU-100147,House 20Oz Stnless/Acryl Tumbler Mx Med,11.09,10.79,False
+S010,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.59,,False
+S010,SKU-100155,Frozen Blend Lg Cookie Crumb,7.39,,False
+S010,SKU-100161,Angus SteakSandwich,2.69|2.97,,True
+S010,SKU-100178,Frozen Blend Med Frozen Lemonade,6.59,,False
+S010,SKU-100194,Sm Cold Brew Latte,3.79,,False
+S010,SKU-100198,Hot Apple Cider Sm 10 Oz,3.09,2.89,False
+S010,SKU-100215,Md Melted Ice Cream Frozen,7.09,,False
+S010,SKU-100228,Iced Cappuccino Md 24 Oz,7.19,,False
+S010,SKU-100232,Angus Steak & Cheese Wrap,3.19,,False
+S010,SKU-100237,Frozen Blend Lg Mixology,7.39,,False
+S010,SKU-100250,Chicken Snack N Go Wrap,4.49,4.29,False
+S010,SKU-100253,Morning Wrap Hol Bac,0.01,,False
+S010,SKU-100281,Md Iced Chai Latte,7.09,,False
+S010,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.39,,False
+S010,SKU-100323,Cappuccino Large Decaf 20 Oz,3.49,,False
+S010,SKU-100357,Iced Coffee Large Orginal 32Oz,4.29,,False
+S010,SKU-100363,Energy Cold Brew Lg 32 Oz,7.59,,False
+S010,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.49,,False
+S010,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S010,SKU-100403,2 Mffin 6Pc Hb,3.99,3.69,False
+S010,SKU-100506,12 Bagels,12.39,,False
+S010,SKU-100536,Brownie,2.19,,False
+S010,SKU-100554,Jalapeno Kolache,1.39,,False
+S010,SKU-100599,8 Donut Holes,4.99,4.59,False
+S010,SKU-100612,11Oz Can House Coffee Cake,7.19,,False
+S010,SKU-100661,Loaf Pumpkin Slice Wrapped 20 Per Cs,4.49,4.29,False
+S010,SKU-100664,Original Coffee Cake Muffin,6.49,,False
+S010,SKU-100694,50 Donut Holes,22.00,,False
+S010,SKU-100808,Apple Fritter Fancy,1.59,,False
+S010,SKU-100900,Bagel Twist,3.69,,False
+S010,SKU-100936,French Toast Bagl,1.39,1.29,False
+S010,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.79,,False
+S010,SKU-101002,Eggs Benedict Breakfast Combo,6.32,,False
+S010,SKU-101664,Chocolate Chunk Cookie,3.19,,False
+S010,SKU-101675,Frozen Beverage Md,6.78,,False
+S010,SKU-101809,House Carael Iced Coffee,4.19,,False
+S010,SKU-102358,11Oz Can House Cake Batter,7.19,,False
+S010,SKU-102560,Bacon Roll Up,2.19,,False
+S010,SKU-102913,Fall Lip Balm Pumpkin,6.89,6.49,False
+S010,SKU-831892,,3.04,,False
+S010,SKU-869435,,1.69,,False
+S010,SKU-884304,,5.02,,False
+S010,sku-100138,,5.09,,False
+S011,SKU-100003,2 Donut Holes,0.57,0.53,False
+S011,SKU-100004,Sm Hot Colombian Coffee,2.29,,False
+S011,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.79,,False
+S011,SKU-100023,Spicy Omlet Flatbread,5.59,5.29,False
+S011,SKU-100030,Southwestern Veggie Burrito,2.89,2.69,False
+S011,SKU-100034,Tomato Pesto Grilled Cheese,5.89,,False
+S011,SKU-100037,Lg Iced Matcha Latte,7.79,7.49,False
+S011,SKU-100040,,5.39,5.19,False
+S011,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.19,,False
+S011,SKU-100061,Any Time Combos W Lg Iced Coff,0.93,0.85,False
+S011,SKU-100070,Mug Ceramic Pink/White 12 Count,14.89,,False
+S011,SKU-100077,Hot Macchiato Med Original16 Oz,6.29,,False
+S011,SKU-100086,28Oz Stainless Steel Hydration,25.00,,False
+S011,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.29,,False
+S011,SKU-100104,2 Lbs. Coffee,13.79,,False
+S011,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.39,6.09,False
+S011,SKU-100123,Chorizo Bowl,5.29,,False
+S011,SKU-100131,Bagel W Butter,3.99,3.79,False
+S011,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.69,,False
+S011,SKU-100142,With Med Coffee Go Lg,0.32,0.31,False
+S011,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.79,6.49,False
+S011,SKU-100155,Frozen Blend Lg Cookie Crumb,7.29,,False
+S011,SKU-100159,Kolsche,3.69,,False
+S011,SKU-100161,Angus SteakSandwich,2.69,,False
+S011,SKU-100178,Frozen Blend Med Frozen Lemonade,6.49,,False
+S011,SKU-100189,Tmbr Silicone Rainbow Sip 20Oz,12.79,,False
+S011,SKU-100194,Sm Cold Brew Latte,3.69,,False
+S011,SKU-100198,Hot Apple Cider Sm 10 Oz,2.89,,False
+S011,SKU-100201,Md Iced Caf Au Lait,4.29,,False
+S011,SKU-100211,Bowl Ssg Egg,5.59,5.29,False
+S011,SKU-100228,Iced Cappuccino Md 24 Oz,6.99,,False
+S011,SKU-100230,Frozen Blend Lg Vanilla Bean,7.29,,False
+S011,SKU-100237,Frozen Blend Lg Mixology,7.69,7.29,False
+S011,SKU-100250,Chicken Snack N Go Wrap,4.29,,False
+S011,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,4.89,,False
+S011,SKU-100281,Md Iced Chai Latte,7.49,6.89,False
+S011,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.29,,False
+S011,SKU-100304,6 Donuts,13.49,12.99,False
+S011,SKU-100323,Cappuccino Large Decaf 20 Oz,3.59,3.39,False
+S011,SKU-100364,Brownie,2.09,,False
+S011,SKU-100371,Iced Tea Sm 16 Oz,4.99,,False
+S011,SKU-100392,Vanilla Chai Large 20 Oz,6.09,,False
+S011,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S011,SKU-100403,2 Mffin 6Pc Hb,3.59,,False
+S011,SKU-100444,14 Oz House Destination Mug,13.79,,False
+S011,SKU-100473,6 Bacon Donuts,14.19,13.39,False
+S011,SKU-100506,12 Bagels,12.19,,False
+S011,SKU-100536,Brownie,2.09,,False
+S011,SKU-100601,Pretzel Bites,2.19,2.09,False
+S011,SKU-100694,50 Donut Holes,21.00,,False
+S011,SKU-100768,Pepper Jack Supreme Bagel,1.89,,False
+S011,SKU-100900,Bagel Twist,3.59,,False
+S011,SKU-100936,French Toast Bagl,1.39,1.29,False
+S011,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.59,5.29,False
+S011,SKU-101017,Hummus (Mod),1.29,,False
+S011,SKU-101156,2 Cookies,1.47,,False
+S011,SKU-101809,House Carael Iced Coffee,4.09,,False
+S011,SKU-102185,House Original Iced Coffee13.7Oz,5.29,,False
+S011,SKU-102358,11Oz Can House Cake Batter,7.69,7.09,False
+S011,SKU-102560,Bacon Roll Up,2.09,,False
+S011,SKU-883909,,9.65,,False
+S011,SKU-895673,,8.71,,False
+S011,sku-100253,,0.01,,False
+S012,SKU-100003,2 Donut Holes,0.60,,False
+S012,SKU-100008,Latte Lite Sm Original 10 Oz,2.99,,False
+S012,SKU-100018,Hot Chocolate Lg Dark 20 Oz,3.09,,False
+S012,SKU-100023,Spicy Omlet Flatbread,5.99,,False
+S012,SKU-100030,Southwestern Veggie Burrito,2.99,,False
+S012,SKU-100034,Tomato Pesto Grilled Cheese,6.59,,False
+S012,SKU-100037,Lg Iced Matcha Latte,8.39,,False
+S012,SKU-100040,,5.79,,False
+S012,SKU-100045,Americana Tumbler 24Oz,22.00,20.00,False
+S012,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.99,5.79,False
+S012,SKU-100061,Any Time Combos W Lg Iced Coff,0.95,,False
+S012,SKU-100070,Mug Ceramic Pink/White 12 Count,17.49,16.69,False
+S012,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.99,4.59,False
+S012,SKU-100086,28Oz Stainless Steel Hydration,27.00,,False
+S012,SKU-100092,Hol Bac Sand,0.01,,False
+S012,SKU-100098,Double Wall Acrylic 24Oz,11.89,,False
+S012,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.89,,False
+S012,SKU-100104,2 Lbs. Coffee,15.49,,False
+S012,SKU-100118,Any Time Combos W Med Iced Coffee,0.62,0.60,False
+S012,SKU-100123,Chorizo Bowl,5.99,,False
+S012,SKU-100128,Frozen Blend Md Cookie Dough,4.79,,False
+S012,SKU-100131,Bagel W Butter,4.19,,False
+S012,SKU-100133,Trky Ssg Egg Nchs Sand,9.89,9.29,False
+S012,SKU-100150,Hot Macchiato Lg Original 20 Oz,7.19,,False
+S012,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,4.19,3.89,False
+S012,SKU-100159,Kolsche,4.09,3.89,False
+S012,SKU-100161,Angus SteakSandwich,3.09,2.99,False
+S012,SKU-100178,Frozen Blend Med Frozen Lemonade,7.29,,False
+S012,SKU-100191,Cookie Crumb Matcha,0.99,0.95,False
+S012,SKU-100194,Sm Cold Brew Latte,4.19,,False
+S012,SKU-100198,Hot Apple Cider Sm 10 Oz,3.19,,False
+S012,SKU-100211,Bowl Ssg Egg,6.19,5.99|6.36,False
+S012,SKU-100225,Iced Latte Lg Original 32 Oz,7.99,,False
+S012,SKU-100237,Frozen Blend Lg Mixology,8.19,,False
+S012,SKU-100241,Green Goddess,6.79,,False
+S012,SKU-100253,Morning Wrap Hol Bac,0.01,,False
+S012,SKU-100257,4 Donut Holes,1.79,,False
+S012,SKU-100270,Any Time Combos W Med Iced Tea,0.60,,False
+S012,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.59,,False
+S012,SKU-100304,6 Donuts,14.49,,False
+S012,SKU-100323,Cappuccino Large Decaf 20 Oz,3.79,,False
+S012,SKU-100357,Iced Coffee Large Orginal 32Oz,4.69,,False
+S012,SKU-100363,Energy Cold Brew Lg 32 Oz,8.39,,False
+S012,SKU-100364,Brownie,2.39,,False
+S012,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.79,,False
+S012,SKU-100392,Vanilla Chai Large 20 Oz,7.19,6.89,False
+S012,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.29,1.19,False
+S012,SKU-100403,2 Mffin 6Pc Hb,3.99,,False
+S012,SKU-100506,12 Bagels,14.89,13.69,False
+S012,SKU-100524,3 Donut Holes,0.95,0.90,False
+S012,SKU-100599,8 Donut Holes,5.39,4.99,False
+S012,SKU-100601,Pretzel Bites,2.49,2.39,False
+S012,SKU-100664,Original Coffee Cake Muffin,7.69,7.09,False
+S012,SKU-100694,50 Donut Holes,24.00,,False
+S012,SKU-100808,Apple Fritter Fancy,1.79,,False
+S012,SKU-100827,Cheesecake Square Cookie Crumb,2.99,,False
+S012,SKU-100936,French Toast Bagl,1.39,,False
+S012,SKU-101017,Hummus (Mod),1.59,1.49,False
+S012,SKU-101467,Banana,1.39,,False
+S012,SKU-101570,12 Bacon Donuts,34.65,,False
+S012,SKU-101664,Chocolate Chunk Cookie,3.79,3.59,False
+S012,SKU-101809,House Carael Iced Coffee,4.99,4.59,False
+S012,SKU-102001,Sm Hot Chai Latte,5.29,,False
+S012,SKU-102199,Chicken roissant,6.89,6.59,False
+S012,SKU-102560,Bacon Roll Up,2.49,2.39,False
+S012,SKU-818665,,3.57,,False
+S012,SKU-882774,,9.07,,False
+S013,SKU-100004,Sm Hot Colombian Coffee,2.59,2.49,False
+S013,SKU-100008,Latte Lite Sm Original 10 Oz,2.89,2.79,False
+S013,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.99,,False
+S013,SKU-100030,Southwestern Veggie Burrito,2.89,2.79,False
+S013,SKU-100032,1 Lb Coffee Whole Bean Dec,10.29,,False
+S013,SKU-100037,Lg Iced Matcha Latte,8.09,,False
+S013,SKU-100040,,5.79,5.59,False
+S013,SKU-100055,K Cup Decaf,13.69,,False
+S013,SKU-100061,Any Time Combos W Lg Iced Coff,0.92,,False
+S013,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.39,,False
+S013,SKU-100080,Pretzel Roll Chicken Sandwich,7.19,6.89,False
+S013,SKU-100090,Mocha Blend X Lg 24 Oz,4.69,,False
+S013,SKU-100104,2 Lbs. Coffee,14.89,,False
+S013,SKU-100108,Chorizo & Egg Flatbread,7.59,,False
+S013,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.79,6.49,False
+S013,SKU-100118,Any Time Combos W Med Iced Coffee,0.57,,False
+S013,SKU-100128,Frozen Blend Md Cookie Dough,4.59,,False
+S013,SKU-100131,Bagel W Butter,4.09,,False
+S013,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.99,,False
+S013,SKU-100140,Cold Brew Med 24 Oz,7.09,6.69,False
+S013,SKU-100142,With Med Coffee Go Lg,0.33,,False
+S013,SKU-100147,House 20Oz Stnless/Acryl Tumbler Mx Med,11.79,11.39,False
+S013,SKU-100150,Hot Macchiato Lg Original 20 Oz,7.29,6.89,False
+S013,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.79,,False
+S013,SKU-100155,Frozen Blend Lg Cookie Crumb,7.79,,False
+S013,SKU-100159,Kolsche,3.99,,False
+S013,SKU-100178,Frozen Blend Med Frozen Lemonade,7.59,6.99,False
+S013,SKU-100198,Hot Apple Cider Sm 10 Oz,3.09,,False
+S013,SKU-100205,8 Count Mini Chocolate Chip Cookie,2.39,2.19,False
+S013,SKU-100217,Chipotle Hash Brown Wake-Up Wrap,4.39,,False
+S013,SKU-100222,House Dblcssg Sand,7.69,,False
+S013,SKU-100228,Iced Cappuccino Md 24 Oz,8.09,7.49,False
+S013,SKU-100237,Frozen Blend Lg Mixology,7.79,,False
+S013,SKU-100250,Chicken Snack N Go Wrap,4.89,4.59,False
+S013,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.19,,False
+S013,SKU-100279,1 Lb Dark Roast Ground,11.89,11.39,False
+S013,SKU-100281,Md Iced Chai Latte,7.59,7.39,False
+S013,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.59,2.49,False
+S013,SKU-100304,6 Donuts,14.79,13.89,False
+S013,SKU-100323,Cappuccino Large Decaf 20 Oz,3.59,,False
+S013,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.59,,False
+S013,SKU-100386,Premium S/Steel Tumbler,15.69,14.89,False
+S013,SKU-100392,Vanilla Chai Large 20 Oz,6.89,6.59,False
+S013,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S013,SKU-100502,12 Croiss-Ant Donuts,24.00,,False
+S013,SKU-100506,12 Bagels,13.99,13.09,False
+S013,SKU-100524,3 Donut Holes,0.91,0.86,False
+S013,SKU-100536,Brownie,2.39,2.29,False
+S013,SKU-100694,50 Donut Holes,23.00,,False
+S013,SKU-100768,Pepper Jack Supreme Bagel,1.99,,False
+S013,SKU-100827,Cheesecake Square Cookie Crumb,2.99,2.79,False
+S013,SKU-100897,Hot Chocolate Med Dark 14 Oz,2.28,,False
+S013,SKU-100936,French Toast Bagl,1.39,,False
+S013,SKU-101017,Hummus (Mod),1.49,1.39,False
+S013,SKU-101075,Apple,1.29,1.19,False
+S013,SKU-101523,Cookie Decorated Donut 1.82Oz,3.39,,False
+S013,SKU-101809,House Carael Iced Coffee,4.39,,False
+S013,SKU-102199,Chicken roissant,6.29,,False
+S013,SKU-102552,Avocado Roasted Tomato Toast,6.02,,False
+S013,SKU-856046,,12.94,,False
+S013,sku-100403,,3.89,,False
+S014,SKU-100003,2 Donut Holes,0.57,,False
+S014,SKU-100014,Bagel Twist Sour C And Onion,1.59,,False
+S014,SKU-100023,Spicy Omlet Flatbread,5.69|6.72,,True
+S014,SKU-100037,Lg Iced Matcha Latte,7.99,,False
+S014,SKU-100040,,5.59,,False
+S014,SKU-100061,Any Time Combos W Lg Iced Coff,0.98,0.91,False
+S014,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.39,,False
+S014,SKU-100080,Pretzel Roll Chicken Sandwich,6.79,,False
+S014,SKU-100090,Mocha Blend X Lg 24 Oz,4.79,4.69,False
+S014,SKU-100092,Hol Bac Sand,0.01,,False
+S014,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.59,,False
+S014,SKU-100104,2 Lbs. Coffee,14.79,,False
+S014,SKU-100125,Spinach Artichoke Supreme Bagel,1.99,,False
+S014,SKU-100128,Frozen Blend Md Cookie Dough,4.49,,False
+S014,SKU-100131,Bagel W Butter,3.99,,False
+S014,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,5.39,4.99,False
+S014,SKU-100140,Cold Brew Med 24 Oz,6.89,6.69,False
+S014,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.89,,False
+S014,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.69,,False
+S014,SKU-100161,Angus SteakSandwich,2.79,,False
+S014,SKU-100177,Md Hot Chai Latte,6.39,,False
+S014,SKU-100194,Sm Cold Brew Latte,3.99,,False
+S014,SKU-100198,Hot Apple Cider Sm 10 Oz,3.29,3.09,False
+S014,SKU-100211,Bowl Ssg Egg,5.69,,False
+S014,SKU-100217,Chipotle Hash Brown Wake-Up Wrap,4.59,4.39,False
+S014,SKU-100222,House Dblcssg Sand,7.69,,False
+S014,SKU-100237,Frozen Blend Lg Mixology,8.39,7.79,False
+S014,SKU-100253,Morning Wrap Hol Bac,0.01,,False
+S014,SKU-100257,4 Donut Holes,1.79,1.69,False
+S014,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.49,5.19,False
+S014,SKU-100270,Any Time Combos W Med Iced Tea,0.57,,False
+S014,SKU-100281,Md Iced Chai Latte,7.79,7.39,False
+S014,SKU-100323,Cappuccino Large Decaf 20 Oz,3.79,3.59,False
+S014,SKU-100364,Brownie,2.49,2.29,False
+S014,SKU-100371,Iced Tea Sm 16 Oz,5.69,5.29,False
+S014,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.59|4.46,,True
+S014,SKU-100392,Vanilla Chai Large 20 Oz,6.49,,False
+S014,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S014,SKU-100444,14 Oz House Destination Mug,14.79,,False
+S014,SKU-100524,3 Donut Holes,0.85,,False
+S014,SKU-100599,8 Donut Holes,5.09,4.79,False
+S014,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S014,SKU-100741,12 Donuts,23.00,,False
+S014,SKU-100827,Cheesecake Square Cookie Crumb,2.79,,False
+S014,SKU-100936,French Toast Bagl,1.39,,False
+S014,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.69,,False
+S014,SKU-102185,House Original Iced Coffee13.7Oz,5.99,,False
+S014,SKU-102199,Chicken roissant,6.59,6.19,False
+S014,SKU-102358,11Oz Can House Cake Batter,7.49,,False
+S014,SKU-102913,Fall Lip Balm Pumpkin,7.39,6.79,False
+S014,SKU-884120,,12.78,,False
+S014,sku-101467,,1.49,,False
+S014,sku-101664,,3.59,,False
+S015,SKU-102171,Turkey Feast Sandwich,5.88,,False
+S016,SKU-100008,Latte Lite Sm Original 10 Oz,2.69,,False
+S016,SKU-100014,Bagel Twist Sour C And Onion,1.59,1.49,False
+S016,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.79,,False
+S016,SKU-100023,Spicy Omlet Flatbread,5.29,,False
+S016,SKU-100030,Southwestern Veggie Burrito,2.69,,False
+S016,SKU-100034,Tomato Pesto Grilled Cheese,6.29,5.89,False
+S016,SKU-100047,6 Cookie 3 Oz,7.39,,False
+S016,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.19,,False
+S016,SKU-100061,Any Time Combos W Lg Iced Coff,0.86,,False
+S016,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.19,,False
+S016,SKU-100080,Pretzel Roll Chicken Sandwich,6.89,,False
+S016,SKU-100092,Hol Bac Sand,0.01,,False
+S016,SKU-100096,Frozen Blend Med Citrus Soda 24,4.09,,False
+S016,SKU-100098,Double Wall Acrylic 24Oz,10.69,,False
+S016,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.49,5.29,False
+S016,SKU-100128,Frozen Blend Md Cookie Dough,4.29,,False
+S016,SKU-100131,Bagel W Butter,3.79,,False
+S016,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.69,,False
+S016,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.49,,False
+S016,SKU-100161,Angus SteakSandwich,2.69,,False
+S016,SKU-100170,Croiss-Ant Donuts,2.69,,False
+S016,SKU-100177,Md Hot Chai Latte,6.49,5.99,False
+S016,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",4.09,3.89,False
+S016,SKU-100191,Cookie Crumb Matcha,0.91,0.86,False
+S016,SKU-100198,Hot Apple Cider Sm 10 Oz,2.89,,False
+S016,SKU-100215,Md Melted Ice Cream Frozen,6.99,,False
+S016,SKU-100222,House Dblcssg Sand,7.59,7.19,False
+S016,SKU-100237,Frozen Blend Lg Mixology,7.29,,False
+S016,SKU-100304,6 Donuts,13.79,12.99,False
+S016,SKU-100323,Cappuccino Large Decaf 20 Oz,3.39,,False
+S016,SKU-100371,Iced Tea Sm 16 Oz,4.99,,False
+S016,SKU-100392,Vanilla Chai Large 20 Oz,6.49,6.09,False
+S016,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S016,SKU-100506,12 Bagels,12.59,12.19,False
+S016,SKU-100514,Donut Holes Donut Holes 5 Count,2.99,2.79,False
+S016,SKU-100524,3 Donut Holes,0.80,,False
+S016,SKU-100599,8 Donut Holes,4.69,,False
+S016,SKU-100664,Original Coffee Cake Muffin,6.39,,False
+S016,SKU-100694,50 Donut Holes,21.00,,False
+S016,SKU-100900,Bagel Twist,3.69,3.59,False
+S016,SKU-101017,Hummus (Mod),1.29,,False
+S016,SKU-101664,Chocolate Chunk Cookie,3.19,,False
+S016,SKU-102358,11Oz Can House Cake Batter,7.09,,False
+S016,sku-100153,,3.79,,False
+S017,SKU-100003,2 Donut Holes,0.55,0.51,False
+S017,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.79,2.59,False
+S017,SKU-100023,Spicy Omlet Flatbread,5.09,,False
+S017,SKU-100032,1 Lb Coffee Whole Bean Dec,9.19|10.28,,True
+S017,SKU-100037,Lg Iced Matcha Latte,7.19,,False
+S017,SKU-100040,,5.29,4.99,False
+S017,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,4.99,,False
+S017,SKU-100054,Byd Ssg Egg Nchs Sand,5.79,,False
+S017,SKU-100055,K Cup Decaf,12.19,,False
+S017,SKU-100065,Md Frozen Matcha Latte,6.79,,False
+S017,SKU-100068,Lip Balm Keychain Fall,5.09,,False
+S017,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,3.99,,False
+S017,SKU-100096,Frozen Blend Med Citrus Soda 24,3.89,,False
+S017,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,4.99,,False
+S017,SKU-100104,2 Lbs. Coffee,13.29,,False
+S017,SKU-100115,1 Muffin,3.69,3.49,False
+S017,SKU-100125,Spinach Artichoke Supreme Bagel,1.79,,False
+S017,SKU-100128,Frozen Blend Md Cookie Dough,4.09,,False
+S017,SKU-100131,Bagel W Butter,3.89,3.59,False
+S017,SKU-100133,Trky Ssg Egg Nchs Sand,8.69,7.99,False
+S017,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.79,4.49,False
+S017,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.19,,False
+S017,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.39,,False
+S017,SKU-100159,Kolsche,3.59,3.39,False
+S017,SKU-100161,Angus SteakSandwich,2.69,2.49,False
+S017,SKU-100170,Croiss-Ant Donuts,2.49,,False
+S017,SKU-100177,Md Hot Chai Latte,5.99,5.69,False
+S017,SKU-100194,Sm Cold Brew Latte,3.59,,False
+S017,SKU-100198,Hot Apple Cider Sm 10 Oz,2.69,,False
+S017,SKU-100215,Md Melted Ice Cream Frozen,7.09,6.59,False
+S017,SKU-100222,House Dblcssg Sand,7.09,6.89,False
+S017,SKU-100225,Iced Latte Lg Original 32 Oz,6.79,,False
+S017,SKU-100237,Frozen Blend Lg Mixology,6.99,,False
+S017,SKU-100241,Green Goddess,6.09,5.79,False
+S017,SKU-100253,Morning Wrap Hol Bac,0.01,,False
+S017,SKU-100270,Any Time Combos W Med Iced Tea,0.51,,False
+S017,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.19,,False
+S017,SKU-100329,Blueberry Coffee Cake Muffin,6.29,6.09,False
+S017,SKU-100357,Iced Coffee Large Orginal 32Oz,3.99,,False
+S017,SKU-100371,Iced Tea Sm 16 Oz,4.69,,False
+S017,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.49,3.29,False
+S017,SKU-100392,Vanilla Chai Large 20 Oz,6.29,5.89,False
+S017,SKU-100502,12 Croiss-Ant Donuts,20.00,,False
+S017,SKU-100506,12 Bagels,12.69,11.69,False
+S017,SKU-100514,Donut Holes Donut Holes 5 Count,2.69,,False
+S017,SKU-100524,3 Donut Holes,0.77,,False
+S017,SKU-100601,Pretzel Bites,1.99,,False
+S017,SKU-100612,11Oz Can House Coffee Cake,7.09,6.79,False
+S017,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S017,SKU-100664,Original Coffee Cake Muffin,6.09,,False
+S017,SKU-100694,50 Donut Holes,23.00,21.00,False
+S017,SKU-100741,12 Donuts,22.00,21.00,False
+S017,SKU-100808,Apple Fritter Fancy,1.59,1.89|1.49,False
+S017,SKU-100827,Cheesecake Square Cookie Crumb,2.49,,False
+S017,SKU-100900,Bagel Twist,3.49,,False
+S017,SKU-100936,French Toast Bagl,1.19,,False
+S017,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.09,,False
+S017,SKU-101664,Chocolate Chunk Cookie,2.99,,False
+S017,SKU-102613,Hot Coffee Sm Dark Roast 10Oz,0.97,,False
+S018,SKU-100003,2 Donut Holes,0.51,,False
+S018,SKU-100008,Latte Lite Sm Original 10 Oz,2.59,,False
+S018,SKU-100011,Hm And Ew Western,4.39,,False
+S018,SKU-100030,Southwestern Veggie Burrito,2.59,,False
+S018,SKU-100034,Tomato Pesto Grilled Cheese,5.89,5.59,False
+S018,SKU-100037,Lg Iced Matcha Latte,7.79,7.19,False
+S018,SKU-100054,Byd Ssg Egg Nchs Sand,5.79,,False
+S018,SKU-100061,Any Time Combos W Lg Iced Coff,0.87,0.82,False
+S018,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,3.99,,False
+S018,SKU-100090,Mocha Blend X Lg 24 Oz,4.19,,False
+S018,SKU-100092,Hol Bac Sand,0.01,,False
+S018,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.09,,False
+S018,SKU-100104,2 Lbs. Coffee,1.38,13.29,False
+S018,SKU-100125,Spinach Artichoke Supreme Bagel,1.79,,False
+S018,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.49,,False
+S018,SKU-100159,Kolsche,3.39,,False
+S018,SKU-100161,Angus SteakSandwich,2.59,,False
+S018,SKU-100178,Frozen Blend Med Frozen Lemonade,6.29,,False
+S018,SKU-100215,Md Melted Ice Cream Frozen,6.99,6.69,False
+S018,SKU-100217,Chipotle Hash Brown Wake-Up Wrap,4.09,3.99,False
+S018,SKU-100225,Iced Latte Lg Original 32 Oz,7.39,6.89,False
+S018,SKU-100228,Iced Cappuccino Md 24 Oz,6.79,,False
+S018,SKU-100237,Frozen Blend Lg Mixology,6.99,,False
+S018,SKU-100241,Green Goddess,0.58,,False
+S018,SKU-100250,Chicken Snack N Go Wrap,4.39,4.09,False
+S018,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,4.69,,False
+S018,SKU-100270,Any Time Combos W Med Iced Tea,0.51,,False
+S018,SKU-100323,Cappuccino Large Decaf 20 Oz,3.29,,False
+S018,SKU-100371,Iced Tea Sm 16 Oz,4.79,,False
+S018,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.49,,False
+S018,SKU-100392,Vanilla Chai Large 20 Oz,6.19,5.89,False
+S018,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,0.99,False
+S018,SKU-100403,2 Mffin 6Pc Hb,3.49,,False
+S018,SKU-100502,12 Croiss-Ant Donuts,21.00,20.00,False
+S018,SKU-100506,12 Bagels,11.69,,False
+S018,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S018,SKU-100664,Original Coffee Cake Muffin,6.49,6.09,False
+S018,SKU-100827,Cheesecake Square Cookie Crumb,2.59,,False
+S018,SKU-100900,Bagel Twist,3.69,3.49,False
+S018,SKU-101075,Apple,1.09,,False
+S018,SKU-101611,Hot Chocolate Med Mint 14 Oz,2.04,,False
+S018,SKU-101664,Chocolate Chunk Cookie,3.09,,False
+S018,SKU-101742,Tumbler Stainless Sipper,15.37,,False
+S018,SKU-101809,House Carael Iced Coffee,4.29,3.99,False
+S018,SKU-102199,Chicken roissant,5.59,,False
+S018,SKU-102560,Bacon Roll Up,2.09,,False
+S018,SKU-102913,Fall Lip Balm Pumpkin,6.09,,False
+S018,SKU-864511,,1.21,,False
+S018,sku-100109,,6.29,,False
+S019,SKU-100004,Sm Hot Colombian Coffee,2.19,,False
+S019,SKU-100014,Bagel Twist Sour C And Onion,1.39,,False
+S019,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.79,2.59,False
+S019,SKU-100023,Spicy Omlet Flatbread,5.29,4.99,False
+S019,SKU-100030,Southwestern Veggie Burrito,2.49,,False
+S019,SKU-100034,Tomato Pesto Grilled Cheese,5.49,,False
+S019,SKU-100037,Lg Iced Matcha Latte,7.69,7.09,False
+S019,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,4.89,,False
+S019,SKU-100061,Any Time Combos W Lg Iced Coff,0.80,,False
+S019,SKU-100068,Lip Balm Keychain Fall,5.39,4.99,False
+S019,SKU-100070,Mug Ceramic Pink/White 12 Count,14.09,,False
+S019,SKU-100092,Hol Bac Sand,0.01,,False
+S019,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.39,4.99,False
+S019,SKU-100104,2 Lbs. Coffee,13.09,,False
+S019,SKU-100108,Chorizo & Egg Flatbread,6.69,,False
+S019,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.09,5.69,False
+S019,SKU-100123,Chorizo Bowl,5.29,4.99,False
+S019,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.79,4.39,False
+S019,SKU-100142,With Med Coffee Go Lg,0.29,,False
+S019,SKU-100155,Frozen Blend Lg Cookie Crumb,7.29,6.89,False
+S019,SKU-100161,Angus SteakSandwich,2.49,,False
+S019,SKU-100177,Md Hot Chai Latte,5.79,5.59,False
+S019,SKU-100185,Tumbler Bermuda Fall 2023 6/20 Ounce,15.09,,False
+S019,SKU-100201,Md Iced Caf Au Lait,4.19,3.99,False
+S019,SKU-100205,8 Count Mini Chocolate Chip Cookie,1.89,,False
+S019,SKU-100217,Chipotle Hash Brown Wake-Up Wrap,4.19,3.89,False
+S019,SKU-100222,House Dblcssg Sand,6.79,,False
+S019,SKU-100237,Frozen Blend Lg Mixology,6.89,,False
+S019,SKU-100250,Chicken Snack N Go Wrap,3.99,,False
+S019,SKU-100253,Morning Wrap Hol Bac,0.01,,False
+S019,SKU-100257,4 Donut Holes,1.49,,False
+S019,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,4.79,4.59,False
+S019,SKU-100329,Blueberry Coffee Cake Muffin,6.49,5.99,False
+S019,SKU-100357,Iced Coffee Large Orginal 32Oz,3.99,,False
+S019,SKU-100363,Energy Cold Brew Lg 32 Oz,7.39,6.99,False
+S019,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.00,,False
+S019,SKU-100429,Flat Sandwiches Turkey And Ba,3.61,,False
+S019,SKU-100524,3 Donut Holes,0.79,,False
+S019,SKU-100599,8 Donut Holes,4.19,,False
+S019,SKU-100612,11Oz Can House Coffee Cake,6.69,,False
+S019,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S019,SKU-100664,Original Coffee Cake Muffin,6.29,5.99,False
+S019,SKU-100694,50 Donut Holes,22.00,20.00,False
+S019,SKU-100768,Pepper Jack Supreme Bagel,1.79,,False
+S019,SKU-100827,Cheesecake Square Cookie Crumb,2.49|3.21,,True
+S019,SKU-100900,Bagel Twist,3.59,3.39,False
+S019,SKU-100936,French Toast Bagl,1.19|1.31,,True
+S019,SKU-101777,Catering 6 Croissants,10.45,,False
+S019,SKU-102199,Chicken roissant,5.49,,False
+S019,SKU-102286,Cold Brew Small 16 Oz,5.58,,False
+S019,SKU-102358,11Oz Can House Cake Batter,6.69,,False
+S019,SKU-102560,Bacon Roll Up,1.99,,False
+S019,sku-100292,,2.29,,False
+S019,sku-100304,,12.19,,False
+S020,SKU-100003,2 Donut Holes,0.55,,False
+S020,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.79,,False
+S020,SKU-100023,Spicy Omlet Flatbread,5.89,5.49,False
+S020,SKU-100037,Lg Iced Matcha Latte,7.79,,False
+S020,SKU-100040,,5.69,5.39,False
+S020,SKU-100045,Americana Tumbler 24Oz,18.69,,False
+S020,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.39,,False
+S020,SKU-100061,Any Time Combos W Lg Iced Coff,0.92,0.88,False
+S020,SKU-100080,Pretzel Roll Chicken Sandwich,6.59,,False
+S020,SKU-100096,Frozen Blend Med Citrus Soda 24,4.49,4.19,False
+S020,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.79,5.39,False
+S020,SKU-100104,2 Lbs. Coffee,15.39,14.29,False
+S020,SKU-100118,Any Time Combos W Med Iced Coffee,0.55,,False
+S020,SKU-100123,Chorizo Bowl,5.49,,False
+S020,SKU-100128,Frozen Blend Md Cookie Dough,4.39,,False
+S020,SKU-100131,Bagel W Butter,3.89,,False
+S020,SKU-100140,Cold Brew Med 24 Oz,6.79,6.49,False
+S020,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.59,,False
+S020,SKU-100155,Frozen Blend Lg Cookie Crumb,7.89,7.49,False
+S020,SKU-100159,Kolsche,3.79,3.59,False
+S020,SKU-100161,Angus SteakSandwich,2.89,2.69,False
+S020,SKU-100170,Croiss-Ant Donuts,2.69,,False
+S020,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",3.99,,False
+S020,SKU-100191,Cookie Crumb Matcha,0.92,0.88,False
+S020,SKU-100198,Hot Apple Cider Sm 10 Oz,2.99,,False
+S020,SKU-100201,Md Iced Caf Au Lait,4.39,,False
+S020,SKU-100211,Bowl Ssg Egg,5.79,5.49,False
+S020,SKU-100222,House Dblcssg Sand,7.89,7.39,False
+S020,SKU-100225,Iced Latte Lg Original 32 Oz,7.39,,False
+S020,SKU-100232,Angus Steak & Cheese Wrap,3.29,,False
+S020,SKU-100237,Frozen Blend Lg Mixology,7.79,7.49,False
+S020,SKU-100250,Chicken Snack N Go Wrap,4.39,,False
+S020,SKU-100253,Morning Wrap Hol Bac,0.01,,False
+S020,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.39,4.99,False
+S020,SKU-100270,Any Time Combos W Med Iced Tea,0.55,,False
+S020,SKU-100279,1 Lb Dark Roast Ground,10.99,,False
+S020,SKU-100281,Md Iced Chai Latte,7.09,,False
+S020,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.39,,False
+S020,SKU-100323,Cappuccino Large Decaf 20 Oz,3.49,,False
+S020,SKU-100329,Blueberry Coffee Cake Muffin,6.59,,False
+S020,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.59,3.49,False
+S020,SKU-100392,Vanilla Chai Large 20 Oz,6.29,,False
+S020,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S020,SKU-100471,27Oz Silicone Sipper,15.29,14.29,False
+S020,SKU-100473,6 Bacon Donuts,13.89,,False
+S020,SKU-100506,12 Bagels,12.59,,False
+S020,SKU-100514,Donut Holes Donut Holes 5 Count,2.89,,False
+S020,SKU-100524,3 Donut Holes,0.82|1.04,,True
+S020,SKU-100599,8 Donut Holes,4.59,,False
+S020,SKU-100601,Pretzel Bites,2.39|2.77,2.19,True
+S020,SKU-100661,Loaf Pumpkin Slice Wrapped 20 Per Cs,4.39,,False
+S020,SKU-100664,Original Coffee Cake Muffin,6.59,,False
+S020,SKU-100694,50 Donut Holes,22.00,,False
+S020,SKU-100715,Catering 6 Bagels,5.39|6.30,,True
+S020,SKU-100741,12 Donuts,22.00,,False
+S020,SKU-100936,French Toast Bagl,1.39,1.29,False
+S020,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.69|7.27,5.49,True
+S020,SKU-101075,Apple,1.19,,False
+S020,SKU-102185,House Original Iced Coffee13.7Oz,5.49,,False
+S020,SKU-102358,11Oz Can House Cake Batter,7.29,,False
+S020,SKU-102560,Bacon Roll Up,2.19,,False
+S020,SKU-102913,Fall Lip Balm Pumpkin,7.09,6.59,False
+S020,SKU-806180,,7.67,,False
+S020,SKU-807135,,2.26,,False
+S020,SKU-872810,,3.59,,False
+S021,SKU-100003,2 Donut Holes,0.54,,False
+S021,SKU-100014,Bagel Twist Sour C And Onion,1.59,1.49,False
+S021,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.99,2.79,False
+S021,SKU-100023,Spicy Omlet Flatbread,5.59,5.39,False
+S021,SKU-100034,Tomato Pesto Grilled Cheese,6.09,5.89,False
+S021,SKU-100061,Any Time Combos W Lg Iced Coff,0.93,0.86,False
+S021,SKU-100065,Md Frozen Matcha Latte,7.19,,False
+S021,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.39,4.19,False
+S021,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.29,,False
+S021,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.09,,False
+S021,SKU-100128,Frozen Blend Md Cookie Dough,4.29,,False
+S021,SKU-100131,Bagel W Butter,3.79,,False
+S021,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.69,,False
+S021,SKU-100140,Cold Brew Med 24 Oz,6.39,,False
+S021,SKU-100142,With Med Coffee Go Lg,0.31,,False
+S021,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.89,3.59,False
+S021,SKU-100161,Angus SteakSandwich,2.89,2.69,False
+S021,SKU-100170,Croiss-Ant Donuts,2.69|2.95,,True
+S021,SKU-100198,Hot Apple Cider Sm 10 Oz,2.89,,False
+S021,SKU-100215,Md Melted Ice Cream Frozen,7.49,6.99,False
+S021,SKU-100222,House Dblcssg Sand,7.29,,False
+S021,SKU-100228,Iced Cappuccino Md 24 Oz,7.69,7.09,False
+S021,SKU-100230,Frozen Blend Lg Vanilla Bean,7.39,,False
+S021,SKU-100232,Angus Steak & Cheese Wrap,3.19,,False
+S021,SKU-100237,Frozen Blend Lg Mixology,7.39,,False
+S021,SKU-100241,Green Goddess,6.09,,False
+S021,SKU-100257,4 Donut Holes,1.59,,False
+S021,SKU-100279,1 Lb Dark Roast Ground,11.79,10.79,False
+S021,SKU-100281,Md Iced Chai Latte,7.29,6.99,False
+S021,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.39,,False
+S021,SKU-100304,6 Donuts,13.09,,False
+S021,SKU-100371,Iced Tea Sm 16 Oz,4.99,,False
+S021,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.39,,False
+S021,SKU-100386,Premium S/Steel Tumbler,13.99,,False
+S021,SKU-100392,Vanilla Chai Large 20 Oz,6.19,,False
+S021,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S021,SKU-100403,2 Mffin 6Pc Hb,3.89,3.69,False
+S021,SKU-100471,27Oz Silicone Sipper,14.99,13.99,False
+S021,SKU-100484,24Oz Halloween Tumbler,13.99,,False
+S021,SKU-100502,12 Croiss-Ant Donuts,22.00,,False
+S021,SKU-100506,12 Bagels,13.49,12.39,False
+S021,SKU-100514,Donut Holes Donut Holes 5 Count,2.89,,False
+S021,SKU-100524,3 Donut Holes,0.81,,False
+S021,SKU-100599,8 Donut Holes,4.49,,False
+S021,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S021,SKU-100664,Original Coffee Cake Muffin,6.99,6.49,False
+S021,SKU-100768,Pepper Jack Supreme Bagel,1.89,,False
+S021,SKU-100827,Cheesecake Square Cookie Crumb,2.69,,False
+S021,SKU-100900,Bagel Twist,3.69,,False
+S021,SKU-100936,French Toast Bagl,1.29,,False
+S021,SKU-101017,Hummus (Mod),1.39,,False
+S021,SKU-101523,Cookie Decorated Donut 1.82Oz,3.19,,False
+S021,SKU-101664,Chocolate Chunk Cookie,3.19,,False
+S021,SKU-101773,Frozen Blend Xl Tropical Orange,4.63,,False
+S021,SKU-102199,Chicken roissant,6.29|7.33,5.89,True
+S021,SKU-102358,11Oz Can House Cake Batter,7.19,,False
+S021,SKU-102560,Bacon Roll Up,2.39,2.19,False
+S021,sku-100037,,8.19,,False
+S022,SKU-100003,2 Donut Holes,0.58,,False
+S022,SKU-100014,Bagel Twist Sour C And Onion,1.69,1.59,False
+S022,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.99,,False
+S022,SKU-100023,Spicy Omlet Flatbread,6.29,5.79,False
+S022,SKU-100030,Southwestern Veggie Burrito,2.89,,False
+S022,SKU-100037,Lg Iced Matcha Latte,8.19,,False
+S022,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.69,,False
+S022,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.49,,False
+S022,SKU-100080,Pretzel Roll Chicken Sandwich,7.49,6.89,False
+S022,SKU-100086,28Oz Stainless Steel Hydration,27.00,,False
+S022,SKU-100090,Mocha Blend X Lg 24 Oz,4.69,,False
+S022,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.69,,False
+S022,SKU-100104,2 Lbs. Coffee,16.19,14.99,False
+S022,SKU-100109,Frozen Vanilla Chai Md 24 Oz,7.09,6.59,False
+S022,SKU-100118,Any Time Combos W Med Iced Coffee,0.58,,False
+S022,SKU-100128,Frozen Blend Md Cookie Dough,4.89,4.59,False
+S022,SKU-100131,Bagel W Butter,4.09,,False
+S022,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,5.09,,False
+S022,SKU-100140,Cold Brew Med 24 Oz,6.79,,False
+S022,SKU-100142,With Med Coffee Go Lg,0.34,,False
+S022,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.79,,False
+S022,SKU-100161,Angus SteakSandwich,3.09,2.89,False
+S022,SKU-100177,Md Hot Chai Latte,6.49,,False
+S022,SKU-100178,Frozen Blend Med Frozen Lemonade,7.09,,False
+S022,SKU-100198,Hot Apple Cider Sm 10 Oz,3.29,3.09,False
+S022,SKU-100205,8 Count Mini Chocolate Chip Cookie,2.19,,False
+S022,SKU-100215,Md Melted Ice Cream Frozen,0.81,7.49,False
+S022,SKU-100225,Iced Latte Lg Original 32 Oz,7.89,7.69,False
+S022,SKU-100228,Iced Cappuccino Md 24 Oz,7.59,,False
+S022,SKU-100237,Frozen Blend Lg Mixology,8.29,7.89,False
+S022,SKU-100257,4 Donut Holes,1.69,,False
+S022,SKU-100270,Any Time Combos W Med Iced Tea,0.62,0.62|0.58,False
+S022,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.69,2.49,False
+S022,SKU-100323,Cappuccino Large Decaf 20 Oz,3.99,3.69,False
+S022,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.99,3.69,False
+S022,SKU-100392,Vanilla Chai Large 20 Oz,6.59,,False
+S022,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S022,SKU-100403,2 Mffin 6Pc Hb,3.89,,False
+S022,SKU-100473,6 Bacon Donuts,14.59,,False
+S022,SKU-100502,12 Croiss-Ant Donuts,24.00,23.00,False
+S022,SKU-100506,12 Bagels,13.19,,False
+S022,SKU-100514,Donut Holes Donut Holes 5 Count,3.19,3.09,False
+S022,SKU-100554,Jalapeno Kolache,1.49,,False
+S022,SKU-100612,11Oz Can House Coffee Cake,8.09,7.69,False
+S022,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S022,SKU-100664,Original Coffee Cake Muffin,7.09,6.89|8.72,False
+S022,SKU-100694,50 Donut Holes,24.00,23.00,False
+S022,SKU-100827,Cheesecake Square Cookie Crumb,2.89,,False
+S022,SKU-100900,Bagel Twist,3.89,,False
+S022,SKU-100936,French Toast Bagl,1.39,,False
+S022,SKU-101412,Pod Peppermint Mocha Pod,12.16,,False
+S022,SKU-101607,Frozen Blend Lg Cookie Dough,6.95,,False
+S022,SKU-102358,11Oz Can House Cake Batter,7.69,,False
+S022,SKU-102560,Bacon Roll Up,2.39,2.29,False
+S022,SKU-825498,,1.35,,False
+S022,sku-100092,,0.01,,False
+S022,sku-100304,,13.99,,False
+S023,SKU-100014,Bagel Twist Sour C And Onion,1.59,,False
+S023,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.99,,False
+S023,SKU-100023,Spicy Omlet Flatbread,5.89,,False
+S023,SKU-100030,Southwestern Veggie Burrito,2.99,2.89,False
+S023,SKU-100034,Tomato Pesto Grilled Cheese,6.49,,False
+S023,SKU-100037,Lg Iced Matcha Latte,8.29,,False
+S023,SKU-100040,,5.89,5.69,False
+S023,SKU-100054,Byd Ssg Egg Nchs Sand,6.69,,False
+S023,SKU-100065,Md Frozen Matcha Latte,8.19,7.89,False
+S023,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.59,,False
+S023,SKU-100080,Pretzel Roll Chicken Sandwich,7.39,6.99,False
+S023,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.79,,False
+S023,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.69,,False
+S023,SKU-100123,Chorizo Bowl,5.89,,False
+S023,SKU-100128,Frozen Blend Md Cookie Dough,4.69,,False
+S023,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,5.29,5.09,False
+S023,SKU-100140,Cold Brew Med 24 Oz,6.89,,False
+S023,SKU-100147,House 20Oz Stnless/Acryl Tumbler Mx Med,12.39,,False
+S023,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,4.09,3.89,False
+S023,SKU-100155,Frozen Blend Lg Cookie Crumb,8.49,7.99,False
+S023,SKU-100161,Angus SteakSandwich,3.09,2.89,False
+S023,SKU-100170,Croiss-Ant Donuts,2.89,,False
+S023,SKU-100177,Md Hot Chai Latte,7.09,6.59,False
+S023,SKU-100194,Sm Cold Brew Latte,4.09,,False
+S023,SKU-100198,Hot Apple Cider Sm 10 Oz,3.29,3.19,False
+S023,SKU-100222,House Dblcssg Sand,7.89,,False
+S023,SKU-100228,Iced Cappuccino Md 24 Oz,7.69,,False
+S023,SKU-100237,Frozen Blend Lg Mixology,7.99,,False
+S023,SKU-100257,4 Donut Holes,1.79,,False
+S023,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.39,,False
+S023,SKU-100279,1 Lb Dark Roast Ground,11.69,,False
+S023,SKU-100281,Md Iced Chai Latte,8.09,7.59,False
+S023,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.69,,False
+S023,SKU-100329,Blueberry Coffee Cake Muffin,6.99,,False
+S023,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.69,,False
+S023,SKU-100392,Vanilla Chai Large 20 Oz,6.69,,False
+S023,SKU-100403,2 Mffin 6Pc Hb,4.19,3.99,False
+S023,SKU-100484,24Oz Halloween Tumbler,15.79,15.19,False
+S023,SKU-100502,12 Croiss-Ant Donuts,24.00,23.00,False
+S023,SKU-100506,12 Bagels,13.39,,False
+S023,SKU-100524,3 Donut Holes,0.88,,False
+S023,SKU-100554,Jalapeno Kolache,1.59,1.49,False
+S023,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S023,SKU-100664,Original Coffee Cake Muffin,7.59,6.99,False
+S023,SKU-100694,50 Donut Holes,24.00,,False
+S023,SKU-100768,Pepper Jack Supreme Bagel,2.09,,False
+S023,SKU-100808,Apple Fritter Fancy,1.69,,False
+S023,SKU-100827,Cheesecake Square Cookie Crumb,2.89,,False
+S023,SKU-100900,Bagel Twist,3.99,,False
+S023,SKU-101017,Hummus (Mod),1.59,1.49,False
+S023,SKU-101075,Apple,1.29,,False
+S023,SKU-101467,Banana,1.39,,False
+S023,SKU-101809,House Carael Iced Coffee,4.79,4.59,False
+S023,SKU-102185,House Original Iced Coffee13.7Oz,6.19,5.89,False
+S023,SKU-102358,11Oz Can House Cake Batter,7.79,,False
+S023,SKU-102560,Bacon Roll Up,2.39,,False
+S023,SKU-102913,Fall Lip Balm Pumpkin,7.59|9.62,6.99,True
+S023,SKU-841299,,8.66,,False
+S023,SKU-870938,,5.06,,False
+S024,SKU-100604,Hot Coffee Sm Decaf 10 Oz,1.54,,False
+S025,SKU-100003,2 Donut Holes,0.55,0.51,False
+S025,SKU-100011,Hm And Ew Western,3.99,,False
+S025,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.69,2.59,False
+S025,SKU-100032,1 Lb Coffee Whole Bean Dec,9.79,9.09,False
+S025,SKU-100040,,4.99,,False
+S025,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,4.99,,False
+S025,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,4.99,,False
+S025,SKU-100108,Chorizo & Egg Flatbread,6.99,6.69,False
+S025,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.09,5.79,False
+S025,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.69,4.39|5.67,False
+S025,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.09,,False
+S025,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.29,,False
+S025,SKU-100159,Kolsche,3.29,,False
+S025,SKU-100170,Croiss-Ant Donuts,2.59,2.49,False
+S025,SKU-100178,Frozen Blend Med Frozen Lemonade,6.59,6.19,False
+S025,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",3.89,3.69,False
+S025,SKU-100194,Sm Cold Brew Latte,36.90,3.49,False
+S025,SKU-100198,Hot Apple Cider Sm 10 Oz,2.89,2.69,False
+S025,SKU-100205,8 Count Mini Chocolate Chip Cookie,1.99,1.89,False
+S025,SKU-100215,Md Melted Ice Cream Frozen,6.59,,False
+S025,SKU-100228,Iced Cappuccino Md 24 Oz,6.69,,False
+S025,SKU-100257,4 Donut Holes,1.49,,False
+S025,SKU-100304,6 Donuts,12.79,12.29,False
+S025,SKU-100323,Cappuccino Large Decaf 20 Oz,3.39,3.19,False
+S025,SKU-100363,Energy Cold Brew Lg 32 Oz,7.59,7.09,False
+S025,SKU-100364,Brownie,1.99,,False
+S025,SKU-100371,Iced Tea Sm 16 Oz,4.69,,False
+S025,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.19,,False
+S025,SKU-100392,Vanilla Chai Large 20 Oz,5.79,,False
+S025,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,0.99,,False
+S025,SKU-100473,6 Bacon Donuts,12.79,,False
+S025,SKU-100524,3 Donut Holes,0.76,,False
+S025,SKU-100599,8 Donut Holes,4.29,,False
+S025,SKU-100612,11Oz Can House Coffee Cake,6.99,6.69,False
+S025,SKU-100664,Original Coffee Cake Muffin,6.09,,False
+S025,SKU-100694,50 Donut Holes,20.00,,False
+S025,SKU-100768,Pepper Jack Supreme Bagel,1.79,,False
+S025,SKU-100900,Bagel Twist,3.59,3.39,False
+S025,SKU-100936,French Toast Bagl,1.19,,False
+S025,SKU-101017,Hummus (Mod),1.29,,False
+S025,SKU-101523,Cookie Decorated Donut 1.82Oz,3.19,2.99,False
+S025,SKU-101828,1 Lb Coffee Whole Bean Reg,9.92,,False
+S025,SKU-102199,Chicken roissant,5.99,5.59,False
+S025,SKU-102358,11Oz Can House Cake Batter,6.69,,False
+S025,SKU-836455,,5.68,,False
+S025,SKU-853531,,6.69,,False
+S025,SKU-898239,,3.48,,False
+S025,SKU-898364,,10.35,,False
+S026,SKU-100003,2 Donut Holes,0.53,,False
+S026,SKU-100011,Hm And Ew Western,4.29,,False
+S026,SKU-100030,Southwestern Veggie Burrito,2.69,,False
+S026,SKU-100032,1 Lb Coffee Whole Bean Dec,10.09,,False
+S026,SKU-100037,Lg Iced Matcha Latte,7.49,,False
+S026,SKU-100055,K Cup Decaf,13.29,12.79,False
+S026,SKU-100061,Any Time Combos W Lg Iced Coff,0.85,,False
+S026,SKU-100065,Md Frozen Matcha Latte,7.19,,False
+S026,SKU-100070,Mug Ceramic Pink/White 12 Count,14.89,,False
+S026,SKU-100077,Hot Macchiato Med Original16 Oz,6.39,,False
+S026,SKU-100096,Frozen Blend Med Citrus Soda 24,4.29,3.99,False
+S026,SKU-100108,Chorizo & Egg Flatbread,7.69,7.09,False
+S026,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.09,,False
+S026,SKU-100123,Chorizo Bowl,5.29,,False
+S026,SKU-100125,Spinach Artichoke Supreme Bagel,1.89,,False
+S026,SKU-100128,Frozen Blend Md Cookie Dough,4.29,,False
+S026,SKU-100131,Bagel W Butter,3.79,,False
+S026,SKU-100133,Trky Ssg Egg Nchs Sand,8.29,,False
+S026,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.69,,False
+S026,SKU-100142,With Med Coffee Go Lg,0.31,,False
+S026,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.49,,False
+S026,SKU-100155,Frozen Blend Lg Cookie Crumb,7.69,7.29,False
+S026,SKU-100161,Angus SteakSandwich,2.69|3.45,,True
+S026,SKU-100178,Frozen Blend Med Frozen Lemonade,6.49,,False
+S026,SKU-100198,Hot Apple Cider Sm 10 Oz,2.99,2.89,False
+S026,SKU-100205,8 Count Mini Chocolate Chip Cookie,1.99,,False
+S026,SKU-100211,Bowl Ssg Egg,5.29,,False
+S026,SKU-100215,Md Melted Ice Cream Frozen,68.90,,False
+S026,SKU-100217,Chipotle Hash Brown Wake-Up Wrap,4.19,,False
+S026,SKU-100222,House Dblcssg Sand,7.69,7.19,False
+S026,SKU-100225,Iced Latte Lg Original 32 Oz,7.19,,False
+S026,SKU-100228,Iced Cappuccino Md 24 Oz,7.69,7.09,False
+S026,SKU-100237,Frozen Blend Lg Mixology,7.29,,False
+S026,SKU-100241,Green Goddess,6.09,,False
+S026,SKU-100250,Chicken Snack N Go Wrap,4.29,,False
+S026,SKU-100279,1 Lb Dark Roast Ground,11.49,10.69,False
+S026,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.29,,False
+S026,SKU-100329,Blueberry Coffee Cake Muffin,6.39,,False
+S026,SKU-100364,Brownie,2.19,2.09,False
+S026,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.39,,False
+S026,SKU-100392,Vanilla Chai Large 20 Oz,6.59,6.09,False
+S026,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S026,SKU-100524,3 Donut Holes,0.80,,False
+S026,SKU-100554,Jalapeno Kolache,1.39,,False
+S026,SKU-100664,Original Coffee Cake Muffin,6.69,6.39,False
+S026,SKU-100779,K Cup Original,12.44,,False
+S026,SKU-100808,Apple Fritter Fancy,1.69|2.17,1.59,True
+S026,SKU-100827,Cheesecake Square Cookie Crumb,2.79,2.69,False
+S026,SKU-100936,French Toast Bagl,1.29,,False
+S026,SKU-101052,,6.48,,False
+S026,SKU-101467,Banana,1.29,,False
+S026,SKU-101523,Cookie Decorated Donut 1.82Oz,3.19,,False
+S026,SKU-101664,Chocolate Chunk Cookie,3.19,,False
+S026,SKU-101809,House Carael Iced Coffee,4.59,4.19,False
+S026,SKU-102185,House Original Iced Coffee13.7Oz,5.69,5.29,False
+S026,SKU-102199,Chicken roissant,5.89,,False
+S026,SKU-102548,,4.51,,False
+S026,SKU-102560,Bacon Roll Up,2.09,,False
+S026,SKU-851063,,4.35,,False
+S027,SKU-100003,2 Donut Holes,0.51,,False
+S027,SKU-100023,Spicy Omlet Flatbread,5.09,,False
+S027,SKU-100037,Lg Iced Matcha Latte,7.19,,False
+S027,SKU-100040,,4.99,,False
+S027,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.29,4.99,False
+S027,SKU-100054,Byd Ssg Egg Nchs Sand,6.19,5.79,False
+S027,SKU-100068,Lip Balm Keychain Fall,5.09,,False
+S027,SKU-100070,Mug Ceramic Pink/White 12 Count,14.39,,False
+S027,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.19,3.99,False
+S027,SKU-100096,Frozen Blend Med Citrus Soda 24,3.89,,False
+S027,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.49,5.09,False
+S027,SKU-100104,2 Lbs. Coffee,13.29,,False
+S027,SKU-100108,Chorizo & Egg Flatbread,7.19,6.79,False
+S027,SKU-100109,Frozen Vanilla Chai Md 24 Oz,5.79,,False
+S027,SKU-100128,Frozen Blend Md Cookie Dough,4.09,,False
+S027,SKU-100131,Bagel W Butter,3.59,,False
+S027,SKU-100133,Trky Ssg Egg Nchs Sand,7.99,,False
+S027,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.49,,False
+S027,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.19,,False
+S027,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.39,,False
+S027,SKU-100159,Kolsche,3.69,3.39,False
+S027,SKU-100161,Angus SteakSandwich,2.59,,False
+S027,SKU-100170,Croiss-Ant Donuts,2.59,,False
+S027,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",3.89,3.69,False
+S027,SKU-100198,Hot Apple Cider Sm 10 Oz,2.89,2.79,False
+S027,SKU-100203,Tumbler Iconic Sipper,14.29,13.29,False
+S027,SKU-100211,Bowl Ssg Egg,5.49,5.09,False
+S027,SKU-100215,Md Melted Ice Cream Frozen,6.69,,False
+S027,SKU-100222,House Dblcssg Sand,6.89,,False
+S027,SKU-100228,Iced Cappuccino Md 24 Oz,6.79,,False
+S027,SKU-100237,Frozen Blend Lg Mixology,6.99,,False
+S027,SKU-100241,Green Goddess,6.29,5.79,False
+S027,SKU-100250,Chicken Snack N Go Wrap,4.09,,False
+S027,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,4.69,,False
+S027,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.19,,False
+S027,SKU-100304,6 Donuts,12.99,12.49,False
+S027,SKU-100323,Cappuccino Large Decaf 20 Oz,3.39,3.29,False
+S027,SKU-100329,Blueberry Coffee Cake Muffin,6.49,6.19,False
+S027,SKU-100363,Energy Cold Brew Lg 32 Oz,7.19,,False
+S027,SKU-100392,Vanilla Chai Large 20 Oz,6.19,5.89,False
+S027,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,0.99,,False
+S027,SKU-100403,2 Mffin 6Pc Hb,3.49,,False
+S027,SKU-100484,24Oz Halloween Tumbler,14.19,13.29,False
+S027,SKU-100514,Donut Holes Donut Holes 5 Count,2.69,,False
+S027,SKU-100524,3 Donut Holes,0.77,,False
+S027,SKU-100599,8 Donut Holes,4.59,4.29,False
+S027,SKU-100601,Pretzel Bites,2.09,,False
+S027,SKU-100612,11Oz Can House Coffee Cake,6.79,,False
+S027,SKU-100661,Loaf Pumpkin Slice Wrapped 20 Per Cs,4.29,4.09,False
+S027,SKU-100664,Original Coffee Cake Muffin,6.19,,False
+S027,SKU-100694,50 Donut Holes,21.00,,False
+S027,SKU-100768,Pepper Jack Supreme Bagel,1.79,,False
+S027,SKU-100900,Bagel Twist,3.79,3.49,False
+S027,SKU-100936,French Toast Bagl,1.19,,False
+S027,SKU-101017,Hummus (Mod),1.29,,False
+S027,SKU-101467,Banana,1.29,1.19,False
+S027,SKU-101809,House Carael Iced Coffee,4.19,3.99,False
+S027,SKU-102185,House Original Iced Coffee13.7Oz,5.09,,False
+S027,SKU-102358,11Oz Can House Cake Batter,6.79,,False
+S027,SKU-102913,Fall Lip Balm Pumpkin,6.19,,False
+S027,SKU-816913,,11.11,,False
+S027,SKU-884959,,1.43,,False
+S027,SKU-888675,,3.01,,False
+S027,sku-100364,,1.99,,False
+S027,sku-102560,,2.29,,False
+S028,SKU-100003,2 Donut Holes,0.59,0.57,False
+S028,SKU-100011,Hm And Ew Western,4.49,,False
+S028,SKU-100014,Bagel Twist Sour C And Onion,1.59,,False
+S028,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.89,,False
+S028,SKU-100023,Spicy Omlet Flatbread,5.69,,False
+S028,SKU-100030,Southwestern Veggie Burrito,2.89,2.79,False
+S028,SKU-100032,1 Lb Coffee Whole Bean Dec,10.19|11.31,,True
+S028,SKU-100034,Tomato Pesto Grilled Cheese,6.29,,False
+S028,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.99,5.59,False
+S028,SKU-100055,K Cup Decaf,13.59,,False
+S028,SKU-100061,Any Time Combos W Lg Iced Coff,0.91,,False
+S028,SKU-100090,Mocha Blend X Lg 24 Oz,5.09|6.02,4.69,True
+S028,SKU-100096,Frozen Blend Med Citrus Soda 24,4.29,,False
+S028,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.99,6.97|5.59,False
+S028,SKU-100108,Chorizo & Egg Flatbread,8.19,,False
+S028,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.49,,False
+S028,SKU-100118,Any Time Combos W Med Iced Coffee,0.59,0.57,False
+S028,SKU-100128,Frozen Blend Md Cookie Dough,4.69,,False
+S028,SKU-100131,Bagel W Butter,4.19,3.99,False
+S028,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.99,,False
+S028,SKU-100140,Cold Brew Med 24 Oz,6.69,,False
+S028,SKU-100142,With Med Coffee Go Lg,0.34,0.33,False
+S028,SKU-100147,House 20Oz Stnless/Acryl Tumbler Mx Med,11.39,,False
+S028,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.89,,False
+S028,SKU-100159,Kolsche,3.69,,False
+S028,SKU-100161,Angus SteakSandwich,2.89,2.79,False
+S028,SKU-100170,Croiss-Ant Donuts,2.79,,False
+S028,SKU-100177,Md Hot Chai Latte,6.59,6.39,False
+S028,SKU-100189,Tmbr Silicone Rainbow Sip 20Oz,14.09,13.59,False
+S028,SKU-100194,Sm Cold Brew Latte,4.29,3.99,False
+S028,SKU-100198,Hot Apple Cider Sm 10 Oz,3.09,,False
+S028,SKU-100211,Bowl Ssg Egg,5.69,,False
+S028,SKU-100215,Md Melted Ice Cream Frozen,7.69,7.39,False
+S028,SKU-100217,Chipotle Hash Brown Wake-Up Wrap,4.39,,False
+S028,SKU-100222,House Dblcssg Sand,7.69,,False
+S028,SKU-100228,Iced Cappuccino Md 24 Oz,8.09,7.49,False
+S028,SKU-100237,Frozen Blend Lg Mixology,7.79,,False
+S028,SKU-100250,Chicken Snack N Go Wrap,4.49,,False
+S028,SKU-100257,4 Donut Holes,1.69,,False
+S028,SKU-100270,Any Time Combos W Med Iced Tea,0.57,,False
+S028,SKU-100279,1 Lb Dark Roast Ground,11.39,,False
+S028,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.49,,False
+S028,SKU-100304,6 Donuts,13.79,,False
+S028,SKU-100323,Cappuccino Large Decaf 20 Oz,3.89,,False
+S028,SKU-100329,Blueberry Coffee Cake Muffin,6.79,,False
+S028,SKU-100363,Energy Cold Brew Lg 32 Oz,7.99,,False
+S028,SKU-100371,Iced Tea Sm 16 Oz,5.29,,False
+S028,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.89,3.59,False
+S028,SKU-100392,Vanilla Chai Large 20 Oz,6.99,6.49,False
+S028,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S028,SKU-100403,2 Mffin 6Pc Hb,4.19,3.89,False
+S028,SKU-100471,27Oz Silicone Sipper,15.59,14.79,False
+S028,SKU-100502,12 Croiss-Ant Donuts,23.00,,False
+S028,SKU-100506,12 Bagels,12.99,,False
+S028,SKU-100524,3 Donut Holes,0.85,,False
+S028,SKU-100612,11Oz Can House Coffee Cake,7.49,,False
+S028,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S028,SKU-100664,Original Coffee Cake Muffin,6.79,,False
+S028,SKU-100694,50 Donut Holes,23.00,,False
+S028,SKU-100900,Bagel Twist,3.89,,False
+S028,SKU-100936,French Toast Bagl,1.49,1.39,False
+S028,SKU-101467,Banana,1.39,,False
+S028,SKU-102185,House Original Iced Coffee13.7Oz,5.69,,False
+S028,SKU-102199,Chicken roissant,6.19,,False
+S028,SKU-102560,Bacon Roll Up,2.39,2.29,False
+S028,SKU-830429,,1.91,,False
+S028,SKU-861894,,1.27,,False
+S029,SKU-100003,2 Donut Holes,0.59,0.57,False
+S029,SKU-100004,Sm Hot Colombian Coffee,2.59,2.49,False
+S029,SKU-100008,Latte Lite Sm Original 10 Oz,2.89,,False
+S029,SKU-100018,Hot Chocolate Lg Dark 20 Oz,3.29,2.99,False
+S029,SKU-100023,Spicy Omlet Flatbread,5.89,5.69,False
+S029,SKU-100030,Southwestern Veggie Burrito,2.89,,False
+S029,SKU-100034,Tomato Pesto Grilled Cheese,6.29,,False
+S029,SKU-100037,Lg Iced Matcha Latte,8.69,8.09,False
+S029,SKU-100040,,5.79,5.59,False
+S029,SKU-100054,Byd Ssg Egg Nchs Sand,6.49,,False
+S029,SKU-100061,Any Time Combos W Lg Iced Coff,0.96,0.92,False
+S029,SKU-100065,Md Frozen Matcha Latte,7.99,7.69,False
+S029,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.49,,False
+S029,SKU-100080,Pretzel Roll Chicken Sandwich,6.89,,False
+S029,SKU-100090,Mocha Blend X Lg 24 Oz,4.69,,False
+S029,SKU-100096,Frozen Blend Med Citrus Soda 24,4.39,,False
+S029,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.69,,False
+S029,SKU-100104,2 Lbs. Coffee,14.89,,False
+S029,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.49,,False
+S029,SKU-100123,Chorizo Bowl,5.69,,False
+S029,SKU-100125,Spinach Artichoke Supreme Bagel,2.09,,False
+S029,SKU-100133,Trky Ssg Egg Nchs Sand,8.99,,False
+S029,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.99,,False
+S029,SKU-100140,Cold Brew Med 24 Oz,6.79,,False
+S029,SKU-100142,With Med Coffee Go Lg,0.34,0.33,False
+S029,SKU-100159,Kolsche,3.79,,False
+S029,SKU-100161,Angus SteakSandwich,2.89,,False
+S029,SKU-100170,Croiss-Ant Donuts,2.89,,False
+S029,SKU-100178,Frozen Blend Med Frozen Lemonade,6.99,,False
+S029,SKU-100205,8 Count Mini Chocolate Chip Cookie,2.39,2.19,False
+S029,SKU-100215,Md Melted Ice Cream Frozen,7.49,,False
+S029,SKU-100222,House Dblcssg Sand,8.29,7.79,False
+S029,SKU-100225,Iced Latte Lg Original 32 Oz,8.29,7.69,False
+S029,SKU-100228,Iced Cappuccino Md 24 Oz,7.59,,False
+S029,SKU-100232,Angus Steak & Cheese Wrap,3.39,,False
+S029,SKU-100239,16Oz Fall Tritan Tumbler,17.19,,False
+S029,SKU-100250,Chicken Snack N Go Wrap,4.59,,False
+S029,SKU-100253,Morning Wrap Hol Bac,0.01,,False
+S029,SKU-100257,4 Donut Holes,1.69,,False
+S029,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.29,,False
+S029,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.49,,False
+S029,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.69,,False
+S029,SKU-100392,Vanilla Chai Large 20 Oz,6.59,,False
+S029,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S029,SKU-100403,2 Mffin 6Pc Hb,3.89|4.39,,True
+S029,SKU-100506,12 Bagels,13.19,,False
+S029,SKU-100514,Donut Holes Donut Holes 5 Count,2.99,,False
+S029,SKU-100524,3 Donut Holes,0.91,0.86,False
+S029,SKU-100554,Jalapeno Kolache,1.49,,False
+S029,SKU-100599,8 Donut Holes,4.79,,False
+S029,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S029,SKU-100664,Original Coffee Cake Muffin,6.89,,False
+S029,SKU-100808,Apple Fritter Fancy,1.69,,False
+S029,SKU-100827,Cheesecake Square Cookie Crumb,3.09,2.89,False
+S029,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.69,,False
+S029,SKU-101017,Hummus (Mod),1.49,1.39,False
+S029,SKU-101523,Cookie Decorated Donut 1.82Oz,3.69,3.39,False
+S029,SKU-101809,House Carael Iced Coffee,4.49,,False
+S029,SKU-102199,Chicken roissant,6.79,6.29,False
+S029,SKU-102560,Bacon Roll Up,2.29,,False
+S029,SKU-102913,Fall Lip Balm Pumpkin,6.89,,False
+S029,SKU-853089,,3.69,,False
+S030,SKU-100014,Bagel Twist Sour C And Onion,1.39,,False
+S030,SKU-100034,Tomato Pesto Grilled Cheese,6.09,5.69,False
+S030,SKU-100040,,5.09,,False
+S030,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.39,5.09,False
+S030,SKU-100054,Byd Ssg Egg Nchs Sand,5.89,,False
+S030,SKU-100055,K Cup Decaf,12.39,,False
+S030,SKU-100065,Md Frozen Matcha Latte,7.09,6.89,False
+S030,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,3.99,,False
+S030,SKU-100077,Hot Macchiato Med Original16 Oz,6.19,,False
+S030,SKU-100080,Pretzel Roll Chicken Sandwich,6.19,,False
+S030,SKU-100090,Mocha Blend X Lg 24 Oz,4.49,4.19,False
+S030,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.09,,False
+S030,SKU-100104,2 Lbs. Coffee,13.39,,False
+S030,SKU-100131,Bagel W Butter,3.69,,False
+S030,SKU-100133,Trky Ssg Egg Nchs Sand,8.09,,False
+S030,SKU-100140,Cold Brew Med 24 Oz,6.09,,False
+S030,SKU-100142,With Med Coffee Go Lg,0.30,,False
+S030,SKU-100155,Frozen Blend Lg Cookie Crumb,7.09,,False
+S030,SKU-100161,Angus SteakSandwich,2.79,2.59,False
+S030,SKU-100170,Croiss-Ant Donuts,2.69,2.59,False
+S030,SKU-100177,Md Hot Chai Latte,5.79,,False
+S030,SKU-100189,Tmbr Silicone Rainbow Sip 20Oz,13.19,12.39,False
+S030,SKU-100198,Hot Apple Cider Sm 10 Oz,2.99,2.79,False
+S030,SKU-100201,Md Iced Caf Au Lait,4.39,4.09,False
+S030,SKU-100205,8 Count Mini Chocolate Chip Cookie,1.99,,False
+S030,SKU-100215,Md Melted Ice Cream Frozen,6.69,,False
+S030,SKU-100217,Chipotle Hash Brown Wake-Up Wrap,4.29,3.99,False
+S030,SKU-100222,House Dblcssg Sand,6.99,,False
+S030,SKU-100228,Iced Cappuccino Md 24 Oz,6.79,,False
+S030,SKU-100237,Frozen Blend Lg Mixology,7.09,,False
+S030,SKU-100250,Chicken Snack N Go Wrap,4.09,,False
+S030,SKU-100253,Morning Wrap Hol Bac,0.01,,False
+S030,SKU-100257,4 Donut Holes,1.59,,False
+S030,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,4.79,,False
+S030,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.29,,False
+S030,SKU-100304,6 Donuts,12.59,,False
+S030,SKU-100323,Cappuccino Large Decaf 20 Oz,3.29,,False
+S030,SKU-100363,Energy Cold Brew Lg 32 Oz,7.19,,False
+S030,SKU-100392,Vanilla Chai Large 20 Oz,6.49|7.03,5.99,True
+S030,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,0.99,False
+S030,SKU-100471,27Oz Silicone Sipper,13.39,,False
+S030,SKU-100473,6 Bacon Donuts,13.89,12.99,False
+S030,SKU-100502,12 Croiss-Ant Donuts,21.00,,False
+S030,SKU-100506,12 Bagels,11.79,,False
+S030,SKU-100536,Brownie,2.19,2.09,False
+S030,SKU-100612,11Oz Can House Coffee Cake,7.19,6.89,False
+S030,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S030,SKU-100664,Original Coffee Cake Muffin,6.69,,False
+S030,SKU-100694,50 Donut Holes,21.00,,False
+S030,SKU-100900,Bagel Twist,3.69,3.49,False
+S030,SKU-100936,French Toast Bagl,1.19,,False
+S030,SKU-101017,Hummus (Mod),1.29,,False
+S030,SKU-101664,Chocolate Chunk Cookie,3.09,,False
+S030,SKU-101842,10 Donut Holes,5.43,,False
+S030,SKU-102358,11Oz Can House Cake Batter,6.89,,False
+S030,sku-100030,,2.69,,False
+S030,sku-100061,,0.83,,False
+S031,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.69,,False
+S031,SKU-100023,Spicy Omlet Flatbread,5.29,,False
+S031,SKU-100030,Southwestern Veggie Burrito,2.59,,False
+S031,SKU-100037,Lg Iced Matcha Latte,7.39,,False
+S031,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.09,,False
+S031,SKU-100061,Any Time Combos W Lg Iced Coff,0.89,0.08,False
+S031,SKU-100070,Mug Ceramic Pink/White 12 Count,15.39,14.69,False
+S031,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.39,4.09,False
+S031,SKU-100092,Hol Bac Sand,0.01,,False
+S031,SKU-100096,Frozen Blend Med Citrus Soda 24,4.09,3.99,False
+S031,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.19,,False
+S031,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.29,5.99,False
+S031,SKU-100123,Chorizo Bowl,5.29,,False
+S031,SKU-100131,Bagel W Butter,3.79,3.69,False
+S031,SKU-100142,With Med Coffee Go Lg,0.31,,False
+S031,SKU-100147,House 20Oz Stnless/Acryl Tumbler Mx Med,10.49,,False
+S031,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.79,6.39,False
+S031,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.49,,False
+S031,SKU-100155,Frozen Blend Lg Cookie Crumb,7.59,7.19,False
+S031,SKU-100161,Angus SteakSandwich,2.59,,False
+S031,SKU-100170,Croiss-Ant Donuts,2.59,,False
+S031,SKU-100177,Md Hot Chai Latte,5.89,,False
+S031,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",3.79|4.19,,True
+S031,SKU-100191,Cookie Crumb Matcha,0.84,,False
+S031,SKU-100194,Sm Cold Brew Latte,3.69,,False
+S031,SKU-100198,Hot Apple Cider Sm 10 Oz,2.89,2.79,False
+S031,SKU-100215,Md Melted Ice Cream Frozen,7.09,6.79,False
+S031,SKU-100222,House Dblcssg Sand,7.09,,False
+S031,SKU-100225,Iced Latte Lg Original 32 Oz,7.09,,False
+S031,SKU-100228,Iced Cappuccino Md 24 Oz,6.89,,False
+S031,SKU-100230,Frozen Blend Lg Vanilla Bean,7.19,,False
+S031,SKU-100232,Angus Steak & Cheese Wrap,3.09,,False
+S031,SKU-100237,Frozen Blend Lg Mixology,7.59,7.19,False
+S031,SKU-100241,Green Goddess,6.19,5.99,False
+S031,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,4.79,,False
+S031,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.29,,False
+S031,SKU-100329,Blueberry Coffee Cake Muffin,6.49,6.29,False
+S031,SKU-100363,Energy Cold Brew Lg 32 Oz,7.39,,False
+S031,SKU-100371,Iced Tea Sm 16 Oz,0.49,,False
+S031,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.49,3.39,False
+S031,SKU-100392,Vanilla Chai Large 20 Oz,6.59,6.09,False
+S031,SKU-100403,2 Mffin 6Pc Hb,3.89,3.59,False
+S031,SKU-100444,14 Oz House Destination Mug,14.79,13.69,False
+S031,SKU-100524,3 Donut Holes,0.79,,False
+S031,SKU-100554,Jalapeno Kolache,1.39,,False
+S031,SKU-100599,8 Donut Holes,4.39,,False
+S031,SKU-100664,Original Coffee Cake Muffin,6.29,,False
+S031,SKU-100694,50 Donut Holes,22.00,21.00,False
+S031,SKU-100936,French Toast Bagl,1.39,1.29,False
+S031,SKU-101017,Hummus (Mod),1.39,1.29,False
+S031,SKU-101467,Banana,1.29,,False
+S031,SKU-101809,House Carael Iced Coffee,4.29,,False
+S031,SKU-102052,Iced Med Leomonade 24 Oz,5.42,,False
+S031,SKU-102358,11Oz Can House Cake Batter,6.99,,False
+S031,SKU-102560,Bacon Roll Up,2.09,,False
+S031,SKU-855788,,9.00,,False
+S031,sku-100323,,3.39,,False
+S032,SKU-100008,Latte Lite Sm Original 10 Oz,2.89,,False
+S032,SKU-100018,Hot Chocolate Lg Dark 20 Oz,3.09,,False
+S032,SKU-100023,Spicy Omlet Flatbread,5.89,,False
+S032,SKU-100030,Southwestern Veggie Burrito,2.89,,False
+S032,SKU-100032,1 Lb Coffee Whole Bean Dec,10.99,10.59,False
+S032,SKU-100034,Tomato Pesto Grilled Cheese,6.49,,False
+S032,SKU-100040,,6.09,5.79,False
+S032,SKU-100055,K Cup Decaf,14.09,,False
+S032,SKU-100061,Any Time Combos W Lg Iced Coff,0.99,0.94,False
+S032,SKU-100065,Md Frozen Matcha Latte,7.89,,False
+S032,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.59,,False
+S032,SKU-100086,28Oz Stainless Steel Hydration,29.00,27.00,False
+S032,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.79,,False
+S032,SKU-100104,2 Lbs. Coffee,15.29,,False
+S032,SKU-100109,Frozen Vanilla Chai Md 24 Oz,7.09,6.69,False
+S032,SKU-100115,1 Muffin,3.99,,False
+S032,SKU-100125,Spinach Artichoke Supreme Bagel,2.09,,False
+S032,SKU-100128,Frozen Blend Md Cookie Dough,4.89,4.69,False
+S032,SKU-100131,Bagel W Butter,4.19,,False
+S032,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,5.19,,False
+S032,SKU-100155,Frozen Blend Lg Cookie Crumb,8.09,,False
+S032,SKU-100159,Kolsche,3.89,,False
+S032,SKU-100161,Angus SteakSandwich,2.89,,False
+S032,SKU-100170,Croiss-Ant Donuts,2.89,,False
+S032,SKU-100177,Md Hot Chai Latte,6.59,,False
+S032,SKU-100178,Frozen Blend Med Frozen Lemonade,7.39,7.19,False
+S032,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",4.29,,False
+S032,SKU-100194,Sm Cold Brew Latte,4.09,,False
+S032,SKU-100198,Hot Apple Cider Sm 10 Oz,3.19,,False
+S032,SKU-100211,Bowl Ssg Egg,5.89,,False
+S032,SKU-100222,House Dblcssg Sand,8.39,7.99,False
+S032,SKU-100225,Iced Latte Lg Original 32 Oz,7.89,,False
+S032,SKU-100228,Iced Cappuccino Md 24 Oz,7.79,,False
+S032,SKU-100232,Angus Steak & Cheese Wrap,3.49,,False
+S032,SKU-100237,Frozen Blend Lg Mixology,8.09,,False
+S032,SKU-100250,Chicken Snack N Go Wrap,4.89,4.69,False
+S032,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.39,,False
+S032,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.79,2.59,False
+S032,SKU-100323,Cappuccino Large Decaf 20 Oz,3.89,3.79,False
+S032,SKU-100371,Iced Tea Sm 16 Oz,5.49,,False
+S032,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.99,3.79,False
+S032,SKU-100392,Vanilla Chai Large 20 Oz,6.79,,False
+S032,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.19,,False
+S032,SKU-100403,2 Mffin 6Pc Hb,3.99,,False
+S032,SKU-100471,27Oz Silicone Sipper,16.09,15.29,False
+S032,SKU-100502,12 Croiss-Ant Donuts,26.00,24.00,False
+S032,SKU-100506,12 Bagels,13.99,13.49,False
+S032,SKU-100524,3 Donut Holes,0.92,0.88,False
+S032,SKU-100601,Pretzel Bites,2.39,,False
+S032,SKU-100664,Original Coffee Cake Muffin,7.09,,False
+S032,SKU-100768,Pepper Jack Supreme Bagel,2.09,,False
+S032,SKU-100827,Cheesecake Square Cookie Crumb,2.89,,False
+S032,SKU-100900,Bagel Twist,3.99,,False
+S032,SKU-100936,French Toast Bagl,1.39,,False
+S032,SKU-100973,House Iced Coffee Mocha 13.7Oz,6.39,5.89,False
+S032,SKU-101467,Banana,1.39,,False
+S032,SKU-101523,Cookie Decorated Donut 1.82Oz,3.59,3.49,False
+S032,SKU-101540,Frozen Blend Lg Berry Blast,6.73,,False
+S032,SKU-101809,House Carael Iced Coffee,4.59,,False
+S032,SKU-102199,Chicken roissant,6.69,6.49,False
+S032,SKU-102560,Bacon Roll Up,2.39,,False
+S032,SKU-102694,Retro Ceramic Mug 12Oz,12.77,,False
+S033,SKU-100003,2 Donut Holes,0.62,0.58,False
+S033,SKU-100008,Latte Lite Sm Original 10 Oz,2.89,,False
+S033,SKU-100011,Hm And Ew Western,4.79,,False
+S033,SKU-100014,Bagel Twist Sour C And Onion,1.59,,False
+S033,SKU-100023,Spicy Omlet Flatbread,5.79,,False
+S033,SKU-100032,1 Lb Coffee Whole Bean Dec,10.49,,False
+S033,SKU-100034,Tomato Pesto Grilled Cheese,6.39,,False
+S033,SKU-100037,Lg Iced Matcha Latte,8.19,,False
+S033,SKU-100040,,5.69,,False
+S033,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.69,,False
+S033,SKU-100054,Byd Ssg Egg Nchs Sand,6.59,,False
+S033,SKU-100061,Any Time Combos W Lg Iced Coff,0.97,0.93,False
+S033,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.49,,False
+S033,SKU-100080,Pretzel Roll Chicken Sandwich,6.99,,False
+S033,SKU-100086,28Oz Stainless Steel Hydration,29.00,27.00,False
+S033,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.99,5.79,False
+S033,SKU-100104,2 Lbs. Coffee,15.79,15.09,False
+S033,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.59,,False
+S033,SKU-100118,Any Time Combos W Med Iced Coffee,0.62,,False
+S033,SKU-100123,Chorizo Bowl,6.19,5.79,False
+S033,SKU-100131,Bagel W Butter,4.09,,False
+S033,SKU-100133,Trky Ssg Egg Nchs Sand,9.09,,False
+S033,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,5.49,5.09,False
+S033,SKU-100140,Cold Brew Med 24 Oz,6.89,,False
+S033,SKU-100147,House 20Oz Stnless/Acryl Tumbler Mx Med,11.59,,False
+S033,SKU-100150,Hot Macchiato Lg Original 20 Oz,7.59,7.71|6.99,False
+S033,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.79,,False
+S033,SKU-100155,Frozen Blend Lg Cookie Crumb,7.99,,False
+S033,SKU-100159,Kolsche,3.79,,False
+S033,SKU-100161,Angus SteakSandwich,3.09,2.89,False
+S033,SKU-100170,Croiss-Ant Donuts,2.89,,False
+S033,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",4.29,,False
+S033,SKU-100191,Cookie Crumb Matcha,0.99,0.93,False
+S033,SKU-100194,Sm Cold Brew Latte,4.09,,False
+S033,SKU-100198,Hot Apple Cider Sm 10 Oz,3.09,,False
+S033,SKU-100222,House Dblcssg Sand,8.19,7.89,False
+S033,SKU-100225,Iced Latte Lg Original 32 Oz,7.79,,False
+S033,SKU-100232,Angus Steak & Cheese Wrap,3.79,3.49,False
+S033,SKU-100237,Frozen Blend Lg Mixology,7.99,,False
+S033,SKU-100250,Chicken Snack N Go Wrap,4.79,4.59,False
+S033,SKU-100253,Morning Wrap Hol Bac,0.01,,False
+S033,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.29,,False
+S033,SKU-100270,Any Time Combos W Med Iced Tea,0.61,0.58,False
+S033,SKU-100279,1 Lb Dark Roast Ground,11.59,,False
+S033,SKU-100281,Md Iced Chai Latte,7.59,,False
+S033,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.59,,False
+S033,SKU-100304,6 Donuts,14.79,14.19,False
+S033,SKU-100323,Cappuccino Large Decaf 20 Oz,3.69,,False
+S033,SKU-100403,2 Mffin 6Pc Hb,4.19|4.88,3.89,True
+S033,SKU-100506,12 Bagels,13.29,,False
+S033,SKU-100514,Donut Holes Donut Holes 5 Count,3.09,,False
+S033,SKU-100524,3 Donut Holes,0.87,,False
+S033,SKU-100601,Pretzel Bites,2.29,,False
+S033,SKU-100612,11Oz Can House Coffee Cake,7.69,,False
+S033,SKU-100664,Original Coffee Cake Muffin,6.99,,False
+S033,SKU-100694,50 Donut Holes,23.00,,False
+S033,SKU-100900,Bagel Twist,3.99,,False
+S033,SKU-100936,French Toast Bagl,1.49,1.39,False
+S033,SKU-100973,House Iced Coffee Mocha 13.7Oz,6.19,5.79,False
+S033,SKU-101467,Banana,1.39,,False
+S033,SKU-101664,Chocolate Chunk Cookie,3.49,,False
+S033,SKU-101689,Tumbler Sta Inless Americana 2020,21.71,,False
+S033,SKU-101809,House Carael Iced Coffee,4.49,,False
+S033,SKU-102358,11Oz Can House Cake Batter,8.09,7.69,False
+S033,SKU-867995,,12.57,,False
+S034,SKU-100003,2 Donut Holes,0.61,0.57,False
+S034,SKU-100008,Latte Lite Sm Original 10 Oz,2.79,,False
+S034,SKU-100011,Hm And Ew Western,4.49,,False
+S034,SKU-100023,Spicy Omlet Flatbread,6.09,5.69,False
+S034,SKU-100030,Southwestern Veggie Burrito,2.79,,False
+S034,SKU-100034,Tomato Pesto Grilled Cheese,6.29,,False
+S034,SKU-100040,,5.59,,False
+S034,SKU-100045,Americana Tumbler 24Oz,19.29,,False
+S034,SKU-100055,K Cup Decaf,13.59,,False
+S034,SKU-100061,Any Time Combos W Lg Iced Coff,0.91,,False
+S034,SKU-100070,Mug Ceramic Pink/White 12 Count,15.89,,False
+S034,SKU-100096,Frozen Blend Med Citrus Soda 24,4.29,,False
+S034,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.79,5.59,False
+S034,SKU-100104,2 Lbs. Coffee,15.49,14.79,False
+S034,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.89,6.49,False
+S034,SKU-100115,1 Muffin,3.89,,False
+S034,SKU-100131,Bagel W Butter,4.19,3.99,False
+S034,SKU-100140,Cold Brew Med 24 Oz,6.69,,False
+S034,SKU-100142,With Med Coffee Go Lg,0.36,0.33,False
+S034,SKU-100147,House 20Oz Stnless/Acryl Tumbler Mx Med,11.89,11.39,False
+S034,SKU-100159,Kolsche,3.69,,False
+S034,SKU-100161,Angus SteakSandwich,2.99,2.79,False
+S034,SKU-100191,Cookie Crumb Matcha,0.91,,False
+S034,SKU-100194,Sm Cold Brew Latte,3.99,,False
+S034,SKU-100205,8 Count Mini Chocolate Chip Cookie,2.19,,False
+S034,SKU-100222,House Dblcssg Sand,8.29,7.69,False
+S034,SKU-100228,Iced Cappuccino Md 24 Oz,7.49,,False
+S034,SKU-100230,Frozen Blend Lg Vanilla Bean,7.79,,False
+S034,SKU-100232,Angus Steak & Cheese Wrap,3.39,,False
+S034,SKU-100237,Frozen Blend Lg Mixology,7.99,7.79,False
+S034,SKU-100241,Green Goddess,6.49,,False
+S034,SKU-100250,Chicken Snack N Go Wrap,4.49,,False
+S034,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.49,5.19,False
+S034,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.49,,False
+S034,SKU-100304,6 Donuts,13.79,,False
+S034,SKU-100329,Blueberry Coffee Cake Muffin,6.79,,False
+S034,SKU-100371,Iced Tea Sm 16 Oz,5.69,5.29,False
+S034,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.59,,False
+S034,SKU-100392,Vanilla Chai Large 20 Oz,70.90,6.49,False
+S034,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.09,,False
+S034,SKU-100403,2 Mffin 6Pc Hb,4.09,3.89,False
+S034,SKU-100444,14 Oz House Destination Mug,14.79,,False
+S034,SKU-100473,6 Bacon Donuts,15.29,14.29,False
+S034,SKU-100506,12 Bagels,13.89,12.99,False
+S034,SKU-100524,3 Donut Holes,0.85,,False
+S034,SKU-100536,Brownie,2.29,,False
+S034,SKU-100554,Jalapeno Kolache,1.49,,False
+S034,SKU-100599,8 Donut Holes,4.79,,False
+S034,SKU-100601,Pretzel Bites,2.29,,False
+S034,SKU-100612,11Oz Can House Coffee Cake,7.49,,False
+S034,SKU-100661,Loaf Pumpkin Slice Wrapped 20 Per Cs,4.49,,False
+S034,SKU-100664,Original Coffee Cake Muffin,7.19,6.79,False
+S034,SKU-100694,50 Donut Holes,25.00,23.00,False
+S034,SKU-100768,Pepper Jack Supreme Bagel,1.99,,False
+S034,SKU-100827,Cheesecake Square Cookie Crumb,2.79,,False
+S034,SKU-100900,Bagel Twist,3.89,,False
+S034,SKU-100936,French Toast Bagl,1.39,,False
+S034,SKU-101017,Hummus (Mod),1.39,,False
+S034,SKU-101809,House Carael Iced Coffee,4.39,,False
+S034,SKU-102199,Chicken roissant,6.49,,False
+S034,SKU-102358,11Oz Can House Cake Batter,7.89,7.49,False
+S034,SKU-102560,Bacon Roll Up,2.29,,False
+S035,SKU-100003,2 Donut Holes,0.51,,False
+S035,SKU-100018,Hot Chocolate Lg Dark 20 Oz,2.69,,False
+S035,SKU-100023,Spicy Omlet Flatbread,5.09,,False
+S035,SKU-100032,1 Lb Coffee Whole Bean Dec,9.19,,False
+S035,SKU-100034,Tomato Pesto Grilled Cheese,5.69,,False
+S035,SKU-100037,Lg Iced Matcha Latte,7.29,,False
+S035,SKU-100061,Any Time Combos W Lg Iced Coff,0.85,0.82,False
+S035,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,3.99,,False
+S035,SKU-100080,Pretzel Roll Chicken Sandwich,6.19,,False
+S035,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.09,,False
+S035,SKU-100104,2 Lbs. Coffee,13.39,,False
+S035,SKU-100108,Chorizo & Egg Flatbread,6.79,,False
+S035,SKU-100109,Frozen Vanilla Chai Md 24 Oz,5.89,,False
+S035,SKU-100118,Any Time Combos W Med Iced Coffee,0.51,,False
+S035,SKU-100123,Chorizo Bowl,5.09,,False
+S035,SKU-100128,Frozen Blend Md Cookie Dough,4.09,,False
+S035,SKU-100131,Bagel W Butter,3.69,,False
+S035,SKU-100133,Trky Ssg Egg Nchs Sand,7.99,,False
+S035,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,4.49,,False
+S035,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.19,,False
+S035,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.69,3.39,False
+S035,SKU-100159,Kolsche,3.39|4.04,,True
+S035,SKU-100161,Angus SteakSandwich,2.59,,False
+S035,SKU-100170,Croiss-Ant Donuts,2.59,,False
+S035,SKU-100177,Md Hot Chai Latte,6.09,5.79,False
+S035,SKU-100178,Frozen Blend Med Frozen Lemonade,6.59,6.29,False
+S035,SKU-100203,Tumbler Iconic Sipper,13.39,,False
+S035,SKU-100211,Bowl Ssg Egg,5.09,,False
+S035,SKU-100215,Md Melted Ice Cream Frozen,6.69,,False
+S035,SKU-100222,House Dblcssg Sand,6.89,,False
+S035,SKU-100237,Frozen Blend Lg Mixology,7.29,6.99,False
+S035,SKU-100250,Chicken Snack N Go Wrap,4.39,4.09,False
+S035,SKU-100304,6 Donuts,12.49,,False
+S035,SKU-100323,Cappuccino Large Decaf 20 Oz,3.49,3.29,False
+S035,SKU-100329,Blueberry Coffee Cake Muffin,6.19,,False
+S035,SKU-100363,Energy Cold Brew Lg 32 Oz,7.79,7.19,False
+S035,SKU-100371,Iced Tea Sm 16 Oz,5.09,4.79,False
+S035,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.29|4.06,,True
+S035,SKU-100392,Vanilla Chai Large 20 Oz,5.89,,False
+S035,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,0.99,,False
+S035,SKU-100403,2 Mffin 6Pc Hb,3.49,,False
+S035,SKU-100473,6 Bacon Donuts,12.99|15.29,,True
+S035,SKU-100506,12 Bagels,11.79,,False
+S035,SKU-100514,Donut Holes Donut Holes 5 Count,2.69,,False
+S035,SKU-100524,3 Donut Holes,0.77,,False
+S035,SKU-100526,Morning Wrap Mpl Bac,3.82,,False
+S035,SKU-100601,Pretzel Bites,2.19,2.09,False
+S035,SKU-100612,11Oz Can House Coffee Cake,6.79,,False
+S035,SKU-100616,10 Donut Holes Topped Dozen Donuts,0.01,,False
+S035,SKU-100664,Original Coffee Cake Muffin,6.19,,False
+S035,SKU-100694,50 Donut Holes,21.00,,False
+S035,SKU-100768,Pepper Jack Supreme Bagel,1.79,,False
+S035,SKU-100827,Cheesecake Square Cookie Crumb,2.59,,False
+S035,SKU-100900,Bagel Twist,3.49,,False
+S035,SKU-100936,French Toast Bagl,1.19,,False
+S035,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.09,,False
+S035,SKU-101017,Hummus (Mod),1.29,,False
+S035,SKU-101467,Banana,1.19,,False
+S035,SKU-101523,Cookie Decorated Donut 1.82Oz,3.09,,False
+S035,SKU-101664,Chocolate Chunk Cookie,3.29,3.09,False
+S035,SKU-101809,House Carael Iced Coffee,4.19,3.99,False
+S035,SKU-102185,House Original Iced Coffee13.7Oz,5.39,5.09,False
+S035,SKU-102199,Chicken roissant,5.79,,False
+S035,SKU-102358,11Oz Can House Cake Batter,6.79,,False
+S035,SKU-102560,Bacon Roll Up,2.09,,False
+S035,SKU-102967,Angus Steak Big N Toasted,4.57,,False
+S035,SKU-823648,,6.91,,False
+S036,SKU-100003,2 Donut Holes,0.52,,False
+S036,SKU-100008,Latte Lite Sm Original 10 Oz,2.59,,False
+S036,SKU-100014,Bagel Twist Sour C And Onion,1.49,1.39,False
+S036,SKU-100023,Spicy Omlet Flatbread,5.19,,False
+S036,SKU-100030,Southwestern Veggie Burrito,2.59,,False
+S036,SKU-100037,Lg Iced Matcha Latte,7.29,,False
+S036,SKU-100040,,5.09,,False
+S036,SKU-100061,Any Time Combos W Lg Iced Coff,0.83,,False
+S036,SKU-100065,Md Frozen Matcha Latte,7.29,6.89,False
+S036,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,3.99,,False
+S036,SKU-100077,Hot Macchiato Med Original16 Oz,6.39,6.19,False
+S036,SKU-100080,Pretzel Roll Chicken Sandwich,6.19,,False
+S036,SKU-100092,Hol Bac Sand,0.01,,False
+S036,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.09,,False
+S036,SKU-100104,2 Lbs. Coffee,13.39,,False
+S036,SKU-100108,Chorizo & Egg Flatbread,7.39,6.89,False
+S036,SKU-100109,Frozen Vanilla Chai Md 24 Oz,6.19,5.89,False
+S036,SKU-100125,Spinach Artichoke Supreme Bagel,1.89,,False
+S036,SKU-100131,Bagel W Butter,3.69,,False
+S036,SKU-100140,Cold Brew Med 24 Oz,6.09,,False
+S036,SKU-100142,With Med Coffee Go Lg,0.32,0.30,False
+S036,SKU-100147,House 20Oz Stnless/Acryl Tumbler Mx Med,10.29,,False
+S036,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.59,6.29,False
+S036,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.39,,False
+S036,SKU-100155,Frozen Blend Lg Cookie Crumb,7.09,,False
+S036,SKU-100159,Kolsche,3.39,,False
+S036,SKU-100161,Angus SteakSandwich,2.59,,False
+S036,SKU-100170,Croiss-Ant Donuts,2.59,,False
+S036,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",3.79,,False
+S036,SKU-100191,Cookie Crumb Matcha,0.83,,False
+S036,SKU-100194,Sm Cold Brew Latte,3.69,3.59,False
+S036,SKU-100215,Md Melted Ice Cream Frozen,7.09,6.69,False
+S036,SKU-100222,House Dblcssg Sand,7.59,6.99,False
+S036,SKU-100228,Iced Cappuccino Md 24 Oz,7.39,6.79,False
+S036,SKU-100237,Frozen Blend Lg Mixology,7.09,,False
+S036,SKU-100250,Chicken Snack N Go Wrap,4.39,4.09,False
+S036,SKU-100257,4 Donut Holes,1.59,,False
+S036,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.29,,False
+S036,SKU-100323,Cappuccino Large Decaf 20 Oz,3.29,,False
+S036,SKU-100375,Hot Macchiato Sm Decaf 10 Oz,3.49,3.29,False
+S036,SKU-100392,Vanilla Chai Large 20 Oz,5.89,,False
+S036,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,0.99,,False
+S036,SKU-100403,2 Mffin 6Pc Hb,3.49,,False
+S036,SKU-100506,12 Bagels,12.19,11.79,False
+S036,SKU-100599,8 Donut Holes,4.29,,False
+S036,SKU-100601,Pretzel Bites,2.19,2.09,False
+S036,SKU-100664,Original Coffee Cake Muffin,6.19,,False
+S036,SKU-100694,50 Donut Holes,22.00,21.00,False
+S036,SKU-100900,Bagel Twist,3.69,3.49,False
+S036,SKU-100936,French Toast Bagl,1.19,,False
+S036,SKU-101017,Hummus (Mod),1.29,,False
+S036,SKU-101075,Apple,1.09,,False
+S036,SKU-101523,Cookie Decorated Donut 1.82Oz,3.19,3.09,False
+S036,SKU-101664,Chocolate Chunk Cookie,3.09,,False
+S036,SKU-101809,House Carael Iced Coffee,3.99,,False
+S036,SKU-102199,Chicken roissant,6.19,5.69,False
+S036,SKU-102358,11Oz Can House Cake Batter,6.79,,False
+S036,SKU-816394,,5.77,,False
+S036,SKU-895711,,11.45,,False
+S037,SKU-100008,Latte Lite Sm Original 10 Oz,2.69,,False
+S037,SKU-100014,Bagel Twist Sour C And Onion,1.49,,False
+S037,SKU-100023,Spicy Omlet Flatbread,5.29,,False
+S037,SKU-100034,Tomato Pesto Grilled Cheese,5.89,,False
+S037,SKU-100037,Lg Iced Matcha Latte,7.49,,False
+S037,SKU-100040,,5.19,,False
+S037,SKU-100049,Hot Chocolate Lg Orginal 20 Oz,5.19,,False
+S037,SKU-100065,Md Frozen Matcha Latte,7.19,,False
+S037,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.19,,False
+S037,SKU-100096,Frozen Blend Med Citrus Soda 24,4.09,,False
+S037,SKU-100104,2 Lbs. Coffee,13.89,,False
+S037,SKU-100125,Spinach Artichoke Supreme Bagel,1.89,,False
+S037,SKU-100140,Cold Brew Med 24 Oz,6.29,,False
+S037,SKU-100150,Hot Macchiato Lg Original 20 Oz,6.69,6.49,False
+S037,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.49,,False
+S037,SKU-100159,Kolsche,3.49,,False
+S037,SKU-100161,Angus SteakSandwich,2.69,,False
+S037,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",4.09,3.89,False
+S037,SKU-100191,Cookie Crumb Matcha,0.86,,False
+S037,SKU-100198,Hot Apple Cider Sm 10 Oz,2.89|3.70,,True
+S037,SKU-100201,Md Iced Caf Au Lait,4.39,4.29,False
+S037,SKU-100222,House Dblcssg Sand,7.79,7.19,False
+S037,SKU-100225,Iced Latte Lg Original 32 Oz,7.19,,False
+S037,SKU-100230,Frozen Blend Lg Vanilla Bean,7.69,7.29,False
+S037,SKU-100237,Frozen Blend Lg Mixology,7.29,,False
+S037,SKU-100253,Morning Wrap Hol Bac,0.01,,False
+S037,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.29,4.89,False
+S037,SKU-100304,6 Donuts,12.99,,False
+S037,SKU-100323,Cappuccino Large Decaf 20 Oz,3.59,3.39,False
+S037,SKU-100357,Iced Coffee Large Orginal 32Oz,4.49,4.19,False
+S037,SKU-100364,Brownie,2.09,,False
+S037,SKU-100392,Vanilla Chai Large 20 Oz,6.09,,False
+S037,SKU-100471,27Oz Silicone Sipper,14.69,13.89,False
+S037,SKU-100506,12 Bagels,12.79,12.19,False
+S037,SKU-100514,Donut Holes Donut Holes 5 Count,2.89,2.79,False
+S037,SKU-100524,3 Donut Holes,0.80,,False
+S037,SKU-100599,8 Donut Holes,4.49,,False
+S037,SKU-100601,Pretzel Bites,2.09,,False
+S037,SKU-100612,11Oz Can House Coffee Cake,70.90,,False
+S037,SKU-100694,50 Donut Holes,21.00,,False
+S037,SKU-100900,Bagel Twist,3.89,3.59,False
+S037,SKU-100936,French Toast Bagl,1.29,,False
+S037,SKU-100973,House Iced Coffee Mocha 13.7Oz,5.59,5.29,False
+S037,SKU-101017,Hummus (Mod),1.29,,False
+S037,SKU-101664,Chocolate Chunk Cookie,3.19,,False
+S037,SKU-102199,Chicken roissant,5.89,,False
+S037,SKU-102560,Bacon Roll Up,2.09,,False
+S037,SKU-864264,,12.13,,False
+S037,sku-102358,,7.59,,False
+S038,SKU-100003,2 Donut Holes,0.63,0.59,False
+S038,SKU-100011,Hm And Ew Western,4.69,,False
+S038,SKU-100023,Spicy Omlet Flatbread,5.89,,False
+S038,SKU-100034,Tomato Pesto Grilled Cheese,6.49,,False
+S038,SKU-100040,,6.19,5.79,False
+S038,SKU-100075,Tuna Salad Wrap & Sm Iced Tea,4.79,4.59,False
+S038,SKU-100080,Pretzel Roll Chicken Sandwich,7.09,,False
+S038,SKU-100101,Southwest Veggie Powr Brkfst Sandwich,5.89,,False
+S038,SKU-100104,2 Lbs. Coffee,15.39,,False
+S038,SKU-100108,Chorizo & Egg Flatbread,7.89,,False
+S038,SKU-100138,Wake Up Wrap Bacon Guacamole Combo,5.19,,False
+S038,SKU-100150,Hot Macchiato Lg Original 20 Oz,7.39,7.19,False
+S038,SKU-100170,Croiss-Ant Donuts,3.19,2.99,False
+S038,SKU-100177,Md Hot Chai Latte,6.69,,False
+S038,SKU-100183,"Pancake Morning Wrap Bacon, Egg And Cheese",4.59,4.29,False
+S038,SKU-100191,Cookie Crumb Matcha,0.95,,False
+S038,SKU-100198,Hot Apple Cider Sm 10 Oz,3.39,3.19,False
+S038,SKU-100217,Chipotle Hash Brown Wake-Up Wrap,4.59,,False
+S038,SKU-100222,House Dblcssg Sand,8.39,7.99,False
+S038,SKU-100228,Iced Cappuccino Md 24 Oz,7.79|9.85,,True
+S038,SKU-100232,Angus Steak & Cheese Wrap,3.59,,False
+S038,SKU-100237,Frozen Blend Lg Mixology,8.69,8.09,False
+S038,SKU-100239,16Oz Fall Tritan Tumbler,17.79,,False
+S038,SKU-100250,Chicken Snack N Go Wrap,4.69,,False
+S038,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,5.49,,False
+S038,SKU-100270,Any Time Combos W Med Iced Tea,0.59,,False
+S038,SKU-100292,Oatmeal W Brown Sugar And Fruit,2.59,,False
+S038,SKU-100363,Energy Cold Brew Lg 32 Oz,8.29,,False
+S038,SKU-100386,Premium S/Steel Tumbler,15.39,,False
+S038,SKU-100392,Vanilla Chai Large 20 Oz,7.19,,False
+S038,SKU-100397,Iced Coffee Med Dark Roast 24 Oz,1.19,,False
+S038,SKU-100444,14 Oz House Destination Mug,15.39,,False
+S038,SKU-100473,6 Bacon Donuts,14.99,,False
+S038,SKU-100502,12 Croiss-Ant Donuts,24.00,,False
+S038,SKU-100506,12 Bagels,14.09,13.59,False
+S038,SKU-100514,Donut Holes Donut Holes 5 Count,3.09,,False
+S038,SKU-100524,3 Donut Holes,0.89,,False
+S038,SKU-100601,Pretzel Bites,2.39,,False
+S038,SKU-100664,Original Coffee Cake Muffin,7.09,,False
+S038,SKU-100694,50 Donut Holes,24.00,,False
+S038,SKU-100715,Catering 6 Bagels,6.09,5.79,False
+S038,SKU-100827,Cheesecake Square Cookie Crumb,3.19,2.99,False
+S038,SKU-100936,French Toast Bagl,1.39,,False
+S038,SKU-101523,Cookie Decorated Donut 1.82Oz,3.59,,False
+S038,SKU-102185,House Original Iced Coffee13.7Oz,6.19,5.89,False
+S038,SKU-102199,Chicken roissant,6.99,6.49,False
+S038,SKU-102358,11Oz Can House Cake Batter,7.89,,False
+S038,SKU-102694,Retro Ceramic Mug 12Oz,13.31,,False
+S038,sku-100049,,6.19,,False
+S099,SKU-100040,,3.99,,False
+S099,SKU-100061,Any Time Combos W Lg Iced Coff,3.99,,False
+S099,SKU-100133,Trky Ssg Egg Nchs Sand,3.99,,False
+S099,SKU-100142,With Med Coffee Go Lg,3.99,,False
+S099,SKU-100205,8 Count Mini Chocolate Chip Cookie,3.99,,False
+S099,SKU-100230,Frozen Blend Lg Vanilla Bean,3.99,,False
+S099,SKU-100237,Frozen Blend Lg Mixology,3.99,,False
+S099,SKU-100599,8 Donut Holes,3.99,,False
+S099,SKU-101809,House Carael Iced Coffee,3.99,,False
+S099,sku-100304,,3.99,,False
+S100,SKU-100037,Lg Iced Matcha Latte,3.99,,False
+S100,SKU-100150,Hot Macchiato Lg Original 20 Oz,3.99,,False
+S100,SKU-100153,Hot Chocolate X Lg Cookie Crumb 24 Oz,3.99,3.99,False
+S100,SKU-100161,Angus SteakSandwich,3.99,,False
+S100,SKU-100217,Chipotle Hash Brown Wake-Up Wrap,3.99,,False
+S100,SKU-100222,House Dblcssg Sand,3.99,,False
+S100,SKU-100263,Md Choc Stout C.B. Wsweet Cold Foam,3.99,,False
+S100,SKU-100694,50 Donut Holes,3.99,,False
+S100,SKU-101809,House Carael Iced Coffee,3.99,,False
+S100,sku-100109,,3.99,,False
+S120,SKU-100014,Bagel Twist Sour C And Onion,3.99,,False
+S120,SKU-100055,K Cup Decaf,3.99,,False
+S120,SKU-100109,Frozen Vanilla Chai Md 24 Oz,3.99,,False
+S120,SKU-100140,Cold Brew Med 24 Oz,3.99,,False
+S120,SKU-100616,10 Donut Holes Topped Dozen Donuts,3.99,,False
+S120,SKU-101664,Chocolate Chunk Cookie,3.99,,False
+S120,SKU-102199,Chicken roissant,3.99,,False
+S120,SKU-102358,11Oz Can House Cake Batter,3.99,,False
+S120,sku-100049,,3.99,,False

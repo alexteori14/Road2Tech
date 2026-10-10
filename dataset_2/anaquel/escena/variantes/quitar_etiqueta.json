@@ -1,0 +1,264 @@
+{
+  "tienda": "S012",
+  "fecha": "2026-03-03",
+  "nombre": "tarjeta_quitar_etiqueta",
+  "tarjeta": "quitar_etiqueta",
+  "moneda": "MXN",
+  "tipo_cambio_usd_mxn": 17.5,
+  "precios_de_prueba": false,
+  "repisas": 3,
+  "posiciones_por_repisa": 4,
+  "ancho_posicion_cm": 30,
+  "frentes_esperados": 3,
+  "posiciones": [
+    {
+      "posicion": "R1-P1",
+      "repisa": 1,
+      "pos": 1,
+      "x_inicio_cm": 0,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-100664",
+      "sku_fisico": "SKU-100664",
+      "frentes_fisicos": 3,
+      "etiqueta": {
+        "presente": true,
+        "sku": "SKU-100664",
+        "nombre": "Original Coffee Cake Muffin",
+        "precio": 124.08
+      },
+      "error": {
+        "n": 1,
+        "tipo": "precio_anterior",
+        "en_alcance": true,
+        "descripcion": "Etiqueta con precio anterior"
+      }
+    },
+    {
+      "posicion": "R1-P2",
+      "repisa": 1,
+      "pos": 2,
+      "x_inicio_cm": 30,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-100104",
+      "sku_fisico": "SKU-100104",
+      "frentes_fisicos": 3,
+      "etiqueta": {
+        "presente": false,
+        "sku": null,
+        "nombre": null,
+        "precio": null
+      },
+      "error": {
+        "n": "J-quitar_etiqueta",
+        "tipo": "etiqueta_faltante",
+        "en_alcance": true,
+        "descripcion": "Juez: etiqueta quitada"
+      }
+    },
+    {
+      "posicion": "R1-P3",
+      "repisa": 1,
+      "pos": 3,
+      "x_inicio_cm": 60,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-101809",
+      "sku_fisico": "SKU-101809",
+      "frentes_fisicos": 3,
+      "etiqueta": {
+        "presente": true,
+        "sku": "SKU-101809",
+        "nombre": "Caramel Iced Coffee",
+        "precio": 80.33
+      },
+      "error": {
+        "n": 2,
+        "tipo": "precio_anterior",
+        "en_alcance": true,
+        "descripcion": "Etiqueta con precio anterior"
+      }
+    },
+    {
+      "posicion": "R1-P4",
+      "repisa": 1,
+      "pos": 4,
+      "x_inicio_cm": 90,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-100506",
+      "sku_fisico": "SKU-100506",
+      "frentes_fisicos": 1,
+      "etiqueta": {
+        "presente": true,
+        "sku": "SKU-100506",
+        "nombre": "12 Bagels",
+        "precio": 260.57
+      },
+      "error": {
+        "n": 8,
+        "tipo": "frentes_bajos",
+        "en_alcance": true,
+        "descripcion": "1 frente de 3 esperados"
+      }
+    },
+    {
+      "posicion": "R2-P1",
+      "repisa": 2,
+      "pos": 1,
+      "x_inicio_cm": 0,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-100292",
+      "sku_fisico": "SKU-100292",
+      "frentes_fisicos": 3,
+      "etiqueta": {
+        "presente": true,
+        "sku": "SKU-100292",
+        "nombre": "Oatmeal",
+        "precio": 45.32
+      },
+      "error": null
+    },
+    {
+      "posicion": "R2-P2",
+      "repisa": 2,
+      "pos": 2,
+      "x_inicio_cm": 30,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-100601",
+      "sku_fisico": "SKU-100601",
+      "frentes_fisicos": 3,
+      "etiqueta": {
+        "presente": false,
+        "sku": null,
+        "nombre": null,
+        "precio": null
+      },
+      "error": {
+        "n": 3,
+        "tipo": "etiqueta_faltante",
+        "en_alcance": true,
+        "descripcion": "Sin etiqueta"
+      }
+    },
+    {
+      "posicion": "R2-P3",
+      "repisa": 2,
+      "pos": 3,
+      "x_inicio_cm": 60,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-100131",
+      "sku_fisico": "SKU-100131",
+      "frentes_fisicos": 3,
+      "etiqueta": {
+        "presente": true,
+        "sku": "SKU-100131",
+        "nombre": "Bagel W Butter",
+        "precio": 73.33
+      },
+      "error": null
+    },
+    {
+      "posicion": "R2-P4",
+      "repisa": 2,
+      "pos": 4,
+      "x_inicio_cm": 90,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-101664",
+      "sku_fisico": "SKU-101664",
+      "frentes_fisicos": 3,
+      "etiqueta": {
+        "presente": true,
+        "sku": "SKU-100506",
+        "nombre": "12 Bagels",
+        "precio": 260.57
+      },
+      "error": {
+        "n": 4,
+        "tipo": "etiqueta_otro_sku",
+        "en_alcance": true,
+        "descripcion": "Etiqueta de 12 Bagels"
+      }
+    },
+    {
+      "posicion": "R3-P1",
+      "repisa": 3,
+      "pos": 1,
+      "x_inicio_cm": 0,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-100075",
+      "sku_fisico": null,
+      "frentes_fisicos": 0,
+      "etiqueta": {
+        "presente": true,
+        "sku": "SKU-100075",
+        "nombre": "Tuna Salad Wrap",
+        "precio": 87.33
+      },
+      "error": {
+        "n": 5,
+        "tipo": "hueco_con_inventario",
+        "en_alcance": true,
+        "descripcion": "Hueco; el sistema dice que hay inventario"
+      }
+    },
+    {
+      "posicion": "R3-P2",
+      "repisa": 3,
+      "pos": 2,
+      "x_inicio_cm": 30,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-100599",
+      "sku_fisico": null,
+      "frentes_fisicos": 0,
+      "etiqueta": {
+        "presente": true,
+        "sku": "SKU-100599",
+        "nombre": "8 Donut Holes",
+        "precio": 94.32
+      },
+      "error": {
+        "n": 6,
+        "tipo": "hueco_agotado",
+        "en_alcance": true,
+        "descripcion": "Hueco; el sistema dice 0 (agotado real)"
+      }
+    },
+    {
+      "posicion": "R3-P3",
+      "repisa": 3,
+      "pos": 3,
+      "x_inicio_cm": 60,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-102560",
+      "sku_fisico": "SKU-102199",
+      "frentes_fisicos": 3,
+      "etiqueta": {
+        "presente": true,
+        "sku": "SKU-102560",
+        "nombre": "Bacon Roll Up",
+        "precio": 43.58
+      },
+      "error": {
+        "n": 7,
+        "tipo": "producto_equivocado",
+        "en_alcance": false,
+        "descripcion": "Chicken Croissant sobre etiqueta de Bacon Roll Up"
+      }
+    },
+    {
+      "posicion": "R3-P4",
+      "repisa": 3,
+      "pos": 4,
+      "x_inicio_cm": 90,
+      "ancho_cm": 30,
+      "sku_planograma": "SKU-100936",
+      "sku_fisico": "SKU-100936",
+      "frentes_fisicos": 3,
+      "etiqueta": {
+        "presente": true,
+        "sku": "SKU-100936",
+        "nombre": "French Toast Bagel",
+        "precio": 24.32
+      },
+      "error": null
+    }
+  ]
+}

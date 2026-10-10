@@ -47,14 +47,14 @@ export function traducirEstadoPosicion(estado: EstadoPosicion): string {
  */
 export function formatearMonedaUSD(monto: number | null | undefined): string {
   if (monto === null || monto === undefined || isNaN(monto)) {
-    return 'US$0.00';
+    return '$0.00';
   }
   const valorFormateado = new Intl.NumberFormat('es-MX', {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   }).format(monto);
 
-  return `US$${valorFormateado}`;
+  return `$${valorFormateado}`;
 }
 
 /**

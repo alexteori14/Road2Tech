@@ -46,7 +46,7 @@ export function ImpactoView({ data }: ImpactoViewProps) {
             </span>
           </div>
           <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-            5. Impacto Económico en la Red (38 Tiendas)
+            5. Impacto Económico en la Red (Cadena de Sucursales)
           </h2>
           <p className="text-slate-500 text-sm mt-1">
             Proyección agregada multitienda: exposición financiera por discrepancias no corregidas en anaqueles.
@@ -196,7 +196,7 @@ export function ImpactoView({ data }: ImpactoViewProps) {
                 <YAxis
                   stroke="#64748b"
                   fontSize={11}
-                  tickFormatter={(val) => `US$${val / 1000}k`}
+                  tickFormatter={(val) => `$${val / 1000}k`}
                 />
                 <Tooltip
                   formatter={(value: any) => [formatearMonedaUSD(Number(value)), 'Exposición']}
@@ -222,7 +222,7 @@ export function ImpactoView({ data }: ImpactoViewProps) {
             <h3 className="font-bold text-slate-900 text-base">
               Sucursales con Mayor Exposición
             </h3>
-            <p className="text-xs text-slate-500">Riesgo mensual estimado por tienda (US$ / mes)</p>
+            <p className="text-xs text-slate-500">Riesgo mensual estimado por tienda ($ / mes)</p>
           </div>
 
           <div className="h-72 w-full">
@@ -233,7 +233,7 @@ export function ImpactoView({ data }: ImpactoViewProps) {
                 margin={{ top: 5, right: 30, left: 40, bottom: 5 }}
               >
                 <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
-                <XAxis type="number" stroke="#64748b" fontSize={11} tickFormatter={(v) => `US$${v}`} />
+                <XAxis type="number" stroke="#64748b" fontSize={11} tickFormatter={(v) => `$${v}`} />
                 <YAxis
                   type="category"
                   dataKey="ciudad"

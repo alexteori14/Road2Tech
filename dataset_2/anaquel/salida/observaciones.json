@@ -1,0 +1,176 @@
+{
+  "dato_de_prueba": true,
+  "tienda": "S012",
+  "fecha": "2026-03-03",
+  "clip": "video/principal.mp4",
+  "posiciones": [
+    {
+      "posicion": "R1-P1",
+      "etiqueta": {
+        "detectada": true,
+        "sku_leido": "SKU-100664",
+        "precio_leido": 124.08,
+        "confianza": 0.97,
+        "cuadros_que_coinciden": 3,
+        "recorte": "recortes/R1-P1.jpg"
+      },
+      "hueco": false,
+      "frentes_vistos": 3,
+      "sku_producto_visto": null
+    },
+    {
+      "posicion": "R1-P2",
+      "etiqueta": {
+        "detectada": true,
+        "sku_leido": "SKU-100104",
+        "precio_leido": 271.07,
+        "confianza": 0.97,
+        "cuadros_que_coinciden": 3,
+        "recorte": "recortes/R1-P2.jpg"
+      },
+      "hueco": false,
+      "frentes_vistos": 3,
+      "sku_producto_visto": null
+    },
+    {
+      "posicion": "R1-P3",
+      "etiqueta": {
+        "detectada": true,
+        "sku_leido": "SKU-101809",
+        "precio_leido": 80.33,
+        "confianza": 0.97,
+        "cuadros_que_coinciden": 3,
+        "recorte": "recortes/R1-P3.jpg"
+      },
+      "hueco": false,
+      "frentes_vistos": 3,
+      "sku_producto_visto": null
+    },
+    {
+      "posicion": "R1-P4",
+      "etiqueta": {
+        "detectada": true,
+        "sku_leido": "SKU-100506",
+        "precio_leido": 260.57,
+        "confianza": 0.97,
+        "cuadros_que_coinciden": 3,
+        "recorte": "recortes/R1-P4.jpg"
+      },
+      "hueco": false,
+      "frentes_vistos": 1,
+      "sku_producto_visto": null
+    },
+    {
+      "posicion": "R2-P1",
+      "etiqueta": {
+        "detectada": true,
+        "sku_leido": "SKU-100292",
+        "precio_leido": 45.32,
+        "confianza": 0.97,
+        "cuadros_que_coinciden": 3,
+        "recorte": "recortes/R2-P1.jpg"
+      },
+      "hueco": false,
+      "frentes_vistos": 3,
+      "sku_producto_visto": null
+    },
+    {
+      "posicion": "R2-P2",
+      "etiqueta": {
+        "detectada": false,
+        "sku_leido": null,
+        "precio_leido": null,
+        "confianza": null,
+        "cuadros_que_coinciden": 0,
+        "recorte": null
+      },
+      "hueco": false,
+      "frentes_vistos": 3,
+      "sku_producto_visto": null
+    },
+    {
+      "posicion": "R2-P3",
+      "etiqueta": {
+        "detectada": true,
+        "sku_leido": "SKU-100131",
+        "precio_leido": 73.33,
+        "confianza": 0.97,
+        "cuadros_que_coinciden": 3,
+        "recorte": "recortes/R2-P3.jpg"
+      },
+      "hueco": false,
+      "frentes_vistos": 3,
+      "sku_producto_visto": null
+    },
+    {
+      "posicion": "R2-P4",
+      "etiqueta": {
+        "detectada": true,
+        "sku_leido": "SKU-100506",
+        "precio_leido": 260.57,
+        "confianza": 0.97,
+        "cuadros_que_coinciden": 3,
+        "recorte": "recortes/R2-P4.jpg"
+      },
+      "hueco": false,
+      "frentes_vistos": 3,
+      "sku_producto_visto": null
+    },
+    {
+      "posicion": "R3-P1",
+      "etiqueta": {
+        "detectada": true,
+        "sku_leido": "SKU-100075",
+        "precio_leido": 87.33,
+        "confianza": 0.97,
+        "cuadros_que_coinciden": 3,
+        "recorte": "recortes/R3-P1.jpg"
+      },
+      "hueco": true,
+      "frentes_vistos": 0,
+      "sku_producto_visto": null
+    },
+    {
+      "posicion": "R3-P2",
+      "etiqueta": {
+        "detectada": true,
+        "sku_leido": "SKU-100599",
+        "precio_leido": 94.32,
+        "confianza": 0.97,
+        "cuadros_que_coinciden": 3,
+        "recorte": "recortes/R3-P2.jpg"
+      },
+      "hueco": true,
+      "frentes_vistos": 0,
+      "sku_producto_visto": null
+    },
+    {
+      "posicion": "R3-P3",
+      "etiqueta": {
+        "detectada": true,
+        "sku_leido": "SKU-102560",
+        "precio_leido": 43.58,
+        "confianza": 0.97,
+        "cuadros_que_coinciden": 3,
+        "recorte": "recortes/R3-P3.jpg"
+      },
+      "hueco": false,
+      "frentes_vistos": 3,
+      "sku_producto_visto": null
+    },
+    {
+      "posicion": "R3-P4",
+      "etiqueta": {
+        "detectada": true,
+        "sku_leido": "SKU-100936",
+        "precio_leido": 24.32,
+        "confianza": 0.97,
+        "cuadros_que_coinciden": 3,
+        "recorte": "recortes/R3-P4.jpg"
+      },
+      "hueco": false,
+      "frentes_vistos": 3,
+      "sku_producto_visto": null
+    }
+  ]
+}

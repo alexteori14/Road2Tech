@@ -27,7 +27,7 @@ export function getHallazgosData(): SalidaHallazgos {
       huecos_inventario: 0,
       lecturas_dudosas: 0,
       precision_anaquel_pct: 100,
-      disclaimer: 'Video simulado · Datos sintéticos de Glazed Co.',
+      disclaimer: 'Video simulado · Datos de dataset_2 (Tienda S012)',
     },
     posiciones: [],
     hallazgos: [],
@@ -51,7 +51,7 @@ export function getRedData(): RedData {
   // Estado seguro por defecto
   return {
     red: {
-      tiendas_total: 38,
+      tiendas_total: 35,
       tiendas_con_incidencias: 0,
       skus_afectados: 0,
       exposicion_7_dias: 0,
@@ -60,7 +60,7 @@ export function getRedData(): RedData {
       venta_perdida_anual: 0,
       conflictos_maestro_precios: 0,
       supuestos_calculo: 'Sin datos disponibles de red',
-      dataset_label: 'Dataset sintético · Glazed Co.',
+      dataset_label: 'Dataset 2 · Cadena de Tiendas',
       fecha_corte: new Date().toISOString().split('T')[0],
     },
     proyeccion_temporal: [],

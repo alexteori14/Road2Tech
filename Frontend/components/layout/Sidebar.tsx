@@ -46,12 +46,12 @@ export function Sidebar() {
           </div>
           <div>
             <h1 className="font-bold text-base tracking-tight text-white flex items-center gap-2">
-              Glazed Co.
+              Road2Tech
               <span className="text-[10px] font-semibold tracking-wider uppercase px-1.5 py-0.5 rounded bg-slate-800 text-teal-300 border border-teal-800/60">
                 Auditoría
               </span>
             </h1>
-            <p className="text-xs text-slate-400 font-mono">T04 · Aeropuerto AICM</p>
+            <p className="text-xs text-slate-400 font-mono">Sucursal S012 · Dataset 2</p>
           </div>
         </div>
       </div>

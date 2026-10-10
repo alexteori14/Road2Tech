@@ -4,7 +4,7 @@ import { Sidebar } from '@/components/layout/Sidebar';
 import { Header } from '@/components/layout/Header';
 
 export const metadata: Metadata = {
-  title: 'Auditoría de Anaqueles · Glazed Co. Dashboard',
+  title: 'Auditoría de Anaqueles · Road2Tech (Tienda S012)',
   description: 'Sistema de detección de incidencias de precios, faltantes y gemelo digital de anaquel para supermercados.',
 };
 

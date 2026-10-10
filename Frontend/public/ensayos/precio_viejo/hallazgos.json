@@ -1,7 +1,7 @@
 {
   "origen": "ensayo",
   "tarjeta": "precio_viejo",
-  "timestamp": "2026-10-10T10:15:00Z",
+  "timestamp": "2026-03-03T10:15:00Z",
   "pasos_completados": [
     "Eligiendo cuadros",
     "Leyendo etiquetas",
@@ -9,18 +9,18 @@
   ],
   "hallazgo_nuevo": {
     "id": "ensayo-pv-01",
-    "tipo": "precio_anterior",
-    "producto": "Dona Red Velvet Glaseada Gourmet",
-    "sku": "GLZ-109",
-    "repisa": 1,
-    "posicion": 2,
-    "precio_etiqueta": 2.19,
-    "precio_sistema": 2.69,
-    "impacto_diario": 12.80,
-    "cuadro": 145,
-    "segundo": 4.8,
-    "descripcion": "Etiqueta con precio viejo detectada en cuadro 145: marca $2.19 cuando el precio vigente es $2.69.",
-    "accion_sugerida": "Reemplazar etiqueta por valor de lista vigente de US$2.69 inmediatamente.",
-    "evidencia_crop": "/evidencias/r1_p2.svg"
+    "tipo": "precio_distinto",
+    "producto": "Oatmeal",
+    "sku": "SKU-100292",
+    "repisa": 2,
+    "posicion": 1,
+    "precio_etiqueta": 38.32,
+    "precio_sistema": 45.32,
+    "impacto_diario": 77.0,
+    "cuadro": 330,
+    "segundo": 11.0,
+    "descripcion": "Tarjeta de evaluación: etiqueta pegada con un precio de $38.32 que no coincide con el catálogo del sistema ($45.32 vigente).",
+    "accion_sugerida": "Revisar el precio en sistema y reimprimir la etiqueta con el precio vigente de $45.32.",
+    "evidencia_crop": "/evidencias/tarjetas/precio_viejo_R2-P1.png"
   }
 }

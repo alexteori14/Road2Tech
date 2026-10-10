@@ -1,26 +1,26 @@
 {
   "origen": "ensayo",
   "tarjeta": "hueco_con_inventario",
-  "timestamp": "2026-10-10T10:16:00Z",
+  "timestamp": "2026-03-03T10:15:00Z",
   "pasos_completados": [
     "Eligiendo cuadros",
     "Leyendo etiquetas",
     "Comparando con el sistema"
   ],
   "hallazgo_nuevo": {
-    "id": "ensayo-hi-03",
+    "id": "ensayo-hi-01",
     "tipo": "hueco_con_inventario",
-    "producto": "Cold Brew Clásico 20oz Premium",
-    "sku": "GLZ-215",
-    "repisa": 2,
-    "posicion": 2,
-    "precio_etiqueta": null,
-    "precio_sistema": 4.49,
-    "impacto_diario": 21.50,
-    "cuadro": 110,
-    "segundo": 3.6,
-    "descripcion": "Hueco, pero el sistema dice que hay 19 unidades en cámara fría sin exhibir.",
-    "accion_sugerida": "Surtido prioritario: producto estrella en riesgo de venta perdida durante turno matutino.",
-    "evidencia_crop": "/evidencias/r2_p2.svg"
+    "producto": "French Toast Bagel",
+    "sku": "SKU-100936",
+    "repisa": 3,
+    "posicion": 4,
+    "precio_etiqueta": 24.32,
+    "precio_sistema": 24.32,
+    "impacto_diario": 194.56,
+    "cuadro": 780,
+    "segundo": 26.0,
+    "descripcion": "Tarjeta de evaluación: producto retirado de anaquel (hueco generado). El sistema registra 12 unidades en almacén.",
+    "accion_sugerida": "Buscar el producto en bodega y surtir el anaquel de inmediato.",
+    "evidencia_crop": "/evidencias/tarjetas/quitar_producto_R3-P4.png"
   }
 }

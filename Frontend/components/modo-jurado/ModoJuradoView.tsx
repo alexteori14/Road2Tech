@@ -57,7 +57,7 @@ const OPCIONES_JURADO: TarjetaOpcion[] = [
     id: 'hueco_con_inventario',
     titulo: 'Hueco con inventario en sistema',
     subtitulo: 'Rotura de anaquel con stock en tienda',
-    descripcion: 'Identifica una posición vacía en la repisa donde el ERP de Glazed Co. registra existencia física disponible en trastienda.',
+    descripcion: 'Identifica una posición vacía en la repisa donde el sistema registra existencia física disponible en trastienda.',
     icono: Layers,
     colorBorder: 'border-blue-400',
     colorBg: 'hover:bg-blue-50/50',

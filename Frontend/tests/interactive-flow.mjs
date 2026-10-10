@@ -15,8 +15,8 @@ async function testInteractiveFlow() {
   await page.goto('http://localhost:3000/anaquel', { waitUntil: 'networkidle' });
   await page.waitForTimeout(500);
 
-  // Clic en la posición P2 de la repisa 1 (Dona Glaseada Clásica)
-  const posButton = page.locator('text=Dona Glaseada Clásica Docena').first();
+  // Clic en la posición P1 de la repisa 1 (Original Coffee Cake Muffin)
+  const posButton = page.locator('text=Original Coffee Cake Muffin').first();
   await posButton.click();
   await page.waitForTimeout(400);
 
