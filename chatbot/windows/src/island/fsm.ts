@@ -18,8 +18,8 @@ export class IslandStateMachine {
   greetHoverCollapseDelay = 10;
   /** An alert waiting for an answer stays open, even when the mouse leaves. */
   pinned = false;
-  /** Floating pet: it stays on screen as the small compact Mochi, never hides. */
-  neverHide = false;
+  /** Floating pet: it stays on screen as the mascot, never hides automatically. */
+  neverHide = true;
 
   private petitHide: number | null = null;
   private homeCollapse: number | null = null;

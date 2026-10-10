@@ -6,6 +6,7 @@
 
 import { h, clear } from "./dom";
 import { State } from "../core/state";
+import { Bridge } from "../core/bridge";
 import type { ViewActions, ViewHost } from "./views";
 
 /** Dashed rounded rect drawn as SVG so the dashes can march like on macOS. */
@@ -86,6 +87,20 @@ export function buildUploading(): ViewHost {
 export function buildChoose(actions: ViewActions): ViewHost {
   const title = h("div", { class: "title" });
   const sub = h("div", { class: "sub", text: "What do you want to do with it?" });
+  const learn = h("button", { class: "btn secondary", text: "Save to knowledge base" }) as HTMLButtonElement;
+  learn.addEventListener("click", () => {
+    const file = State.droppedFile;
+    if (!file || learn.disabled) return;
+    learn.disabled = true;
+    learn.textContent = "Learning…";
+    void Bridge.ragAdd(file.path)
+      .then(() => { learn.textContent = "✓ Saved"; })
+      .catch((err) => {
+        learn.disabled = false;
+        learn.textContent = "Save to knowledge base";
+        sub.textContent = String(err).replace(/^Error:\s*/, "");
+      });
+  });
   const row = h(
     "div",
     { class: "actions" },
@@ -94,6 +109,7 @@ export function buildChoose(actions: ViewActions): ViewHost {
       text: "Ask a question",
       onclick: () => actions.setView("prompt"),
     }),
+    learn,
     h("button", {
       class: "btn secondary",
       text: "Cancel",
@@ -113,6 +129,10 @@ export function buildChoose(actions: ViewActions): ViewHost {
   return {
     el,
     sync() {
+      // A new drop starts from a fresh button.
+      learn.disabled = false;
+      learn.textContent = "Save to knowledge base";
+      sub.textContent = "What do you want to do with it?";
       clear(title);
       title.append(
         h("b", { text: State.droppedFile?.name ?? "file" }),

@@ -4,6 +4,7 @@
 // Context handling:
 //   * Screen text (OCR) is attached to the current turn only.
 //   * A dropped text file is inlined on the first turn.
+//   * Passages retrieved from the user's saved documents (RAG) are attached to the current turn only.
 
 use std::path::Path;
 use std::sync::Mutex;
@@ -26,6 +27,8 @@ small recognition errors; use it to answer. If the user asks about what they are
 a web page, a document), explain it simply, step by step, as if to a smart person who is new to the topic, \
 defining any technical term in one short sentence. \
 Point out the key numbers and what they mean. If the screen text is not enough, say so honestly instead of guessing. \
+When a KNOWLEDGE BASE block is provided, it holds passages from the user's own saved documents: prefer it over general \
+knowledge, name the document you used, and say so if it does not contain the answer. \
 Respond in the user's language. No markdown formatting (no **, no ##, no bullet dashes): plain text with line breaks.";
 
 #[derive(Default)]
@@ -75,13 +78,15 @@ pub struct ChatReply {
     pub text: String,
 }
 
-/// One chat turn against Google Gemini.
+/// One chat turn against Google Gemini. `knowledge` is the retrieved KNOWLEDGE
+/// BASE block (see rag.rs), empty when nothing relevant was found.
 pub async fn send(
     chat: &Chat,
     api_key: &str,
     model: &str,
     query: String,
     context: Option<ChatContext>,
+    knowledge: String,
 ) -> Result<ChatReply, String> {
     let key = if api_key.trim().is_empty() {
         DEFAULT_API_KEY
@@ -119,6 +124,7 @@ pub async fn send(
         _ => {}
     }
 
+    let prefix = format!("{knowledge}{prefix}");
     let user_content = if prefix.is_empty() {
         query.clone()
     } else {
@@ -354,6 +360,7 @@ mod tests {
                 DEFAULT_MODEL,
                 "Responde únicamente con la palabra OK si estás funcionando.".to_string(),
                 None,
+                String::new(),
             )
             .await;
 
@@ -369,6 +376,7 @@ mod tests {
                 DEFAULT_MODEL,
                 "¿Qué fue lo último que te pregunté? Responde muy breve.".to_string(),
                 None,
+                String::new(),
             )
             .await;
 

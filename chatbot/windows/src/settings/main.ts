@@ -3,7 +3,7 @@
 // integrations land here too in a later stage.
 
 import "./settings.css";
-import { Bridge, onEvent, type HookStatus } from "../core/bridge";
+import { Bridge, onEvent, type HookStatus, type RagDoc } from "../core/bridge";
 import { DEFAULT_SETTINGS, type Settings } from "../core/state";
 import { h, clear } from "../views/dom";
 
@@ -236,6 +236,87 @@ function apiSection(): HTMLElement {
   );
 }
 
+// ── Knowledge base (RAG) section ──────────────────────────────────────────────
+
+function knowledgeSection(initial: RagDoc[]): HTMLElement {
+  let docs = initial;
+  const list = h("div", { style: "display:flex;flex-direction:column;gap:6px" });
+  const status = h("span", { class: "hint" });
+
+  const path = h("input", {
+    type: "text",
+    placeholder: "/ruta/al/archivo.txt",
+    style: "flex:1 1 auto;min-width:0",
+    spellcheck: "false",
+  }) as HTMLInputElement;
+  const add = h("button", { class: "primary", text: "Añadir" }) as HTMLButtonElement;
+
+  function draw() {
+    clear(list);
+    if (docs.length === 0) {
+      list.append(h("span", { class: "hint", text: "Aún no hay documentos. Añade uno o suéltalo sobre Coucou." }));
+      return;
+    }
+    for (const d of docs) {
+      const remove = h("button", { class: "danger", text: "Quitar" }) as HTMLButtonElement;
+      remove.addEventListener("click", async () => {
+        try {
+          await Bridge.ragRemove(d.id);
+          docs = docs.filter((x) => x.id !== d.id);
+          draw();
+        } catch (err) {
+          status.textContent = String(err).replace(/^Error:\s*/, "");
+        }
+      });
+      list.append(
+        h("div", { class: "row" },
+          h("label", { text: d.name }),
+          h("span", { class: "hint", text: `${d.chunks} fragmentos` }),
+          remove,
+        ),
+      );
+    }
+  }
+
+  async function submit() {
+    const value = path.value.trim();
+    if (!value) return;
+    add.disabled = true;
+    status.textContent = "Aprendiendo el documento…";
+    try {
+      const doc = await Bridge.ragAdd(value);
+      docs = [...docs.filter((x) => x.id !== doc.id && x.name !== doc.name), doc];
+      path.value = "";
+      status.textContent = `Listo: ${doc.name} (${doc.chunks} fragmentos).`;
+      draw();
+    } catch (err) {
+      status.textContent = String(err).replace(/^Error:\s*/, "");
+    } finally {
+      add.disabled = false;
+    }
+  }
+  add.addEventListener("click", () => void submit());
+  path.addEventListener("keydown", (e) => { if (e.key === "Enter") void submit(); });
+
+  draw();
+  return h(
+    "section",
+    {},
+    h("h2", {}, h("span", { text: "Base de conocimiento" })),
+    h("span", {
+      class: "hint",
+      text: "Coucou responde usando tus documentos (RAG). Acepta texto, código y imágenes con texto. El contenido se envía a Gemini solo para calcular sus embeddings.",
+    }),
+    h("div", { class: "row" },
+      h("label", { text: "Usar documentos" }),
+      toggle(settings.ragEnabled, (v) => { settings.ragEnabled = v; void save(); }),
+    ),
+    list,
+    h("div", { class: "row" }, h("label", { text: "Añadir" }), path, add),
+    status,
+  );
+}
+
 // ── Integrations section ──────────────────────────────────────────────────────
 
 interface IntegrationDef {
@@ -249,17 +330,6 @@ interface IntegrationDef {
 const INTEGRATIONS: IntegrationDef[] = [
   { id: "integration_stripe", name: "Stripe", color: "#0570DE",
     fields: [{ key: "stripe-api-key", label: "Secret key", placeholder: "sk_live_…", secret: true }] },
-  { id: "integration_github", name: "GitHub", color: "#F4505E",
-    fields: [{ key: "github-token", label: "Token", placeholder: "ghp_…", secret: true }] },
-  { id: "integration_vercel", name: "Vercel", color: "#7C5CFF",
-    fields: [{ key: "vercel-token", label: "Token", placeholder: "…", secret: true }] },
-  { id: "integration_n8n", name: "n8n", color: "#F29B38",
-    fields: [
-      { key: "n8n-url", label: "Instance URL", placeholder: "https://n8n.example.com", secret: false },
-      { key: "n8n-api-key", label: "API key", placeholder: "…", secret: true },
-    ] },
-  { id: "integration_resend", name: "Resend", color: "#22C55E",
-    fields: [{ key: "resend-api-key", label: "API key", placeholder: "re_…", secret: true }] },
   { id: "integration_notion", name: "Notion", color: "#8C8C8C",
     fields: [{ key: "notion-api-key", label: "Integration token", placeholder: "ntn_…", secret: true }] },
   { id: "integration_calcom", name: "Cal.com", color: "#C9956A",
@@ -412,17 +482,19 @@ async function main() {
   };
 
   const keys = [
-    "stripe-api-key", "github-token", "vercel-token",
-    "n8n-url", "n8n-api-key", "resend-api-key", "notion-api-key", "calcom-api-key",
+    "stripe-api-key", "notion-api-key", "calcom-api-key",
   ];
   const present: Record<string, boolean> = {};
   for (const k of keys) present[k] = (await Bridge.secretPresent(k)) ?? false;
+
+  const ragDocs = (await Bridge.ragList()) ?? [];
 
   clear(root);
   root.append(
     h("h1", {}, h("span", { text: "Coucou" }), h("span", { class: "version", text: version })),
     claudeSection(status),
     apiSection(),
+    knowledgeSection(ragDocs),
     integrationsSection(present),
     generalSection(),
     h("div", {

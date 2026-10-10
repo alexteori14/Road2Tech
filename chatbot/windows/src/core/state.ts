@@ -3,7 +3,7 @@
 import type { BotEmoteName, BotStateName, IslandMode, IslandViewName } from "./layout";
 import type { EyeShape } from "../mochi/engine";
 
-export type AgentSource = "claudeCode" | "n8n" | "agent";
+export type AgentSource = "claudeCode" | "agent";
 export type PillBadge = "approval" | "finished" | "error";
 
 export interface AgentTask {
@@ -59,13 +59,6 @@ const task = (
 /** AgentTask.integrationAgents — same ids, names and colours as macOS. */
 export const INTEGRATION_AGENTS: AgentTask[] = [
   task("integration_claude", "VS Code", "#F5F6F8", "claudeCode"),
-  task("integration_resend", "Resend", "#22C55E", "n8n"),
-  task("integration_n8n", "n8n", "#F29B38", "n8n"),
-  task("integration_vercel", "Vercel", "#7C5CFF", "n8n"),
-  task("integration_github", "GitHub", "#F4505E", "n8n"),
-  task("integration_notion", "Notion", "#8C8C8C", "n8n"),
-  task("integration_calcom", "Cal.com", "#C9956A", "n8n"),
-  task("integration_stripe", "Stripe", "#0570DE", "n8n"),
 ];
 
 /** What an integration poller last reported. */
@@ -95,6 +88,8 @@ export interface Settings {
   voiceLang: string;
   /** Read replies aloud. */
   speakReplies: boolean;
+  /** Answer from the saved documents (RAG) when any are relevant. */
+  ragEnabled: boolean;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -102,9 +97,7 @@ export const DEFAULT_SETTINGS: Settings = {
   soundVolume: 0.12,
   autoCloseInterval: 5,
   absenceInterval: 180,
-  activeIntegrations: [
-    "integration_resend", "integration_n8n", "integration_vercel", "integration_github",
-  ],
+  activeIntegrations: [],
   screen: "primary",
   autostart: false,
   hooksInstalled: false,
@@ -113,13 +106,14 @@ export const DEFAULT_SETTINGS: Settings = {
   screenAware: true,
   voiceLang: "es",
   speakReplies: true,
+  ragEnabled: true,
 };
 
 type Listener = () => void;
 
 class AppState {
   mode: IslandMode = "hidden";
-  view: IslandViewName = "overview";
+  view: IslandViewName = "prompt";
 
   tasks: AgentTask[] = [];
   focusId: string | null = null;
@@ -273,7 +267,7 @@ class AppState {
   }
 
   defaultView(): IslandViewName {
-    return this.tasks.length === 0 ? "empty" : "overview";
+    return "prompt";
   }
 }
 

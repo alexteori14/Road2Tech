@@ -10,6 +10,7 @@ mod log;
 mod gemini;
 mod pipe;
 mod platform;
+mod rag;
 mod secrets;
 mod screen;
 mod settings;
@@ -29,6 +30,7 @@ use files::DroppedFile;
 use hooks::{HookPreview, HookStatus};
 use island::{PollGate, ScreenInfo};
 use pipe::Pending;
+use rag::{DocInfo, Rag};
 use settings::Settings;
 use voice::Voice;
 
@@ -243,20 +245,10 @@ fn approval_decline(app: AppHandle, request_id: String) {
 
 // ── Chat, files and secrets ───────────────────────────────────────────────────
 
-/// One chat turn against Google Gemini. Screen text and file bytes stay on the Rust side.
-#[tauri::command]
-async fn chat_send(
-    shared: State<'_, Shared>,
-    chat: State<'_, Chat>,
-    query: String,
-    context: Option<ChatContext>,
-) -> Result<ChatReply, String> {
-    let (model, gemini_api_key, screen_aware) = {
-        let s = shared.settings.lock().unwrap();
-        (s.model.clone(), s.gemini_api_key.clone(), s.screen_aware)
-    };
-    let api_key = if !gemini_api_key.trim().is_empty() {
-        gemini_api_key
+/// The Gemini key to use: the one in settings, else the keychain, else the environment.
+fn resolve_api_key(from_settings: String) -> String {
+    if !from_settings.trim().is_empty() {
+        from_settings
     } else if let Some(k) = secrets::get("gemini-api-key") {
         k
     } else if let Some(k) = secrets::get("google-api-key") {
@@ -265,10 +257,64 @@ async fn chat_send(
         k
     } else {
         gemini::DEFAULT_API_KEY.to_string()
+    }
+}
+
+fn current_api_key(shared: &Shared) -> String {
+    resolve_api_key(shared.settings.lock().unwrap().gemini_api_key.clone())
+}
+
+/// One chat turn against Google Gemini. Screen text and file bytes stay on the Rust side.
+#[tauri::command]
+async fn chat_send(
+    shared: State<'_, Shared>,
+    chat: State<'_, Chat>,
+    rag: State<'_, Rag>,
+    query: String,
+    context: Option<ChatContext>,
+) -> Result<ChatReply, String> {
+    let (model, gemini_api_key, screen_aware, rag_enabled) = {
+        let s = shared.settings.lock().unwrap();
+        (s.model.clone(), s.gemini_api_key.clone(), s.screen_aware, s.rag_enabled)
     };
+    let api_key = resolve_api_key(gemini_api_key);
+
+    // RAG: passages from the saved documents. A retrieval failure must never
+    // block the chat — the reply just goes out without them.
+    let knowledge = if rag_enabled && !rag.is_empty() {
+        match rag.search(&api_key, &query).await {
+            Ok(hits) => rag::knowledge_block(&hits),
+            Err(e) => {
+                log::line(format!("rag search skipped: {e}"));
+                String::new()
+            }
+        }
+    } else {
+        String::new()
+    };
+
     // Screen awareness: unless the UI attached something specific, read the screen.
     let context = context.or(screen_aware.then_some(ChatContext::Screen));
-    gemini::send(&chat, &api_key, &model, query, context).await
+    gemini::send(&chat, &api_key, &model, query, context, knowledge).await
+}
+
+// ── Knowledge base (RAG) ──────────────────────────────────────────────────────
+
+/// Learns a file: chunks it, embeds it and adds it to the knowledge base.
+#[tauri::command]
+async fn rag_add(shared: State<'_, Shared>, rag: State<'_, Rag>, path: String) -> Result<DocInfo, String> {
+    let api_key = current_api_key(&shared);
+    rag.add(&api_key, &path).await
+}
+
+#[tauri::command]
+fn rag_list(rag: State<Rag>) -> Vec<DocInfo> {
+    rag.list()
+}
+
+#[tauri::command]
+fn rag_remove(rag: State<Rag>, id: String) -> Result<(), String> {
+    rag.remove(&id)
 }
 
 // ── Voice ─────────────────────────────────────────────────────────────────────
@@ -285,17 +331,7 @@ async fn voice_stop(shared: State<'_, Shared>, voice: State<'_, Voice>) -> Resul
         let s = shared.settings.lock().unwrap();
         (s.voice_lang.clone(), s.model.clone(), s.gemini_api_key.clone())
     };
-    let api_key = if !gemini_api_key.trim().is_empty() {
-        gemini_api_key
-    } else if let Some(k) = secrets::get("gemini-api-key") {
-        k
-    } else if let Some(k) = secrets::get("google-api-key") {
-        k
-    } else if let Ok(k) = std::env::var("GEMINI_API_KEY") {
-        k
-    } else {
-        gemini::DEFAULT_API_KEY.to_string()
-    };
+    let api_key = resolve_api_key(gemini_api_key);
     voice.stop_listening(&lang, &api_key, &model).await
 }
 
@@ -341,14 +377,6 @@ fn secret_set(key: String, value: String) -> Result<(), String> {
 #[tauri::command]
 fn secret_clear(key: String) -> Result<(), String> {
     secrets::clear(&key)
-}
-
-/// Opens the configured n8n instance — the URL lives in the Credential Manager.
-#[tauri::command]
-fn open_n8n() {
-    if let Some(url) = secrets::get("n8n-url") {
-        open_url(url);
-    }
 }
 
 /// Refresh buttons in the integration cards.
@@ -445,6 +473,7 @@ pub fn run() {
         })
         .manage(Pending::default())
         .manage(Chat::default())
+        .manage(Rag::default())
         .manage(Voice::default())
         .on_window_event(|window, event| {
             if platform::floating() && window.label() == island::WINDOW_LABEL {
@@ -472,6 +501,9 @@ pub fn run() {
             log_line,
             chat_send,
             chat_reset,
+            rag_add,
+            rag_list,
+            rag_remove,
             voice_start,
             voice_stop,
             speak,
@@ -481,7 +513,6 @@ pub fn run() {
             secret_set,
             secret_clear,
             refresh_integration,
-            open_n8n,
             open_settings_window,
             set_paused,
         ])

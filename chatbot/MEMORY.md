@@ -34,7 +34,7 @@
 ### 2. Integración con Google Gemini API (Chat & Contexto)
 - **Lo Bueno:**
   - Se creó un cliente nativo en Rust ([`windows/src-tauri/src/gemini.rs`](windows/src-tauri/src/gemini.rs)) que se comunica de forma directa con la API de Google Gemini (`https://generativelanguage.googleapis.com/v1beta/`).
-  - Se configuró la API key del usuario (``).
+  - Se configuró la API key del usuario (`<REDACTADA>`).
   - Se conservó la capacidad de lectura de pantalla OCR (`screenAware`) y carga de archivos, ahora alimentando el contexto de Gemini.
   - Se implementó un historial conversacional multi-turno respetando las especificaciones de Google (`user` y `model`).
 - **Lo Malo / Desafíos superados:**
@@ -70,11 +70,42 @@
 
 ---
 
+### 5. Rediseño de Interacción: Eliminación del Notch y Mascota Flotante
+- **Lo Malo (El problema original):**
+  - Al encender/iniciar Coucou, se desplegaba una barra negra tipo notch (de 640x150 px) con una tarjeta interior oscura (`#141518`), partículas y fondo negro fijo, similar a la muesca de MacBook.
+  - En estado compacto, Coucou quedaba encapsulado en una barra horizontal negra de 288x32 px con esquinas cuadradas arriba (`0 0 14px 14px`), arrinconando la cara a un icono diminuto de 20px.
+- **Lo Bueno (La solución implementada):**
+  - **Sin Notch al iniciar:** Se eliminó la caja oscura (`p.card`), partículas de fondo y el fondo negro de `#island` durante el saludo (`greeting.ts`). Ahora al encenderse se presenta directamente la cara de Coucou (`drawMochi`) flotando con su halo aura, saludo con la mano y expresiones faciales limpias.
+  - **Modo Compacto / Mascota:** Coucou permanece en el escritorio como su cara completa (`110x80` px con diámetro de bot de 58 px), con fondo transparente (`.face-mode`), siguiendo el cursor con la mirada, respirando y reaccionando a caricias.
+  - **Interacción Flotante:** Al hacer clic en Coucou, se despliega fluidamente el panel asistente flotante (`.panel-mode` con bordes redondeados uniformes de 20 px, fondo translúcido y sombra elegante). Se añadió botón de cerrar (`✕`) en la cabecera y soporte para cerrar al pulsar nuevamente sobre Coucou o con `Escape`.
+  - **Persistencia en Pantalla:** Se activó `neverHide = true` por defecto para que la cara de Coucou no desaparezca de la pantalla tras periodos de inactividad.
+
+---
+
+### 6. Eliminación de Integraciones Obsoletas y Apertura Directa al Chat
+- **Lo Bueno (La solución implementada):**
+  - **Eliminación de Resend, n8n, Vercel y GitHub:** Se eliminaron las tarjetas de la interfaz (`integrations.ts`), los pollers y spawns en Rust (`integrations.rs`), los comandos puente como `open_n8n` (`lib.rs`), y las claves conocidas en el gestor de secretos (`secrets.rs`).
+  - **Eliminación de la Casita (🏠 Overview):** Se quitó el botón de inicio de la cabecera (`views.ts`). La aplicación ahora se abre y expande directamente en la vista de chat de Gemini (`prompt`), como se especificó en las referencias (`lo que quiero cambiar/quitar la opcion de casita.png`).
+  - **Cara 100% Limpia sin Cuadritos:** Se eliminó la cuadrícula inferior (`miniGrid` / 4 puntos de color) que mostraba estado de integraciones en modo compacto, dejando a Coucou completamente limpio según la referencia `rederencias/lo que quiero/sin cuadros.png`.
+  - **Saneamiento Automático de Ajustes:** `settings.rs` descarta silenciosamente cualquier clave antigua de estas 4 integraciones si estaban guardadas en `settings.json`.
+
+---
+
 ## Estado Actual de Verificación
 
 - **Compilación Frontend:** `npm --prefix windows run build` genera todos los bundles (`island`, `settings`, `dom`) sin errores (`0 errors`).
 - **Lints de Rust:** `cargo clippy --manifest-path windows/src-tauri/Cargo.toml` termina con `0 warnings` y `0 errors`.
+- **Pruebas de Rust:** 17 pruebas aprobadas (`17 passed; 0 failed`).
 - **Pruebas de Chat:** Aprobadas (`gemini::tests::test_gemini_api_call ... ok`).
 - **Pruebas de Audio:** Aprobadas (`gemini::tests::test_gemini_audio_transcribe ... ok`).
-- **Síntesis de voz (TTS):** Confirmada con `espeak` y `spd-say` instalados en `/usr/bin`.
-- **Grabación de audio:** Confirmada con `arecord` y `pw-record` instalados en `/usr/bin`.
+- **Estado de Procesos:** Ningún proceso huérfano en segundo plano.
+
+
+
+---
+
+### 7. RAG (base de conocimiento)
+- Módulo [`rag.rs`](windows/src-tauri/src/rag.rs): troceado con solape, embeddings `gemini-embedding-001`, índice JSON local y recuperación por similitud coseno (top 4, score ≥ 0.5) inyectada en `chat_send` como bloque `KNOWLEDGE BASE`.
+- UI: botón *Save to knowledge base* al soltar un archivo y sección *Base de conocimiento* en Ajustes (añadir por ruta, quitar, activar/desactivar).
+- 13 pruebas unitarias + 1 prueba en vivo (`--ignored`) que verificó contra la API real que el pasaje relevante queda primero. Detalles en [`docs/RAG.md`](docs/RAG.md).
+- Refactor: `resolve_api_key` unifica la resolución de la clave (antes duplicada 3 veces).

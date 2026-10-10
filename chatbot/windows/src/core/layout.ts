@@ -55,14 +55,15 @@ export interface ViewLayout {
 export const PANEL_W = 720;
 export const PANEL_H = 320;
 
-// No notch on a PC: these are the hidden/compact sizes from docs/SPEC.md.
-export const NOTCH_W = 184;
-export const NOTCH_H = 32;
-export const COMPACT_W = 288; // NOTCH_W + 104
+// Floating Coucou face dimensions (no notch bar)
+export const NOTCH_W = 110;
+export const NOTCH_H = 80;
+export const COMPACT_W = 110; // Coucou's face width
+export const COMPACT_H = 80;  // Coucou's face height
 export const EXPANDED_W = 640;
 
-export const ROUNDED_CORNER = 14; // hidden / compact
-export const EXPANDED_CORNER = 22;
+export const ROUNDED_CORNER = 20; // Coucou's face
+export const EXPANDED_CORNER = 20; // Floating panel
 
 export const VIEW_LAYOUTS: Record<IslandViewName, ViewLayout> = {
   overview: { height: 160, botX: 68, botY: null, botDiameter: 58, agentMode: "pills" },
@@ -83,7 +84,7 @@ export const VIEW_LAYOUTS: Record<IslandViewName, ViewLayout> = {
   result: { height: 160, botX: 52, botY: null, botDiameter: 44, agentMode: "column" },
   note: { height: 160, botX: 60, botY: null, botDiameter: 50, agentMode: "column" },
   settings: { height: 160, botX: 54, botY: null, botDiameter: 46, agentMode: "none" },
-  greeting: { height: 150, botX: 320, botY: 90, botDiameter: 0, agentMode: "none" },
+  greeting: { height: 150, botX: 320, botY: 75, botDiameter: 0, agentMode: "none" },
 };
 
 // The upload views above are only the fallback geometry. Once a file is actually
@@ -102,11 +103,9 @@ export function islandSize(
 ): { w: number; h: number } {
   switch (mode) {
     case "hidden":
-      // No notch to hide inside on a PC: the island retracts to zero height and
-      // slides into the top edge of the screen instead of sitting there as a bar.
-      return { w: NOTCH_W, h: 0 };
+      return { w: COMPACT_W, h: 0 };
     case "compact":
-      return { w: COMPACT_W, h: NOTCH_H };
+      return { w: COMPACT_W, h: COMPACT_H };
     case "expanded": {
       const h = view === "prompt" ? chatPromptHeight(chatCount) : VIEW_LAYOUTS[view].height;
       return { w: EXPANDED_W, h };
@@ -130,9 +129,9 @@ export function botPosition(
 ): BotPlacement {
   switch (mode) {
     case "hidden":
-      return { cx: 46, cy: 16, diameter: 6, opacity: 0 };
+      return { cx: COMPACT_W / 2, cy: COMPACT_H / 2, diameter: 58, opacity: 0 };
     case "compact":
-      return { cx: 40, cy: 16, diameter: 20, opacity: 1 };
+      return { cx: COMPACT_W / 2, cy: COMPACT_H / 2, diameter: 58, opacity: 1 };
     case "expanded": {
       const layout = VIEW_LAYOUTS[view];
       if (view === "uploading") {

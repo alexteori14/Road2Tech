@@ -31,14 +31,12 @@ const T = {
 
 // ── Geometry (640×150) ────────────────────────────────────────────────────────
 
-const C0 = { x: 320, y: 90 };
+const C0 = { x: 320, y: 75 };
 const HB = 58;
 const ASP = 1.34;
 const EAR_X = 40;
 const EAR_Y = 16;
 const EAR_HB = 17;
-const CARD = { x: 10, y: 36, w: 620, h: 104 };
-const CARD_R = 20;
 const SMALL_W = COMPACT_W;
 const SMALL_H = NOTCH_H;
 
@@ -200,38 +198,6 @@ function pose(t: number, tc: number): Pose {
   p.fx = 1 - seg(t, tc, tc + 0.2);
   return p;
 }
-
-// ── Particles (seeded LCG, seed = 7, identical sequence to the Swift version) ──
-
-interface RingDot { a: number; j: number; s: number; al: number }
-interface Ring { t0: number; dots: RingDot[] }
-interface Streak { a: number; sp: number; len: number; t0: number; col: string }
-
-const PARTICLES = (() => {
-  let seed = 7;
-  const rnd = () => {
-    seed = (Math.imul(seed, 1103515245) + 12345) & 0x7fffffff;
-    return seed / 0x7fffffff;
-  };
-  const rings: Ring[] = [0.1, 0.2, 0.3, 0.45, 0.6].map((t0) => ({
-    t0,
-    dots: Array.from({ length: 170 }, () => ({
-      a: rnd() * Math.PI * 2,
-      j: (rnd() - 0.5) * 0.22,
-      s: 0.7 + rnd() * 0.9,
-      al: 0.45 + rnd() * 0.55,
-    })),
-  }));
-  const cols = ["#3B9EFF", "#F29B38", "#FF5A4E", "#2EC4A0", "#A78BFA"];
-  const streaks: Streak[] = Array.from({ length: 16 }, (_, i) => ({
-    a: (i / 16) * Math.PI * 2 + (rnd() - 0.5) * 0.3,
-    sp: 230 + rnd() * 260,
-    len: 6 + rnd() * 9,
-    t0: 0.08 + rnd() * 0.14,
-    col: cols[i % 5],
-  }));
-  return { rings, streaks };
-})();
 
 // ── Drawing ───────────────────────────────────────────────────────────────────
 
@@ -429,34 +395,6 @@ function drawMochi(x: CanvasRenderingContext2D, p: Pose) {
   x.restore();
 }
 
-function drawParticles(x: CanvasRenderingContext2D, t: number, p: Pose) {
-  if (!(p.card > 0 || p.fx < 1)) return;
-  for (const ring of PARTICLES.rings) {
-    const k = seg(t, ring.t0, ring.t0 + 1.35);
-    if (k <= 0 || k >= 1) continue;
-    const rx = lerp(14, 380, E.out(k));
-    const ry = rx * 0.34;
-    const fade = (1 - k) * (k < 0.08 ? k / 0.08 : 1) * p.fx * p.card;
-    for (const dot of ring.dots) {
-      const r = 1 + dot.j;
-      x.fillStyle = `rgba(255,255,255,${dot.al * fade})`;
-      x.fillRect(C0.x + Math.cos(dot.a) * rx * r, C0.y + Math.sin(dot.a) * ry * r, dot.s, dot.s);
-    }
-  }
-  for (const s of PARTICLES.streaks) {
-    const k = seg(t, s.t0, s.t0 + 0.6);
-    if (k <= 0 || k >= 1) continue;
-    const dist = s.sp * E.out(k) * 0.9 + 10;
-    const alpha = (1 - k) * p.fx;
-    x.strokeStyle = s.col + Math.round(alpha * 255).toString(16).padStart(2, "0");
-    x.lineWidth = 1.6;
-    x.lineCap = "round";
-    x.beginPath();
-    x.moveTo(C0.x + Math.cos(s.a) * (dist - s.len), C0.y + Math.sin(s.a) * (dist - s.len) * 0.42);
-    x.lineTo(C0.x + Math.cos(s.a) * dist, C0.y + Math.sin(s.a) * dist * 0.42);
-    x.stroke();
-  }
-}
 
 const MINI_COLORS = ["#E86A6A", "#3E86E0", "#EFAE5A", "#8C73F2"];
 
@@ -540,23 +478,6 @@ export class Greeting {
 
     const p = pose(t, this.tc);
     x.clearRect(0, 0, 640, 150);
-
-    if (p.card > 0) {
-      x.save();
-      x.globalAlpha = p.card;
-      rr(x, CARD.x, CARD.y, CARD.w, CARD.h, CARD_R);
-      x.fillStyle = "#141518";
-      x.fill();
-      x.restore();
-
-      x.save();
-      rr(x, CARD.x, CARD.y, CARD.w, CARD.h, CARD_R);
-      x.clip();
-      drawParticles(x, t, p);
-      x.restore();
-    } else if (Number.isFinite(this.tc) && t >= this.tc) {
-      drawParticles(x, t, p);
-    }
 
     drawMinis(x, p.minis);
     drawMochi(x, p);

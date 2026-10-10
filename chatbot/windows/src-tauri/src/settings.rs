@@ -26,6 +26,9 @@ pub struct Settings {
     /// Read the screen (screenshot + OCR) and send it as context with every question.
     #[serde(default = "default_true")]
     pub screen_aware: bool,
+    /// Answer from the user's saved documents (RAG) when any are relevant.
+    #[serde(default = "default_true")]
+    pub rag_enabled: bool,
     /// Language of the microphone and of the voice (ISO 639-1: "es", "en"…).
     #[serde(default = "default_voice_lang")]
     pub voice_lang: String,
@@ -57,18 +60,14 @@ impl Default for Settings {
             sound_volume: 0.12,
             auto_close_interval: 5.0,
             absence_interval: 180.0,
-            active_integrations: vec![
-                "integration_resend".into(),
-                "integration_n8n".into(),
-                "integration_vercel".into(),
-                "integration_github".into(),
-            ],
+            active_integrations: Vec::new(),
             screen: "primary".into(),
             autostart: false,
             hooks_installed: false,
             model: default_model(),
             gemini_api_key: default_gemini_api_key(),
             screen_aware: true,
+            rag_enabled: true,
             voice_lang: default_voice_lang(),
             speak_replies: true,
         }
@@ -96,6 +95,13 @@ pub fn load() -> Settings {
             if s.gemini_api_key.trim().is_empty() {
                 s.gemini_api_key = default_gemini_api_key();
             }
+            // Strip out removed integrations
+            s.active_integrations.retain(|id| {
+                !matches!(
+                    id.as_str(),
+                    "integration_resend" | "integration_n8n" | "integration_vercel" | "integration_github"
+                )
+            });
             s
         }
         Err(_) => Settings::default(),

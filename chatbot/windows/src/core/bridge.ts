@@ -97,6 +97,10 @@ export const Bridge = {
   speakStop: () => call<void>("speak_stop"),
   /** Copies a dropped file into the inbox. */
   ingestFile: (path: string) => callOrThrow<DroppedFile>("ingest_file", { path }),
+  // Knowledge base (RAG): documents the chat can answer from.
+  ragAdd: (path: string) => callOrThrow<RagDoc>("rag_add", { path }),
+  ragList: () => call<RagDoc[]>("rag_list"),
+  ragRemove: (id: string) => callOrThrow<void>("rag_remove", { id }),
   /** Only ever tells you whether a key exists — never its value. */
   secretPresent: (key: string) => call<boolean>("secret_present", { key }),
   secretSet: (key: string, value: string) => callOrThrow<void>("secret_set", { key, value }),
@@ -104,8 +108,6 @@ export const Bridge = {
 
   // ── Integrations ──────────────────────────────────────────────────────────
   refreshIntegration: (id: string) => call<void>("refresh_integration", { id }),
-  /** Opens the configured n8n instance in the browser. */
-  openN8n: () => call<void>("open_n8n"),
 
   /** Tray → Pause. Stops the integration pollers, not just the island. */
   setPaused: (paused: boolean) => call<void>("set_paused", { paused }),
@@ -122,6 +124,15 @@ export type ChatContext =
   | { kind: "file"; name: string; path: string }
   | { kind: "window"; appName: string; title: string; url?: string }
   | { kind: "screen" };
+
+export interface RagDoc {
+  id: string;
+  name: string;
+  /** How many passages the document was split into. */
+  chunks: number;
+  /** Unix seconds. */
+  addedAt: number;
+}
 
 export interface DroppedFile {
   name: string;

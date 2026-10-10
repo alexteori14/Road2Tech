@@ -10,12 +10,7 @@ pub const KNOWN_KEYS: &[&str] = &[
     "gemini-api-key",
     "google-api-key",
     "anthropic-api-key",
-    "n8n-url",
-    "n8n-api-key",
-    "vercel-token",
-    "github-token",
     "stripe-api-key",
-    "resend-api-key",
     "notion-api-key",
     "calcom-api-key",
 ];
